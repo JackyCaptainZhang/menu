@@ -55,6 +55,19 @@ String getDishStatus(String status, String language) {
   }
 }
 
+Color getDishStatusColor(String status) {
+  switch (status) {
+    case 'unlocked':
+      return Colors.green;
+    case 'locked':
+      return Colors.grey;
+    case 'testing':
+      return Colors.orange;
+    default:
+      return Colors.grey;
+  }
+}
+
 final List<Category> menuData = [
   Category(
     id: 'home-cooking',
