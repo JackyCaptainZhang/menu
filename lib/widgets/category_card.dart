@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import '../models/menu_model.dart';
 import '../screens/dish_detail_screen.dart';
-import 'dart:core';
+import '../providers/language_provider.dart';
 
 class CategoryCard extends StatefulWidget {
   final Category category;
@@ -20,13 +21,16 @@ class _CategoryCardState extends State<CategoryCard> {
 
   @override
   Widget build(BuildContext context) {
+    final languageProvider = Provider.of<LanguageProvider>(context);
+    final currentLang = languageProvider.currentLanguage;
+
     return Card(
       margin: const EdgeInsets.only(bottom: 16.0),
       child: Column(
         children: [
           ListTile(
             title: Text(
-              widget.category.name['zh']!,
+              widget.category.name[currentLang]!,
               style: Theme.of(context).textTheme.titleLarge,
             ),
             trailing: IconButton(
@@ -66,13 +70,16 @@ class SubcategorySection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final languageProvider = Provider.of<LanguageProvider>(context);
+    final currentLang = languageProvider.currentLanguage;
+
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            subcategory.name['zh']!,
+            subcategory.name[currentLang]!,
             style: Theme.of(context).textTheme.titleMedium,
           ),
           const SizedBox(height: 8),
@@ -91,7 +98,7 @@ class SubcategorySection extends StatelessWidget {
                   label: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text(dish.name['zh']!),
+                      Text(dish.name[currentLang]!),
                       if (dish.emoji != null) ...[
                         const SizedBox(width: 4),
                         Text(dish.emoji!),

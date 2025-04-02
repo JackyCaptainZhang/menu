@@ -1945,7 +1945,7 @@ final List<Category> menuData = [
             status: 'locked',
             emoji: '🥚',
             rating: 93,
-          )
+          ),
         ],
       ),
     ],
