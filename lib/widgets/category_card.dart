@@ -300,9 +300,14 @@ class SubcategorySection extends StatelessWidget {
             children: (() {
               final sortedDishes = subcategory.dishes.toList()
                 ..sort((a, b) {
-                  if (a.status == 'locked' && b.status != 'locked') return 1;
-                  if (a.status != 'locked' && b.status == 'locked') return -1;
-                  return 0;
+                  // 定义状态优先级
+                  final priority = {
+                    'unlocked': 0,
+                    'testing': 1,
+                    'locked': 2,
+                  };
+                  // 根据优先级排序
+                  return priority[a.status]!.compareTo(priority[b.status]!);
                 });
               return sortedDishes.map((dish) {
                 final isLocked = dish.status == 'locked';

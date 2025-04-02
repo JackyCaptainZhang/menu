@@ -119,9 +119,8 @@ final List<Category> menuData = [
               'zh': '京酱肉丝',
               'en': 'Jing Jiang Pork Shreds',
             },
-            status: 'unlocked',
+            status: 'locked',
             emoji: '🥢',
-            rating: 88,
           ),
           Dish(
             id: 'yu-xiang-pork',
@@ -129,9 +128,8 @@ final List<Category> menuData = [
               'zh': '鱼香肉丝',
               'en': 'Yu Xiang Pork Shreds',
             },
-            status: 'unlocked',
+            status: 'testing',
             emoji: '🐟',
-            rating: 92,
           ),
           Dish(
             id: 'braised-pork-ribs',
@@ -176,10 +174,6 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🌽',
             rating: 60,
-            notes: {
-              'zh': '60分😐',
-              'en': '60/100',
-            },
           ),
           Dish(
             id: 'crispy-pork',
@@ -190,10 +184,6 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍤',
             rating: 75,
-            notes: {
-              'zh': '75分',
-              'en': '75/100',
-            },
           ),
           Dish(
             id: 'garlic-ribs',
@@ -227,10 +217,6 @@ final List<Category> menuData = [
             },
             status: 'testing',
             emoji: '🍯',
-            notes: {
-              'zh': '待测',
-              'en': 'To be tested',
-            },
           ),
           Dish(
             id: 'stir-fried-pork-pepper-shreds',
@@ -240,10 +226,6 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🌶️',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'pork-vermicelli-cabbage',
@@ -253,10 +235,6 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🥬',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'tomato-slippery-pork',
@@ -266,10 +244,6 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🍅',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'sweet-sour-pork',
@@ -279,10 +253,6 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🍯',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -364,8 +334,8 @@ final List<Category> menuData = [
             status: 'locked',
             emoji: '🦑',
             notes: {
-              'zh': '待解锁，宝宝想吃，努力！',
-              'en': 'To be unlocked, baby wants to try!',
+              'zh': '宝宝想吃，努力！',
+              'en': 'baby wants to try!',
             },
           ),
           Dish(
@@ -390,10 +360,6 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🌶️',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -437,10 +403,6 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🧅',
             rating: 98,
-            notes: {
-              'zh': '98分',
-              'en': '98/100',
-            },
           ),
           Dish(
             id: 'fermented-bean-curd-chicken',
@@ -499,10 +461,6 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍲',
             rating: 75,
-            notes: {
-              'zh': '还不错 75分',
-              'en': 'Pretty good, 75/100',
-            },
           ),
           Dish(
             id: 'fried-chicken',
@@ -532,10 +490,6 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🌶️',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'chongqing-chicken-pot',
@@ -545,10 +499,6 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🍲',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'kung-pao-chicken',
@@ -558,10 +508,6 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🥜',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -579,10 +525,6 @@ final List<Category> menuData = [
               'en': 'Beer Duck',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'roast-duck',
@@ -591,10 +533,6 @@ final List<Category> menuData = [
               'en': 'Roast Duck',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -632,10 +570,6 @@ final List<Category> menuData = [
               'en': 'French Lamb Stew',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -742,7 +676,7 @@ final List<Category> menuData = [
               'zh': '土豆炒牛肉',
               'en': 'Stir-fried Beef with Potato',
             },
-            status: 'unlocked',
+            status: 'testing',
             notes: {
               'zh': '宝宝待开发🧚‍♀️',
               'en': 'To be developed for baby',
@@ -755,10 +689,6 @@ final List<Category> menuData = [
               'en': 'Stir-fried Beef Shreds with Peppers',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'black-pepper-beef',
@@ -767,10 +697,6 @@ final List<Category> menuData = [
               'en': 'Black Pepper Beef Cubes',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -866,10 +792,7 @@ final List<Category> menuData = [
               'en': 'Stir-fried Tofu with Scallion',
             },
             status: 'unlocked',
-            notes: {
-              'zh': '好久没做了',
-              'en': 'Haven\'t made it for a while',
-            },
+            rating: 93,
           ),
           Dish(
             id: 'three-fresh-vegetables',
@@ -930,10 +853,6 @@ final List<Category> menuData = [
               'en': 'Stir-fried Cabbage Soup',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'stir-fried-baby-cabbage',
@@ -942,10 +861,6 @@ final List<Category> menuData = [
               'en': 'Stir-fried Baby Cabbage with Garlic',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'fried-lotus-root',
@@ -954,10 +869,6 @@ final List<Category> menuData = [
               'en': 'Fried Lotus Root',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'fried-eggplant',
@@ -966,10 +877,6 @@ final List<Category> menuData = [
               'en': 'Fried Eggplant',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -1003,10 +910,6 @@ final List<Category> menuData = [
               'en': 'Three Sauce Pot',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -1070,10 +973,6 @@ final List<Category> menuData = [
               'en': 'Spicy Chicken',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'garlic-peanuts',
@@ -1082,10 +981,6 @@ final List<Category> menuData = [
               'en': 'Garlic Peanuts',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'century-egg-tofu',
@@ -1094,10 +989,6 @@ final List<Category> menuData = [
               'en': 'Century Egg with Tofu',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -1212,10 +1103,6 @@ final List<Category> menuData = [
               'en': 'Roast Eggplant',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'roast-oysters',
@@ -1224,10 +1111,6 @@ final List<Category> menuData = [
               'en': 'Roast Oysters',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -1267,10 +1150,6 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             rating: 90,
-            notes: {
-              'zh': '90分😋！',
-              'en': '90/100!',
-            },
           ),
           Dish(
             id: 'beef-egg-rice',
@@ -1310,8 +1189,8 @@ final List<Category> menuData = [
             emoji: '🍄',
             rating: 95,
             notes: {
-              'zh': '95分ms黑松露酱',
-              'en': '95/100 with M&S black truffle sauce',
+              'zh': 'ms黑松露酱yyds',
+              'en': 'M&S black truffle sauce is the best!',
             },
           ),          
           Dish(
@@ -1345,10 +1224,6 @@ final List<Category> menuData = [
               'en': 'Char Siu Rice',
             },
             status: 'testing',
-            notes: {
-              'zh': '待测',
-              'en': 'To be tested',
-            },
           ),
           Dish(
             id: 'pork-pumpkin-rice',
@@ -1357,10 +1232,6 @@ final List<Category> menuData = [
               'en': 'Pork Belly with Pumpkin/Potato Rice',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -1430,10 +1301,6 @@ final List<Category> menuData = [
               'en': 'Oil Splashed Noodles',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'zhajiang-noodles',
@@ -1442,10 +1309,6 @@ final List<Category> menuData = [
               'en': 'Zhajiang Noodles',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'fried-cold-noodles',
@@ -1454,10 +1317,6 @@ final List<Category> menuData = [
               'en': 'Fried Cold Noodles',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -1525,10 +1384,6 @@ final List<Category> menuData = [
               'en': 'Chinese Hamburger',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'pork-fillet-bun',
@@ -1537,10 +1392,6 @@ final List<Category> menuData = [
               'en': 'Pork Fillet Bun',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'beef-pie',
@@ -1549,10 +1400,6 @@ final List<Category> menuData = [
               'en': 'Beef Pie',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁 用手抓饼吧…',
-              'en': 'To be unlocked, use scallion pancake...',
-            },
           ),
           Dish(
             id: 'meat-pancake',
@@ -1561,10 +1408,6 @@ final List<Category> menuData = [
               'en': 'Meat Pancake',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁，用手抓饼！',
-              'en': 'To be unlocked, use scallion pancake!',
-            },
           ),
           Dish(
             id: 'beef-dumplings',
@@ -1573,10 +1416,6 @@ final List<Category> menuData = [
               'en': 'Beef Dumplings',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -1643,10 +1482,6 @@ final List<Category> menuData = [
               'en': 'Vermicelli, Cabbage and Beef Ball Soup',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'tomato-egg-dough-soup',
@@ -1655,10 +1490,6 @@ final List<Category> menuData = [
               'en': 'Tomato and Egg Dough Soup',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'lamb-soup',
@@ -1667,10 +1498,6 @@ final List<Category> menuData = [
               'en': 'Lamb Soup',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'hot-sour-soup',
@@ -1679,10 +1506,6 @@ final List<Category> menuData = [
               'en': 'Hot and Sour Soup',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
@@ -1709,6 +1532,7 @@ final List<Category> menuData = [
               'en': 'Mayonnaise Baked Lobster',
             },
             status: 'unlocked',
+            rating: 70,
           ),
           Dish(
             id: 'bacon-cheese-fries',
@@ -1905,10 +1729,6 @@ final List<Category> menuData = [
               'en': 'Parmesan Chicken',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
           Dish(
             id: 'shepherds-pie',
@@ -1917,10 +1737,6 @@ final List<Category> menuData = [
               'en': 'Shepherd\'s Pie',
             },
             status: 'locked',
-            notes: {
-              'zh': '待解锁',
-              'en': 'To be unlocked',
-            },
           ),
         ],
       ),
