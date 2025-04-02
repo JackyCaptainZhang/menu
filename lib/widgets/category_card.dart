@@ -19,7 +19,7 @@ class CategoryController extends ChangeNotifier {
   }
 }
 
-class CategoryCard extends StatelessWidget {
+class CategoryCard extends StatefulWidget {
   final Category category;
   final CategoryController controller;
 
@@ -28,6 +28,56 @@ class CategoryCard extends StatelessWidget {
     required this.category,
     required this.controller,
   });
+
+  @override
+  State<CategoryCard> createState() => _CategoryCardState();
+}
+
+class _CategoryCardState extends State<CategoryCard> with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _iconTurns;
+  late Animation<double> _heightFactor;
+  late Animation<double> _elevation;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 350),
+      vsync: this,
+    );
+    _iconTurns = _controller.drive(
+      Tween<double>(begin: 0, end: 0.5).chain(CurveTween(curve: Curves.easeInOutCubic)),
+    );
+    _heightFactor = _controller.drive(
+      CurveTween(curve: Curves.easeInOutCubic),
+    );
+    _elevation = _controller.drive(
+      Tween<double>(begin: 1, end: 3).chain(CurveTween(curve: Curves.easeInOut)),
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  bool get _isExpanded => widget.controller.expandedCategoryId == widget.category.id;
+
+  void _handleTap() {
+    widget.controller.toggleCategory(widget.category.id);
+  }
+
+  @override
+  void didUpdateWidget(CategoryCard oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (_isExpanded) {
+      _controller.forward();
+    } else {
+      _controller.reverse();
+    }
+  }
 
   void _showDishDetails(BuildContext context, Dish dish) {
     final languageProvider = Provider.of<LanguageProvider>(context, listen: false);
@@ -118,39 +168,84 @@ class CategoryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final languageProvider = Provider.of<LanguageProvider>(context);
     final currentLang = languageProvider.currentLanguage;
-    final isExpanded = controller.expandedCategoryId == category.id;
+    final theme = Theme.of(context);
 
-    return Card(
-      margin: const EdgeInsets.only(bottom: 16.0),
+    return AnimatedBuilder(
+      animation: _controller,
+      builder: (context, child) => Card(
+        margin: const EdgeInsets.only(bottom: 16.0),
+        elevation: _elevation.value,
+        shadowColor: theme.colorScheme.shadow.withOpacity(0.3),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: child,
+      ),
       child: Column(
         children: [
-          ListTile(
-            title: Text(
-              category.name[currentLang]!,
-              style: Theme.of(context).textTheme.titleLarge,
-            ),
-            trailing: IconButton(
-              icon: Icon(
-                isExpanded ? Icons.expand_less : Icons.expand_more,
+          InkWell(
+            onTap: _handleTap,
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8.0),
+              child: ListTile(
+                contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                title: Text(
+                  widget.category.name[currentLang]!,
+                  style: theme.textTheme.titleLarge?.copyWith(
+                    fontWeight: _isExpanded ? FontWeight.bold : null,
+                    color: _isExpanded 
+                      ? theme.colorScheme.primary 
+                      : theme.colorScheme.onSurface,
+                  ),
+                ),
+                trailing: RotationTransition(
+                  turns: _iconTurns,
+                  child: Icon(
+                    Icons.expand_more,
+                    size: 28,
+                    color: _isExpanded 
+                      ? theme.colorScheme.primary 
+                      : theme.colorScheme.onSurface,
+                  ),
+                ),
               ),
-              onPressed: () {
-                controller.toggleCategory(category.id);
-              },
             ),
           ),
-          if (isExpanded)
-            ListView.builder(
-              shrinkWrap: true,
-              physics: const NeverScrollableScrollPhysics(),
-              itemCount: category.subcategories.length,
-              itemBuilder: (context, index) {
-                final subcategory = category.subcategories[index];
-                return SubcategorySection(
-                  subcategory: subcategory,
-                  onDishTap: _showDishDetails,
+          ClipRect(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                return Align(
+                  heightFactor: _heightFactor.value,
+                  child: child,
                 );
               },
+              child: Column(
+                children: [
+                  Divider(
+                    height: 1,
+                    color: theme.colorScheme.outline.withOpacity(0.2),
+                  ),
+                  Container(
+                    color: theme.colorScheme.surface.withOpacity(0.5),
+                    child: ListView.builder(
+                      shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
+                      itemCount: widget.category.subcategories.length,
+                      itemBuilder: (context, index) {
+                        final subcategory = widget.category.subcategories[index];
+                        return SubcategorySection(
+                          subcategory: subcategory,
+                          onDishTap: _showDishDetails,
+                        );
+                      },
+                    ),
+                  ),
+                ],
+              ),
             ),
+          ),
         ],
       ),
     );
@@ -171,20 +266,37 @@ class SubcategorySection extends StatelessWidget {
   Widget build(BuildContext context) {
     final languageProvider = Provider.of<LanguageProvider>(context);
     final currentLang = languageProvider.currentLanguage;
+    final theme = Theme.of(context);
 
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            subcategory.name[currentLang]!,
-            style: Theme.of(context).textTheme.titleMedium,
+          Row(
+            children: [
+              Container(
+                width: 4,
+                height: 20,
+                decoration: BoxDecoration(
+                  color: theme.colorScheme.primary,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+              const SizedBox(width: 8),
+              Text(
+                subcategory.name[currentLang]!,
+                style: theme.textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                  color: theme.colorScheme.primary,
+                ),
+              ),
+            ],
           ),
-          const SizedBox(height: 8),
+          const SizedBox(height: 16),
           Wrap(
             spacing: 8,
-            runSpacing: 8,
+            runSpacing: 12,
             children: (() {
               final sortedDishes = subcategory.dishes.toList()
                 ..sort((a, b) {
@@ -193,27 +305,44 @@ class SubcategorySection extends StatelessWidget {
                   return 0;
                 });
               return sortedDishes.map((dish) {
+                final isLocked = dish.status == 'locked';
+                final isTesting = dish.status == 'testing';
                 return ActionChip(
                   label: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text(dish.name[currentLang]!),
+                      Text(
+                        dish.name[currentLang]!,
+                        style: TextStyle(
+                          color: isLocked 
+                            ? theme.colorScheme.onSurface.withOpacity(0.5)
+                            : theme.colorScheme.onSurface,
+                        ),
+                      ),
                       if (dish.emoji != null) ...[
                         const SizedBox(width: 4),
                         Text(dish.emoji!),
                       ],
-                      if (dish.rating != null) ...[
+                      if (dish.rating != null && !isLocked) ...[
                         const SizedBox(width: 4),
                         Text('⭐${dish.rating}'),
                       ],
                     ],
                   ),
                   onPressed: () => onDishTap(context, dish),
-                  backgroundColor: dish.status == 'unlocked'
-                      ? Theme.of(context).colorScheme.primaryContainer.withOpacity(0.7)
-                      : dish.status == 'testing'
-                          ? Colors.orange.withOpacity(0.2)
-                          : null,
+                  backgroundColor: isLocked
+                    ? theme.colorScheme.surface
+                    : isTesting
+                      ? theme.colorScheme.tertiaryContainer.withOpacity(0.3)
+                      : theme.colorScheme.primaryContainer.withOpacity(0.7),
+                  elevation: isLocked ? 0 : 1,
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    side: isLocked
+                      ? BorderSide(color: theme.colorScheme.outline.withOpacity(0.2))
+                      : BorderSide.none,
+                  ),
                 );
               }).toList();
             })(),
