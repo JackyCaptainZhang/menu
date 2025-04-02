@@ -1946,7 +1946,7 @@ final List<Category> menuData = [
               'zh': '测试1',
               'en': 'Test1',
             },
-            status: 'locked',
+            status: 'testing',
             emoji: '🥚',
           ),
           Dish(
