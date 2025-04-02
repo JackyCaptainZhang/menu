@@ -338,8 +338,8 @@ class SubcategorySection extends StatelessWidget {
                   backgroundColor: isLocked
                     ? theme.colorScheme.surface
                     : isTesting
-                      ? theme.colorScheme.tertiaryContainer.withOpacity(0.3)
-                      : theme.colorScheme.primaryContainer.withOpacity(0.7),
+                      ? Colors.orange.withOpacity(0.2)
+                      : Colors.green.withOpacity(0.2),
                   elevation: isLocked ? 0 : 1,
                   padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                   shape: RoundedRectangleBorder(
