@@ -491,20 +491,6 @@ final List<Category> menuData = [
             },
           ),
           Dish(
-            id: 'truffle-chicken-rice',
-            name: {
-              'zh': '黑松露鸡肉焖饭',
-              'en': 'Truffle Chicken Rice',
-            },
-            status: 'unlocked',
-            emoji: '🍄',
-            rating: 95,
-            notes: {
-              'zh': '95分ms黑松露酱',
-              'en': '95/100 with M&S black truffle sauce',
-            },
-          ),
-          Dish(
             id: 'yellow-braised-chicken',
             name: {
               'zh': '黄焖鸡',
@@ -1314,6 +1300,20 @@ final List<Category> menuData = [
             emoji: '🥩',
             rating: 95,
           ),
+          Dish(
+            id: 'truffle-chicken-rice',
+            name: {
+              'zh': '黑松露鸡肉焖饭',
+              'en': 'Truffle Chicken Rice',
+            },
+            status: 'unlocked',
+            emoji: '🍄',
+            rating: 95,
+            notes: {
+              'zh': '95分ms黑松露酱',
+              'en': '95/100 with M&S black truffle sauce',
+            },
+          ),          
           Dish(
             id: 'hamburger-rice',
             name: {

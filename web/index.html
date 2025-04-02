@@ -19,7 +19,11 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="乐乐&袁宝の美味Menu">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <!-- 启用缓存 -->
+  <meta http-equiv="Cache-Control" content="public, max-age=31536000">
+  
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -34,26 +38,103 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = null;
+    var serviceWorkerVersion = null;
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
-</head>
-<body>
   <script>
     window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
+      // 预加载所有资源
+      var resources = [
+        'main.dart.js',
+        'flutter.js',
+        'assets/AssetManifest.json',
+        'assets/FontManifest.json',
+        'assets/NOTICES',
+        'assets/packages/cupertino_icons/assets/CupertinoIcons.ttf',
+        'icons/menu-printing.jpg',
+        'manifest.json'
+      ];
+
+      // 创建一个加载计数器
+      var loadedCount = 0;
+      var totalResources = resources.length;
+      
+      function updateLoadingText() {
+        var percent = Math.round((loadedCount / totalResources) * 100);
+        document.querySelector('.loading-text').textContent = '加载中... ' + percent + '%';
+      }
+
+      // 预加载所有资源
+      var loadPromises = resources.map(function(resource) {
+        return new Promise(function(resolve, reject) {
+          var link = document.createElement('link');
+          link.rel = 'preload';
+          link.as = resource.endsWith('.js') ? 'script' : 
+                    resource.endsWith('.ttf') ? 'font' : 'fetch';
+          link.href = resource;
+          link.onload = function() {
+            loadedCount++;
+            updateLoadingText();
+            resolve();
+          };
+          link.onerror = reject;
+          document.head.appendChild(link);
+        });
+      });
+
+      // 禁用双指缩放
+      document.addEventListener('gesturestart', function(e) {
+        e.preventDefault();
+      });
+
+      // 等待所有资源加载完成后再初始化应用
+      Promise.all(loadPromises).then(function() {
+        // 初始化 Flutter 应用
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: async function(engineInitializer) {
+            const appRunner = await engineInitializer.initializeEngine({
+              renderer: "canvaskit",
+              useColorEmoji: true
+            });
+            // 所有资源都已加载完成，启动应用
+            await appRunner.runApp();
+          }
+        });
+      }).catch(function(error) {
+        document.querySelector('.loading-text').textContent = '加载失败，请刷新页面重试';
+        console.error('Resource loading failed:', error);
       });
     });
   </script>
+  <style>
+    body {
+      background-color: #FFF0F0;
+      margin: 0;
+    }
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .loading-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 24px;
+      color: #FFB6C1;
+    }
+  </style>
+</head>
+<body>
+  <div class="loading">
+    <div class="loading-text">加载中... 0%</div>
+  </div>
 </body>
 </html>
