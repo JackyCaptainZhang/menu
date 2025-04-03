@@ -92,6 +92,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🌶️',
             rating: 85,
+            notes: {
+              },
           ),
           Dish(
             id: 'stir-fried-pork-carrots',
@@ -102,6 +104,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥕',
             rating: 90,
+            notes: {
+             },
           ),
           Dish(
             id: 'stir-fried-pork-leek-tofu',
@@ -112,6 +116,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥬',
             rating: 95,
+            notes: {
+              },
           ),
           Dish(
             id: 'jing-jiang-pork',
@@ -121,6 +127,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🥢',
+            notes: {
+              },
           ),
           Dish(
             id: 'yu-xiang-pork',
@@ -130,6 +138,8 @@ final List<Category> menuData = [
             },
             status: 'testing',
             emoji: '🐟',
+            notes: {
+              },
           ),
           Dish(
             id: 'braised-pork-ribs',
@@ -140,6 +150,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍖',
             rating: 95,
+            notes: {
+             },
           ),
           Dish(
             id: 'sweet-sour-ribs',
@@ -150,6 +162,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍯',
             rating: 98,
+            notes: {
+             },
           ),
           Dish(
             id: 'braised-pork-belly',
@@ -161,8 +175,6 @@ final List<Category> menuData = [
             emoji: '🥩',
             rating: 96,
             notes: {
-              'zh': '配合肉夹馍吧🤤',
-              'en': 'Perfect with Chinese Hamburger',
             },
           ),
           Dish(
@@ -174,6 +186,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🌽',
             rating: 60,
+            notes: {
+             },
           ),
           Dish(
             id: 'crispy-pork',
@@ -184,6 +198,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍤',
             rating: 75,
+            notes: {
+             },
           ),
           Dish(
             id: 'garlic-ribs',
@@ -194,6 +210,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🧄',
             rating: 85,
+            notes: {
+             },
           ),
           Dish(
             id: 'hongkong-pork-chop',
@@ -205,8 +223,6 @@ final List<Category> menuData = [
             emoji: '🧅',
             rating: 82,
             notes: {
-              'zh': '不错😌',
-              'en': 'Pretty good',
             },
           ),
           Dish(
@@ -217,6 +233,8 @@ final List<Category> menuData = [
             },
             status: 'testing',
             emoji: '🍯',
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-pork-pepper-shreds',
@@ -226,6 +244,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🌶️',
+            notes: {
+            },
           ),
           Dish(
             id: 'pork-vermicelli-cabbage',
@@ -235,6 +255,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🥬',
+            notes: {
+            },
           ),
           Dish(
             id: 'tomato-slippery-pork',
@@ -244,6 +266,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🍅',
+            notes: {
+            },
           ),
           Dish(
             id: 'sweet-sour-pork',
@@ -253,6 +277,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🍯',
+            notes: {
+            },
           ),
         ],
       ),
@@ -272,6 +298,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🐟',
             rating: 95,
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-oysters-peppers',
@@ -283,8 +311,6 @@ final List<Category> menuData = [
             emoji: '🦪',
             rating: 92,
             notes: {
-              'zh': '宝宝爱吃',
-              'en': 'Baby loves it',
             },
           ),
           Dish(
@@ -296,6 +322,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍤',
             rating: 96,
+            notes: {
+            },
           ),
           Dish(
             id: 'braised-shrimp',
@@ -307,8 +335,6 @@ final List<Category> menuData = [
             emoji: '🦐',
             rating: 88,
             notes: {
-              'zh': '要努力做好！宝宝爱吃虾',
-              'en': 'Need to improve! Baby loves shrimp',
             },
           ),
           Dish(
@@ -321,8 +347,6 @@ final List<Category> menuData = [
             emoji: '🧄',
             rating: 90,
             notes: {
-              'zh': '好久没做了',
-              'en': 'Haven\'t made it for a while',
             },
           ),
           Dish(
@@ -334,8 +358,6 @@ final List<Category> menuData = [
             status: 'locked',
             emoji: '🦑',
             notes: {
-              'zh': '宝宝想吃，努力！',
-              'en': 'baby wants to try!',
             },
           ),
           Dish(
@@ -348,8 +370,6 @@ final List<Category> menuData = [
             emoji: '🥬',
             rating: 85,
             notes: {
-              'zh': '鲈鱼❌',
-              'en': 'Not sea bass',
             },
           ),
           Dish(
@@ -360,6 +380,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🌶️',
+            notes: {
+            },
           ),
         ],
       ),
@@ -379,6 +401,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥤',
             rating: 95,
+            notes: {
+            },
           ),
           Dish(
             id: 'chicken-wings-pot',
@@ -390,8 +414,6 @@ final List<Category> menuData = [
             emoji: '🍗',
             rating: 98,
             notes: {
-              'zh': '宝宝超爱的，我也爱😋',
-              'en': 'Both baby and I love it!',
             },
           ),
           Dish(
@@ -403,6 +425,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🧅',
             rating: 98,
+            notes: {
+            },
           ),
           Dish(
             id: 'fermented-bean-curd-chicken',
@@ -414,8 +438,6 @@ final List<Category> menuData = [
             emoji: '🧈',
             rating: 100,
             notes: {
-              'zh': '1000分！！南乳yyds',
-              'en': 'Perfect! Fermented bean curd is the key!',
             },
           ),
           Dish(
@@ -427,6 +449,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍅',
             rating: 92,
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-chicken',
@@ -448,8 +472,6 @@ final List<Category> menuData = [
             emoji: '🧄',
             rating: 80,
             notes: {
-              'zh': '80分下饭！记得只放一勺酱！放多了咸！',
-              'en': '80/100, great with rice! Remember to use only one spoon of sauce!',
             },
           ),
           Dish(
@@ -461,6 +483,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍲',
             rating: 75,
+            notes: {
+            },
           ),
           Dish(
             id: 'fried-chicken',
@@ -471,6 +495,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍗',
             rating: 88,
+            notes: {
+            },
           ),
           Dish(
             id: 'garlic-chicken-breast',
@@ -481,6 +507,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🧄',
             rating: 85,
+            notes: {
+            },
           ),
           Dish(
             id: 'dry-pot-chicken-wings',
@@ -490,6 +518,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🌶️',
+            notes: {
+            },
           ),
           Dish(
             id: 'chongqing-chicken-pot',
@@ -499,6 +529,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🍲',
+            notes: {
+            },
           ),
           Dish(
             id: 'kung-pao-chicken',
@@ -508,6 +540,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             emoji: '🥜',
+            notes: {
+            },
           ),
         ],
       ),
@@ -525,6 +559,8 @@ final List<Category> menuData = [
               'en': 'Beer Duck',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'roast-duck',
@@ -533,6 +569,8 @@ final List<Category> menuData = [
               'en': 'Roast Duck',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -570,6 +608,8 @@ final List<Category> menuData = [
               'en': 'French Lamb Stew',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -617,7 +657,9 @@ final List<Category> menuData = [
               'en': 'Curry Beef Brisket',
             },
             status: 'unlocked',
-          ),
+            notes: {
+            },
+            ),
           Dish(
             id: 'braised-beef',
             name: {
@@ -627,6 +669,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥩',
             rating: 93,
+            notes: {
+            },
           ),
           Dish(
             id: 'cold-braised-beef',
@@ -637,6 +681,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥩',
             rating: 92,
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-braised-beef-garlic',
@@ -647,6 +693,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🧄',
             rating: 94,
+            notes: {
+            },
           ),
           Dish(
             id: 'honey-pepper-beef',
@@ -669,6 +717,8 @@ final List<Category> menuData = [
               'en': 'Boiled Beef',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-beef-potato',
@@ -678,8 +728,6 @@ final List<Category> menuData = [
             },
             status: 'testing',
             notes: {
-              'zh': '宝宝待开发🧚‍♀️',
-              'en': 'To be developed for baby',
             },
           ),
           Dish(
@@ -689,6 +737,8 @@ final List<Category> menuData = [
               'en': 'Stir-fried Beef Shreds with Peppers',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'black-pepper-beef',
@@ -697,6 +747,8 @@ final List<Category> menuData = [
               'en': 'Black Pepper Beef Cubes',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -716,6 +768,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥬',
             rating: 90,
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-greens',
@@ -724,6 +778,8 @@ final List<Category> menuData = [
               'en': 'Stir-fried/Blanched Greens',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-cabbage',
@@ -733,8 +789,6 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             notes: {
-              'zh': '记得用菜叶',
-              'en': 'Remember to use cabbage leaves',
             },
           ),
           Dish(
@@ -745,8 +799,6 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             notes: {
-              'zh': '健康无敌',
-              'en': 'Super healthy',
             },
           ),
           Dish(
@@ -757,8 +809,6 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             notes: {
-              'zh': '好久没做了',
-              'en': 'Haven\'t made it for a while',
             },
           ),
           Dish(
@@ -771,8 +821,6 @@ final List<Category> menuData = [
             emoji: '🥔',
             rating: 92,
             notes: {
-              'zh': '街头小吃😋',
-              'en': 'Street food',
             },
           ),
           Dish(
@@ -784,6 +832,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥔',
             rating: 90,
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-tofu-scallion',
@@ -802,8 +852,6 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             notes: {
-              'zh': '微波炉版',
-              'en': 'Microwave version',
             },
           ),
           Dish(
@@ -815,6 +863,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥬',
             rating: 93,
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-lotus-root',
@@ -825,6 +875,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥬',
             rating: 91,
+            notes: {
+            },
           ),
           Dish(
             id: 'mapo-tofu',
@@ -853,6 +905,8 @@ final List<Category> menuData = [
               'en': 'Stir-fried Cabbage Soup',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'stir-fried-baby-cabbage',
@@ -861,6 +915,8 @@ final List<Category> menuData = [
               'en': 'Stir-fried Baby Cabbage with Garlic',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'fried-lotus-root',
@@ -869,6 +925,8 @@ final List<Category> menuData = [
               'en': 'Fried Lotus Root',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'fried-eggplant',
@@ -902,6 +960,8 @@ final List<Category> menuData = [
               'en': 'Spicy Pot',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'three-sauce-pot',
@@ -910,6 +970,8 @@ final List<Category> menuData = [
               'en': 'Three Sauce Pot',
             },
             status: 'locked',
+            notes: {
+            },  
           ),
         ],
       ),
@@ -928,8 +990,6 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             notes: {
-              'zh': '师从我爸',
-              'en': 'Learned from my dad',
             },
           ),
           Dish(
@@ -939,6 +999,8 @@ final List<Category> menuData = [
               'en': 'Cold Tofu',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'cold-cucumber',
@@ -947,6 +1009,8 @@ final List<Category> menuData = [
               'en': 'Cold Cucumber',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'cold-potato',
@@ -955,16 +1019,20 @@ final List<Category> menuData = [
               'en': 'Cold Potato Shreds',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'cold-chicken',
             name: {
-              'zh': '凉拌/麻酱手撕鸡',
+              'zh': '凉拌麻酱手撕鸡',
               'en': 'Cold Shredded Chicken with Sesame Sauce',
             },
             status: 'unlocked',
             emoji: '🐔',
             rating: 95,
+            notes: {
+            },
           ),
           Dish(
             id: 'spicy-chicken',
@@ -973,6 +1041,8 @@ final List<Category> menuData = [
               'en': 'Spicy Chicken',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'garlic-peanuts',
@@ -981,6 +1051,8 @@ final List<Category> menuData = [
               'en': 'Garlic Peanuts',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'century-egg-tofu',
@@ -989,6 +1061,8 @@ final List<Category> menuData = [
               'en': 'Century Egg with Tofu',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -1015,6 +1089,8 @@ final List<Category> menuData = [
               'en': 'Roast Chicken',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'roast-steak',
@@ -1023,6 +1099,8 @@ final List<Category> menuData = [
               'en': 'Roast Steak',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'roast-lamb-ribs',
@@ -1034,8 +1112,6 @@ final List<Category> menuData = [
             emoji: '🍖',
             rating: 95,
             notes: {
-              'zh': '撒椒盐！',
-              'en': 'Sprinkle with pepper salt!',
             },
           ),
           Dish(
@@ -1045,6 +1121,8 @@ final List<Category> menuData = [
               'en': 'Roast Leek',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'roast-corn',
@@ -1056,8 +1134,6 @@ final List<Category> menuData = [
             emoji: '🌽',
             rating: 93,
             notes: {
-              'zh': '水果玉米yyds🤤',
-              'en': 'Sweet corn is the best!',
             },
           ),
           Dish(
@@ -1071,7 +1147,6 @@ final List<Category> menuData = [
             rating: 94,
             notes: {
               'zh': '多放调料',
-              'en': 'Add more seasoning',
             },
           ),
           Dish(
@@ -1084,8 +1159,6 @@ final List<Category> menuData = [
             emoji: '🍍',
             rating: 95,
             notes: {
-              'zh': '咸甜党yyds😋',
-              'en': 'Perfect for sweet and salty lovers',
             },
           ),
           Dish(
@@ -1095,6 +1168,8 @@ final List<Category> menuData = [
               'en': 'Roast Cabbage',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'roast-eggplant',
@@ -1103,6 +1178,8 @@ final List<Category> menuData = [
               'en': 'Roast Eggplant',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'roast-oysters',
@@ -1111,6 +1188,8 @@ final List<Category> menuData = [
               'en': 'Roast Oysters',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -1150,6 +1229,8 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             rating: 90,
+            notes: {
+            },
           ),
           Dish(
             id: 'beef-egg-rice',
@@ -1168,6 +1249,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍗',
             rating: 92,
+            notes: {
+            },
           ),
           Dish(
             id: 'braised-pork-rice',
@@ -1178,6 +1261,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥩',
             rating: 95,
+            notes: {
+            },
           ),
           Dish(
             id: 'truffle-chicken-rice',
@@ -1216,6 +1301,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍚',
             rating: 90,
+            notes: {
+            },
           ),
           Dish(
             id: 'char-siu-rice',
@@ -1224,6 +1311,8 @@ final List<Category> menuData = [
               'en': 'Char Siu Rice',
             },
             status: 'testing',
+            notes: {
+            },
           ),
           Dish(
             id: 'pork-pumpkin-rice',
@@ -1232,6 +1321,8 @@ final List<Category> menuData = [
               'en': 'Pork Belly with Pumpkin/Potato Rice',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -1251,6 +1342,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍜',
             rating: 95,
+            notes: {
+            },
           ),
           Dish(
             id: 'scallion-oil-noodles',
@@ -1261,6 +1354,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🧅',
             rating: 93,
+            notes: {
+            },
           ),
           Dish(
             id: 'potato-bean-noodles',
@@ -1269,6 +1364,8 @@ final List<Category> menuData = [
               'en': 'Potato and Bean Braised Noodles',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'tomato-egg-noodles',
@@ -1277,6 +1374,8 @@ final List<Category> menuData = [
               'en': 'Tomato and Egg Noodles',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'pepper-pork-noodles',
@@ -1285,6 +1384,8 @@ final List<Category> menuData = [
               'en': 'Pepper and Pork Noodles',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'beef-noodles',
@@ -1293,6 +1394,8 @@ final List<Category> menuData = [
               'en': 'Beef Noodles',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'oil-splashed-noodles',
@@ -1301,6 +1404,8 @@ final List<Category> menuData = [
               'en': 'Oil Splashed Noodles',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'zhajiang-noodles',
@@ -1309,6 +1414,8 @@ final List<Category> menuData = [
               'en': 'Zhajiang Noodles',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'fried-cold-noodles',
@@ -1317,6 +1424,8 @@ final List<Category> menuData = [
               'en': 'Fried Cold Noodles',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -1336,6 +1445,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥯',
             rating: 90,
+            notes: {
+            },
           ),
           Dish(
             id: 'scallion-pancake',
@@ -1344,7 +1455,9 @@ final List<Category> menuData = [
               'en': 'Scallion Pancake',
             },
             status: 'unlocked',
-          ),
+            notes: {
+            },
+            ),
           Dish(
             id: 'egg-pancake',
             name: {
@@ -1366,6 +1479,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥚',
             rating: 92,
+            notes: {
+            },
           ),
           Dish(
             id: 'sauce-pancake',
@@ -1376,6 +1491,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥯',
             rating: 93,
+            notes: {
+            },
           ),
           Dish(
             id: 'chinese-hamburger',
@@ -1384,6 +1501,8 @@ final List<Category> menuData = [
               'en': 'Chinese Hamburger',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'pork-fillet-bun',
@@ -1392,6 +1511,8 @@ final List<Category> menuData = [
               'en': 'Pork Fillet Bun',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'beef-pie',
@@ -1400,6 +1521,8 @@ final List<Category> menuData = [
               'en': 'Beef Pie',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'meat-pancake',
@@ -1408,6 +1531,8 @@ final List<Category> menuData = [
               'en': 'Meat Pancake',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'beef-dumplings',
@@ -1416,6 +1541,8 @@ final List<Category> menuData = [
               'en': 'Beef Dumplings',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -1444,6 +1571,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🌽',
             rating: 94,
+            notes: {
+            },
           ),
           Dish(
             id: 'corn-chicken-soup',
@@ -1454,6 +1583,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🌽',
             rating: 92,
+            notes: {
+            },
           ),
           Dish(
             id: 'tomato-egg-soup',
@@ -1474,6 +1605,8 @@ final List<Category> menuData = [
               'en': 'Rice Congee',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'vermicelli-cabbage-beef-ball-soup',
@@ -1482,6 +1615,8 @@ final List<Category> menuData = [
               'en': 'Vermicelli, Cabbage and Beef Ball Soup',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'tomato-egg-dough-soup',
@@ -1490,6 +1625,8 @@ final List<Category> menuData = [
               'en': 'Tomato and Egg Dough Soup',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'lamb-soup',
@@ -1498,6 +1635,8 @@ final List<Category> menuData = [
               'en': 'Lamb Soup',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'hot-sour-soup',
@@ -1506,6 +1645,8 @@ final List<Category> menuData = [
               'en': 'Hot and Sour Soup',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -1533,6 +1674,8 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             rating: 70,
+            notes: {
+            },
           ),
           Dish(
             id: 'bacon-cheese-fries',
@@ -1543,6 +1686,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍟',
             rating: 94,
+            notes: {
+            },
           ),
           Dish(
             id: 'pizza',
@@ -1551,6 +1696,8 @@ final List<Category> menuData = [
               'en': 'Pizza',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'steak',
@@ -1574,8 +1721,6 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             notes: {
-              'zh': '米其林超级大菜，需要提前预约呦',
-              'en': 'Michelin super dish, need to book in advance',
             },
           ),
           Dish(
@@ -1587,6 +1732,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍔',
             rating: 93,
+            notes: {
+            },
           ),
           Dish(
             id: 'bacon-mushroom-soup',
@@ -1595,6 +1742,8 @@ final List<Category> menuData = [
               'en': 'Bacon and Mushroom Cream Soup',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'hash-browns',
@@ -1605,6 +1754,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥔',
             rating: 91,
+            notes: {
+            },
           ),
           Dish(
             id: 'butter-cheese-potato',
@@ -1627,6 +1778,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🍅',
             rating: 92,
+            notes: {
+            },
           ),
           Dish(
             id: 'tuscan-salmon',
@@ -1635,6 +1788,8 @@ final List<Category> menuData = [
               'en': 'Tuscan Salmon',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'thai-mint-chicken',
@@ -1646,8 +1801,6 @@ final List<Category> menuData = [
             emoji: '🌿',
             rating: 94,
             notes: {
-              'zh': '鸡排看品质',
-              'en': 'Depends on chicken quality',
             },
           ),
           Dish(
@@ -1657,6 +1810,8 @@ final List<Category> menuData = [
               'en': 'Shakshuka/Turkish Eggs',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'butter-sausage-egg-pancake',
@@ -1667,6 +1822,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥚',
             rating: 92,
+            notes: {
+            },
           ),
           Dish(
             id: 'spinach-mushroom-egg-pancake',
@@ -1675,6 +1832,8 @@ final List<Category> menuData = [
               'en': 'Spinach, Mushroom, Carrot, Ham and Cheese Egg Pancake',
             },
             status: 'unlocked',
+            notes: {
+            },
           ),
           Dish(
             id: 'potato-bacon-egg-pancake',
@@ -1685,6 +1844,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             emoji: '🥚',
             rating: 93,
+            notes: {
+            },
           ),
           Dish(
             id: 'korean-bibimbap',
@@ -1729,6 +1890,8 @@ final List<Category> menuData = [
               'en': 'Parmesan Chicken',
             },
             status: 'locked',
+            notes: {
+            },
           ),
           Dish(
             id: 'shepherds-pie',
@@ -1737,6 +1900,8 @@ final List<Category> menuData = [
               'en': 'Shepherd\'s Pie',
             },
             status: 'locked',
+            notes: {
+            },
           ),
         ],
       ),
@@ -1764,6 +1929,8 @@ final List<Category> menuData = [
             },
             status: 'testing',
             emoji: '🥚',
+            notes: {
+            },
           ),
           Dish(
             id: 'unkown2',
@@ -1774,6 +1941,8 @@ final List<Category> menuData = [
             status: 'locked',
             emoji: '🥚',
             rating: 93,
+            notes: {
+            },
           ),
         ],
       ),
