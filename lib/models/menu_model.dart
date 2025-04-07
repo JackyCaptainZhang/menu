@@ -255,8 +255,9 @@ final List<Category> menuData = [
               'zh': '蜜汁叉烧',
               'en': 'Honey Char Siu',
             },
-            status: 'testing',
+            status: 'unlocked',
             emoji: '🍯',
+            rating: 95,
             notes: {
               'zh': '配料：猪梅花肉、蜂蜜、酱油、料酒、糖、五香粉、蒜、食用油\n做法：1. 猪肉切长条，用酱油、料酒、糖、五香粉和蒜末腌制一夜。2. 烤箱/空气炸锅预热180度，猪肉放在烤架上，刷上蜂蜜。3. 烤30分钟，每10分钟翻面并刷一次蜜汁。4. 烤至表面焦糖色即可。',
               'en': 'Ingredients: Pork shoulder, honey, soy sauce, cooking wine, sugar, five-spice powder, garlic, cooking oil\nMethod: 1. Cut pork into long strips, marinate with soy sauce, cooking wine, sugar, five-spice powder, and minced garlic overnight. 2. Preheat oven/air fryer to 180°C, place pork on a rack, and brush with honey. 3. Bake for 30 minutes, flipping and brushing with honey every 10 minutes. 4. Bake until caramelized and serve.'
@@ -1490,7 +1491,8 @@ final List<Category> menuData = [
               'zh': '蜜汁叉烧饭',
               'en': 'Char Siu Rice',
             },
-            status: 'testing',
+            status: 'unlocked',
+            rating: 95,
             notes: {
               'zh': '配料：猪梅花肉、蜂蜜、酱油、料酒、糖、五香粉、蒜、食用油\n做法：1. 猪肉切长条，用酱油、料酒、糖、五香粉和蒜末腌制一夜。2. 烤箱/空气炸锅预热180度，猪肉放在烤架上，刷上蜂蜜。3. 烤30分钟，每10分钟翻面并刷一次蜜汁。4. 烤至表面焦糖色即可。',
               'en': 'Ingredients: Pork shoulder, honey, soy sauce, cooking wine, sugar, five-spice powder, garlic, cooking oil\nMethod: 1. Cut pork into long strips, marinate with soy sauce, cooking wine, sugar, five-spice powder, and minced garlic overnight. 2. Preheat oven/air fryer to 180°C, place pork on a rack, and brush with honey. 3. Bake for 30 minutes, flipping and brushing with honey every 10 minutes. 4. Bake until caramelized and serve.'
@@ -1909,6 +1911,8 @@ final List<Category> menuData = [
             status: 'unlocked',
             rating: 70,
             notes: {
+              'zh': '做法：1. 龙虾洗净，去壳，去虾线。2. 将龙虾肉切成小块，加入蛋黄酱、盐、胡椒粉、蒜末、洋葱末、辣椒粉、橄榄油拌匀。3. 将拌好的龙虾肉放入烤盘中，放入预热180度的烤箱烤10分钟。4. 烤好后取出，撒上葱花即可。',
+              'en': 'Method: 1. Clean the lobster, remove the shell and shrimp line. 2. Cut the lobster meat into small pieces, add mayonnaise, salt, pepper, minced garlic, onion, chili powder, olive oil. 3. Place the mixed lobster meat in a baking sheet, bake in a preheated 180°C oven for 10 minutes. 4. Bake until golden brown and serve.'
             },
           ),
           Dish(
@@ -2005,8 +2009,6 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             notes: {
-              'zh': '培根/土豆泥',
-              'en': 'Bacon/Potato Mash',
             },
           ),
           Dish(
@@ -2019,6 +2021,8 @@ final List<Category> menuData = [
             emoji: '🍅',
             rating: 92,
             notes: {
+              'zh': '做法：1. 鸡肉切块，用盐和黑胡椒腌制。2. 热锅加橄榄油，煎鸡肉至两面金黄，取出备用。3. 锅中加蒜末炒香，放入番茄炒软。4. 倒入奶油，加入鸡肉煮至软化。5. 放回鸡肉，小火炖5分钟，撒上帕尔马干酪后出锅。',
+              'en': 'Method: 1. Cut chicken into pieces, marinate with salt and black pepper. 2. Heat olive oil in a pan, sear chicken 2-3 minutes per side until golden, then set aside. 3. Sauté minced garlic in the pan until fragrant, add tomatoes and cook until soft. 4. Pour in cream, add chicken, and cook until tender. 5. Return chicken to the pan, simmer for 5 minutes, sprinkle with Parmesan, and serve.'
             },
           ),
           Dish(
@@ -2053,6 +2057,8 @@ final List<Category> menuData = [
             },
             status: 'unlocked',
             notes: {
+              'zh': '做法：1. 鸡蛋打散，加入盐和黑胡椒调味。2. 热锅加橄榄油，倒入鸡蛋液，煎至两面金黄。3. 加入番茄酱、洋葱、辣椒粉、橄榄油、盐、黑胡椒调味。4. 放入烤箱/空气炸锅180度烤10分钟。5. 烤好后取出，撒上葱花即可。',
+              'en': 'Method: 1. Beat eggs, season with salt and black pepper. 2. Heat olive oil in a pan, pour in egg mixture, cook until golden on both sides. 3. Add tomato sauce, onion, chili powder, olive oil, salt, black pepper, and cook until soft. 4. Bake in a preheated 180°C oven/air fryer for 10 minutes. 5. Bake until golden brown and serve.'
             },
           ),
           Dish(
@@ -2133,6 +2139,8 @@ final List<Category> menuData = [
             },
             status: 'locked',
             notes: {
+              'zh': '做法：1. 鸡排两面均匀撒上盐和黑胡椒。2. 在鸡排两面均匀撒上帕玛森芝士。3. 放入预热180度的烤箱烤10分钟。4. 烤好后取出，切成小块即可。',
+              'en': 'Method: 1. Sprinkle chicken cutlets with salt and black pepper evenly. 2. Sprinkle parmesan cheese evenly on both sides of the chicken cutlets. 3. Bake in a preheated 180°C oven for 10 minutes. 4. Bake until golden brown and serve.'
             },
           ),
           Dish(
