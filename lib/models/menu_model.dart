@@ -258,8 +258,8 @@ final List<Category> menuData = [
             status: 'testing',
             emoji: '🍯',
             notes: {
-              'zh': '配料：猪梅花肉、蜂蜜、酱油、料酒、糖、五香粉、蒜、食用油\n做法：1. 猪肉切长条，用酱油、料酒、糖、五香粉和蒜末腌制一夜。2. 烤箱预热180度，猪肉放在烤架上，刷上蜂蜜。3. 烤30分钟，每10分钟翻面并刷一次蜜汁。4. 烤至表面焦糖色即可。',
-              'en': 'Ingredients: Pork shoulder, honey, soy sauce, cooking wine, sugar, five-spice powder, garlic, cooking oil\nMethod: 1. Cut pork into long strips, marinate with soy sauce, cooking wine, sugar, five-spice powder, and minced garlic overnight. 2. Preheat oven to 180°C, place pork on a rack, and brush with honey. 3. Bake for 30 minutes, flipping and brushing with honey every 10 minutes. 4. Bake until caramelized and serve.'
+              'zh': '配料：猪梅花肉、蜂蜜、酱油、料酒、糖、五香粉、蒜、食用油\n做法：1. 猪肉切长条，用酱油、料酒、糖、五香粉和蒜末腌制一夜。2. 烤箱/空气炸锅预热180度，猪肉放在烤架上，刷上蜂蜜。3. 烤30分钟，每10分钟翻面并刷一次蜜汁。4. 烤至表面焦糖色即可。',
+              'en': 'Ingredients: Pork shoulder, honey, soy sauce, cooking wine, sugar, five-spice powder, garlic, cooking oil\nMethod: 1. Cut pork into long strips, marinate with soy sauce, cooking wine, sugar, five-spice powder, and minced garlic overnight. 2. Preheat oven/air fryer to 180°C, place pork on a rack, and brush with honey. 3. Bake for 30 minutes, flipping and brushing with honey every 10 minutes. 4. Bake until caramelized and serve.'
             },
           ),
           Dish(
@@ -1779,9 +1779,23 @@ final List<Category> menuData = [
               'en': 'Yam, Corn and Ribs Soup',
             },
             status: 'unlocked',
-            emoji: '🌽',
+            emoji: '🌽🍖',
             rating: 94,
             notes: {
+            },
+          ),
+          Dish(
+            id: 'tofu-soup',
+            name: {
+              'zh': '咸豆腐脑',
+              'en': 'Tofu Soup',
+            },
+            status: 'unlocked',
+            emoji: '🥣',
+            rating: 94,
+            notes: {
+              'zh': '暖暖的，好喝😋。\n 做法：紫菜，榨菜，盐，白胡椒，生抽，香油，葱花，淀粉水勾芡',
+              'en': 'Warm and delicious. \n Method: Dried seaweed, pickled vegetables, salt, white pepper, soy sauce, sesame oil, green onions, cornstarch slurry',
             },
           ),
           Dish(
@@ -1791,7 +1805,7 @@ final List<Category> menuData = [
               'en': 'Corn and Chicken Soup',
             },
             status: 'unlocked',
-            emoji: '🌽',
+            emoji: '🌽🐔',
             rating: 92,
             notes: {
             },
@@ -1803,6 +1817,7 @@ final List<Category> menuData = [
               'en': 'Tomato and Egg Soup',
             },
             status: 'unlocked',
+            emoji: '🍅🥚',
             notes: {
               'zh': '暖暖的，好喝😋',
               'en': 'Warm and delicious',
@@ -1815,6 +1830,7 @@ final List<Category> menuData = [
               'en': 'Rice Congee',
             },
             status: 'unlocked',
+            emoji: '🍚',
             notes: {
             },
           ),
