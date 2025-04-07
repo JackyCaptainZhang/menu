@@ -1492,8 +1492,8 @@ final List<Category> menuData = [
             },
             status: 'testing',
             notes: {
-              'zh': '配料：猪肉、大米、蜂蜜、酱油、料酒、糖、五香粉、蒜、食用油\n做法：1. 猪肉切长条，用酱油、料酒、糖、五香粉和蒜末腌制一夜。2. 热锅加油，煎猪肉至两面金黄。3. 刷上蜂蜜，放入预热180度的烤箱烤20分钟。4. 烤好的叉烧切片，盖在煮熟的米饭上。5. 淋上少许酱油和蜂蜜汁后食用。',
-              'en': 'Ingredients: Pork, rice, honey, soy sauce, cooking wine, sugar, five-spice powder, garlic, cooking oil\nMethod: 1. Cut pork into long strips, marinate with soy sauce, cooking wine, sugar, five-spice powder, and minced garlic overnight. 2. Heat oil in a pan, fry pork until golden on both sides. 3. Brush with honey, bake in a preheated 180°C oven for 20 minutes. 4. Slice roasted char siu and place over cooked rice. 5. Drizzle with a little soy sauce and honey sauce before serving.'
+              'zh': '配料：猪梅花肉、蜂蜜、酱油、料酒、糖、五香粉、蒜、食用油\n做法：1. 猪肉切长条，用酱油、料酒、糖、五香粉和蒜末腌制一夜。2. 烤箱/空气炸锅预热180度，猪肉放在烤架上，刷上蜂蜜。3. 烤30分钟，每10分钟翻面并刷一次蜜汁。4. 烤至表面焦糖色即可。',
+              'en': 'Ingredients: Pork shoulder, honey, soy sauce, cooking wine, sugar, five-spice powder, garlic, cooking oil\nMethod: 1. Cut pork into long strips, marinate with soy sauce, cooking wine, sugar, five-spice powder, and minced garlic overnight. 2. Preheat oven/air fryer to 180°C, place pork on a rack, and brush with honey. 3. Bake for 30 minutes, flipping and brushing with honey every 10 minutes. 4. Bake until caramelized and serve.'
             },
           ),
           Dish(
