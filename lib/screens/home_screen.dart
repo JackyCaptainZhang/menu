@@ -3,9 +3,27 @@ import 'package:provider/provider.dart';
 import '../models/menu_model.dart';
 import '../widgets/category_card.dart';
 import '../providers/language_provider.dart';
+import '../providers/menu_provider.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  String? _expandedCategoryId;
+
+  void _handleCategoryTap(String categoryId) {
+    setState(() {
+      if (_expandedCategoryId == categoryId) {
+        _expandedCategoryId = null;
+      } else {
+        _expandedCategoryId = categoryId;
+      }
+    });
+  }
 
   Widget _buildStatusLegend(BuildContext context, String currentLang) {
     return Container(
@@ -42,35 +60,48 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (_) => CategoryController(),
-      child: Consumer<CategoryController>(
-        builder: (context, controller, child) {
-          return Consumer<LanguageProvider>(
-            builder: (context, languageProvider, child) {
-              final currentLang = languageProvider.currentLanguage;
-              return Column(
-                children: [
-                  _buildStatusLegend(context, currentLang),
-                  Expanded(
-                    child: ListView.builder(
-                      padding: const EdgeInsets.all(16.0),
-                      itemCount: menuData.length,
-                      itemBuilder: (context, index) {
-                        final category = menuData[index];
-                        return CategoryCard(
-                          category: category,
-                          controller: controller,
-                        );
-                      },
-                    ),
-                  ),
-                ],
+    return Consumer<LanguageProvider>(
+      builder: (context, languageProvider, child) {
+        final currentLang = languageProvider.currentLanguage;
+        return Consumer<MenuProvider>(
+          builder: (context, menuProvider, child) {
+            if (menuProvider.isLoading) {
+              return const Center(
+                child: CircularProgressIndicator(),
               );
-            },
-          );
-        },
-      ),
+            }
+
+            if (menuProvider.error != null) {
+              return Center(
+                child: Text(
+                  'Error loading menu data: ${menuProvider.error}',
+                  style: TextStyle(color: Colors.red),
+                ),
+              );
+            }
+
+            return Column(
+              children: [
+                _buildStatusLegend(context, currentLang),
+                Expanded(
+                  child: ListView.builder(
+                    padding: const EdgeInsets.all(16.0),
+                    itemCount: menuProvider.menuData.length,
+                    itemBuilder: (context, index) {
+                      final category = menuProvider.menuData[index];
+                      return CategoryCard(
+                        category: category,
+                        isExpanded: _expandedCategoryId == category.id,
+                        onTap: () => _handleCategoryTap(category.id),
+                      );
+                    },
+                  ),
+                ),
+              ],
+            );
+          },
+        );
+      },
     );
   }
 } 

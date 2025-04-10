@@ -3,30 +3,16 @@ import 'package:provider/provider.dart';
 import '../models/menu_model.dart';
 import '../providers/language_provider.dart';
 
-// Add a controller to manage expanded categories
-class CategoryController extends ChangeNotifier {
-  String? _expandedCategoryId;
-
-  String? get expandedCategoryId => _expandedCategoryId;
-
-  void toggleCategory(String categoryId) {
-    if (_expandedCategoryId == categoryId) {
-      _expandedCategoryId = null;
-    } else {
-      _expandedCategoryId = categoryId;
-    }
-    notifyListeners();
-  }
-}
-
 class CategoryCard extends StatefulWidget {
   final Category category;
-  final CategoryController controller;
+  final bool isExpanded;
+  final VoidCallback onTap;
 
   const CategoryCard({
     super.key,
     required this.category,
-    required this.controller,
+    required this.isExpanded,
+    required this.onTap,
   });
 
   @override
@@ -55,28 +41,28 @@ class _CategoryCardState extends State<CategoryCard> with SingleTickerProviderSt
     _elevation = _controller.drive(
       Tween<double>(begin: 1, end: 3).chain(CurveTween(curve: Curves.easeInOut)),
     );
+
+    if (widget.isExpanded) {
+      _controller.value = 1.0;
+    }
+  }
+
+  @override
+  void didUpdateWidget(CategoryCard oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (widget.isExpanded != oldWidget.isExpanded) {
+      if (widget.isExpanded) {
+        _controller.forward();
+      } else {
+        _controller.reverse();
+      }
+    }
   }
 
   @override
   void dispose() {
     _controller.dispose();
     super.dispose();
-  }
-
-  bool get _isExpanded => widget.controller.expandedCategoryId == widget.category.id;
-
-  void _handleTap() {
-    widget.controller.toggleCategory(widget.category.id);
-  }
-
-  @override
-  void didUpdateWidget(CategoryCard oldWidget) {
-    super.didUpdateWidget(oldWidget);
-    if (_isExpanded) {
-      _controller.forward();
-    } else {
-      _controller.reverse();
-    }
   }
 
   void _showDishDetails(BuildContext context, Dish dish) {
@@ -184,7 +170,7 @@ class _CategoryCardState extends State<CategoryCard> with SingleTickerProviderSt
       child: Column(
         children: [
           InkWell(
-            onTap: _handleTap,
+            onTap: widget.onTap,
             borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
@@ -193,8 +179,8 @@ class _CategoryCardState extends State<CategoryCard> with SingleTickerProviderSt
                 title: Text(
                   widget.category.name[currentLang]!,
                   style: theme.textTheme.titleLarge?.copyWith(
-                    fontWeight: _isExpanded ? FontWeight.bold : null,
-                    color: _isExpanded 
+                    fontWeight: widget.isExpanded ? FontWeight.bold : null,
+                    color: widget.isExpanded 
                       ? theme.colorScheme.primary 
                       : theme.colorScheme.onSurface,
                   ),
@@ -204,7 +190,7 @@ class _CategoryCardState extends State<CategoryCard> with SingleTickerProviderSt
                   child: Icon(
                     Icons.expand_more,
                     size: 28,
-                    color: _isExpanded 
+                    color: widget.isExpanded 
                       ? theme.colorScheme.primary 
                       : theme.colorScheme.onSurface,
                   ),
