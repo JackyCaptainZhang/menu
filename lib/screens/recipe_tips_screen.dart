@@ -176,6 +176,18 @@ List<Widget> buildSauceRecipes(BuildContext context, bool isZh) {
       'recipe': isZh
         ? '芝麻花生酱，1勺酱油，一勺糖，1勺尖盐，2勺韭花酱，2勺腐乳汁，花生碎，（辣椒油，香菜碎）'
         : 'Sesame peanut paste, 1 spoon soy sauce, 1 spoon sugar, 1 spoon fine salt, 2 spoons leek flower paste, 2 spoons fermented tofu juice, crushed peanuts, (chili oil, chopped coriander)'
+    },
+    {
+      'name': isZh ? '韩式烤肉酱' : 'Korean BBQ Sauce',
+      'recipe': isZh
+        ? '韩式辣酱两勺，白芝麻一勺，生抽一勺，雪碧两勺，香油一勺，蜂蜜半勺'
+        : '2 spoons Korean chili paste, 1 spoon white sesame, 1 spoon soy sauce, 2 spoons Sprite, 1 spoon sesame oil, 1/2 spoon honey'
+    },
+    {
+      'name': isZh ? '煲仔饭酱汁' : 'Claypot Rice Sauce',
+      'recipe': isZh
+        ? '生抽三勺，老抽一勺，蚝油一勺，盐一小勺，糖三勺，白胡椒粉半勺，香油半勺，水四勺'
+        : '3 spoons light soy sauce, 1 tbsp dark soy sauce, 1 tbsp oyster sauce, 1 tsp salt, 3 tsp sugar, ½ tsp white pepper, ½ tsp sesame oil, and 4 tbsp water'
     }
     // 在这里可以轻松添加更多信息
   ];
