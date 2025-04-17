@@ -162,8 +162,8 @@ List<Widget> buildSauceRecipes(BuildContext context, bool isZh) {
     {
       'name': isZh ? '三汁焖锅酱汁' : 'Three-Sauce Braised Pot',
       'recipe': isZh
-        ? '1勺黄豆酱，1勺甜面酱，1勺番茄酱，蚝油，生抽'
-        : '1 spoon yellow bean paste, 1 spoon sweet bean paste, 1 spoon ketchup, oyster sauce, soy sauce'
+        ? '3勺黄豆酱，3勺甜面酱，1勺蚝油，半块腐乳，1勺花生酱，3勺生抽，盐，糖，三倍清水，一点老抽，淀粉'
+        : '3 spoons yellow bean paste, 3 spoons sweet bean paste, 1 spoon oyster sauce, 1/2 block fermented tofu, 1 spoon peanut butter, 3 spoons soy sauce, salt, sugar, 3 times water, dark soy sauce, starch'
     },
     {
       'name': isZh ? '南乳炸鸡腌料' : 'Red Fermented Bean Curd Fried Chicken Marinade',
@@ -188,6 +188,12 @@ List<Widget> buildSauceRecipes(BuildContext context, bool isZh) {
       'recipe': isZh
         ? '生抽三勺，老抽一勺，蚝油一勺，盐一小勺，糖三勺，白胡椒粉半勺，香油半勺，水四勺'
         : '3 spoons light soy sauce, 1 tbsp dark soy sauce, 1 tbsp oyster sauce, 1 tsp salt, 3 tsp sugar, ½ tsp white pepper, ½ tsp sesame oil, and 4 tbsp water'
+    },
+    {
+      'name': isZh ? '风味菜品酱汁' : 'Flavorful Dish Sauce',
+      'recipe': isZh
+        ? '生抽两勺，陈醋两勺，糖两勺，耗油一勺，半碗清水'
+        : '2 spoons light soy sauce, 2 spoons aged vinegar, 2 spoons sugar, 1 spoon oyster sauce, half bowl of water'
     }
     // 在这里可以轻松添加更多信息
   ];

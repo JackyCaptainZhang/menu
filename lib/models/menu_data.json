@@ -1944,12 +1944,12 @@
             },
             {
               "name": {
-                "zh": "珐琅锅煲仔饭",
-                "en": "Cast Iron Pot Rice"
+                "zh": "煲仔饭",
+                "en": "Pot Rice"
               },
               "status": "locked",
               "notes": {
-                "zh": "配料：大米，肉（鸡腿肉/腊肉/腊肠/牛肉），鸡蛋，生抽，老抽，蚝油，香油，料酒，食用油，盐，糖，黑胡椒，葱花，清水\n做法：1. 大米提前浸泡半小时。\n2. 腌制肉类（牛肉/鸡腿肉），生抽一勺，老抽一勺，香油一勺，料酒一勺，蚝油一勺，淀粉一勺，黑胡椒粉少量。\n3. 珐琅锅底部刷油，铺上大米，加入水，水米比例1：1，大火煮沸后转小火盖盖焖煮10分钟 \n4. 铺平加入腌制好的肉类/腊肠/腊肉继续小火盖盖焖煮10分钟. \n5.加入一圈油（为了形成锅巴），打入鸡蛋，继续小火盖盖焖煮5分钟。\n6. 出锅前撒上葱花。\n7. 酱汁：生抽三勺，老抽一勺，蚝油一勺，盐一小勺，糖三勺，白胡椒粉半勺，香油半勺，水四勺",
+                "zh": "配料：大米，肉（鸡腿肉/腊肉/腊肠/牛肉），鸡蛋，生抽，老抽，蚝油，香油，料酒，食用油，盐，糖，黑胡椒，葱花，清水\n做法：1. 大米提前浸泡半小时。\n2. 腌制肉类（牛肉/鸡腿肉），生抽一勺，老抽一勺，香油一勺，料酒一勺，蚝油一勺，淀粉一勺，黑胡椒粉少量。\n3. 锅底部刷油，铺上大米，加入水，水米比例1：1，大火煮沸后转小火盖盖焖煮10分钟 \n4. 铺平加入腌制好的肉类/腊肠/腊肉继续小火盖盖焖煮10分钟. \n5.加入一圈油（为了形成锅巴），打入鸡蛋，继续小火盖盖焖煮5分钟。\n6. 出锅前撒上葱花。\n7. 酱汁：生抽三勺，老抽一勺，蚝油一勺，盐一小勺，糖三勺，白胡椒粉半勺，香油半勺，水四勺",
                 "en": "Ingredients: Rice, meat (chicken thigh / cured pork / Chinese sausage / beef), egg, light soy sauce, dark soy sauce, oyster sauce, sesame oil, cooking wine, cooking oil, salt, sugar, black pepper, chopped scallions, water\nInstructions: 1. Soak the rice in water for 30 minutes.\n2. Marinate the meat (beef or chicken thigh) with 1 tbsp each of light soy sauce, dark soy sauce, sesame oil, cooking wine, oyster sauce, 1 tbsp of starch, and a small amount of black pepper.\n3. Brush oil on the bottom of an enamel pot, spread the rice, add water (water-to-rice ratio 1:1), bring to a boil over high heat, then cover and simmer on low heat for 10 minutes.\n4. Add the marinated meat / Chinese sausage / cured pork evenly, cover, and continue to simmer on low heat for another 10 minutes.\n5. Drizzle a ring of oil (to create crispy rice crust), crack in an egg, cover and simmer on low heat for 5 more minutes.\n6. Sprinkle chopped scallions before serving.\n7. Sauce: Mix 3 tbsp light soy sauce, 1 tbsp dark soy sauce, 1 tbsp oyster sauce, 1 tsp salt, 3 tsp sugar, ½ tsp white pepper, ½ tsp sesame oil, and 4 tbsp water."
               },
               "id": "char-siu-rice-8cf474"
@@ -2494,6 +2494,79 @@
                 "en": "Ingredients: Matcha powder, milk, sugar or honey, water\nMethod: 1. Mix matcha powder with a little hot water into a paste. 2. Heat milk until warm, stir in sugar or honey. 3. Pour matcha paste into milk, stir well. 4. Optionally top with foam. 5. Serve hot or over ice."
               },
               "id": "matcha-latte-a07552"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "暖心饮品",
+            "en": "Warm Drinks"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "红糖姜茶",
+                "en": "Brown Sugar Ginger Tea"
+              },
+              "status": "locked",
+              "emoji": "🫖",
+              "notes": {
+                "zh": "配料：生姜、红糖、枣（可选）、桂圆（可选）\n做法：1. 生姜切片，红枣去核。2. 锅中加水煮沸，放入姜片和红枣。3. 小火煮15分钟，加入红糖调味。\n功效：暖宫驱寒，缓解痛经，补气血。",
+                "en": "Ingredients: Fresh ginger, brown sugar, dates (optional), longan (optional)\nMethod: 1. Slice ginger, pit dates. 2. Boil water, add ginger and dates. 3. Simmer for 15 mins, add brown sugar.\nBenefits: Warms the body, relieves menstrual pain, nourishes blood."
+              },
+              "id": "brown-sugar-ginger-tea-af3b21"
+            },
+            {
+              "name": {
+                "zh": "玫瑰花茶",
+                "en": "Rose Tea"
+              },
+              "status": "locked",
+              "emoji": "🌹",
+              "notes": {
+                "zh": "配料：玫瑰花、枸杞、冰糖\n做法：1. 玫瑰花洗净，加入枸杞。2. 用沸水冲泡5分钟。3. 加入冰糖调味。\n功效：美容养颜，理气解郁，改善气色。",
+                "en": "Ingredients: Rose buds, goji berries, rock sugar\nMethod: 1. Clean rose buds, add goji berries. 2. Steep in hot water for 5 mins. 3. Add rock sugar.\nBenefits: Beauty enhancement, mood improvement, complexion improvement."
+              },
+              "id": "rose-tea-b2c432"
+            },
+            {
+              "name": {
+                "zh": "桂圆红枣茶",
+                "en": "Longan and Date Tea"
+              },
+              "status": "locked",
+              "emoji": "🫖",
+              "notes": {
+                "zh": "配料：桂圆、红枣、枸杞、冰糖\n做法：1. 桂圆和红枣洗净。2. 锅中加水煮沸，放入所有食材。3. 小火煮15分钟，加冰糖调味。\n功效：补血安神，改善睡眠，养颜补气。",
+                "en": "Ingredients: Longan, red dates, goji berries, rock sugar\nMethod: 1. Clean longan and dates. 2. Boil water, add all ingredients. 3. Simmer for 15 mins, add rock sugar.\nBenefits: Blood nourishment, better sleep, beauty enhancement."
+              },
+              "id": "longan-and-date-tea-c5d543"
+            },
+            {
+              "name": {
+                "zh": "柠檬蜂蜜水",
+                "en": "Lemon Honey Water"
+              },
+              "status": "locked",
+              "emoji": "🍯",
+              "notes": {
+                "zh": "配料：柠檬、蜂蜜、温水\n做法：1. 柠檬切片。2. 温水冲泡，加入蜂蜜调味。3. 水温不宜过热，以保留蜂蜜营养。\n功效：补充维C，美白养颜，提升免疫力。",
+                "en": "Ingredients: Lemon, honey, warm water\nMethod: 1. Slice lemon. 2. Add to warm water with honey. 3. Keep water temperature moderate to preserve honey's nutrients.\nBenefits: Vitamin C supplement, skin brightening, immunity boost."
+              },
+              "id": "lemon-honey-water-d6e654"
+            },
+            {
+              "name": {
+                "zh": "红糖暖宫茶",
+                "en": "Brown Sugar Warming Tea"
+              },
+              "status": "locked",
+              "emoji": "🫖",
+              "notes": {
+                "zh": "配料：红糖、生姜、红枣、桂圆、黑糖、红糖\n做法：1. 姜片和红枣煮沸。2. 加入桂圆继续熬制。3. 最后加入红糖调味。\n功效：暖宫调经，补血养气，缓解痛经。特别适合姨妈期饮用。",
+                "en": "Ingredients: Brown sugar, ginger, red dates, longan\nMethod: 1. Boil ginger and dates. 2. Add longan and continue cooking. 3. Add brown sugar.\nBenefits: Warms the body, regulates menstruation, relieves menstrual pain. Perfect for period days."
+              },
+              "id": "brown-sugar-warming-tea-e7f765"
             }
           ]
         }
