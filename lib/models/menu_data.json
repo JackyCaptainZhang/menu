@@ -28,6 +28,20 @@
             },
             {
               "name": {
+                "zh": "锅包肉",
+                "en": "Sweet and Sour Crispy Pork"
+              },
+              "status": "unlocked",
+              "emoji": "🥩",
+              "rating": 85,
+              "notes": {
+                "zh": "配料：猪通脊肉400g，盐2g（土豆淀粉腌肉用），土豆淀粉250g（喜欢薄糊210-220g），葱丝，胡萝卜丝，香菜丝。糖醋汁：白糖90g，9度米醋75g，生抽5g，盐2g，淀粉水9g（玉米淀粉2g+清水7g）。\n做法：1. 猪通脊厚片泡水，挤干水分，加盐腌制，切葱丝、胡萝卜丝、香菜丝，土豆淀粉提前1小时泡水。2. 调糖醋汁。3. 裹肉片：土豆淀粉裹肉，倒去多余淀粉，加少量清水裹匀，封豆油。4. 炸肉片：面糊进油锅迅速起大泡炸肉片，下肉片，三秒上浮火力即可，全程大火，定型后分开粘连肉片，肉片稍漏红，外壳硬捞出，再复炸两次，最后呈现枣红色。5. 炒肉：留底油，炒料汁20秒起大泡挂铲，加一点油，炒肉即可。",
+                "en": "Ingredients: 400g pork loin, 2g salt (for marinating with potato starch), 250g potato starch (210-220g for thinner batter), shredded scallion, shredded carrot, shredded cilantro. Sweet and sour sauce: 90g sugar, 75g 9% rice vinegar, 5g light soy sauce, 2g salt, 9g starch water (2g corn starch + 7g water).\nMethod: 1. Soak thick pork loin slices in water, squeeze dry, marinate with salt, cut scallion, carrot, and cilantro into shreds, soak potato starch in advance for 1 hour. 2. Mix sweet and sour sauce. 3. Coat pork slices: coat with potato starch, pour off excess starch, add a little water and mix, seal with a bit of oil. 4. Fry pork: put battered pork into hot oil, fry until large bubbles form, add pork slices, fry on high heat for 3 seconds until they float, separate pieces, fry until slightly red and hard outside, repeat frying twice until golden red. 5. Stir-fry: keep some oil, stir-fry the sauce for 20 seconds until bubbling, add a bit more oil, stir-fry pork and serve."
+              },
+              "id": "sweet-and-sour-crispy-pork-06ff20"
+            },
+            {
+              "name": {
                 "zh": "胡萝卜炒肉",
                 "en": "Stir-fried Pork with Carrots"
               },
@@ -1332,20 +1346,6 @@
             },
             {
               "name": {
-                "zh": "炸薯饼",
-                "en": "Hash Browns"
-              },
-              "status": "unlocked",
-              "emoji": "🥔",
-              "rating": 91,
-              "notes": {
-                "zh": "配料：土豆、淀粉、盐、食用油\n做法：1. 土豆刨丝加盐和淀粉拌匀。2. 捏成小饼状。3. 热锅加油，小火煎至两面金黄酥脆。",
-                "en": "Ingredients: Potatoes, cornstarch, salt, cooking oil\nMethod: 1. Grate potatoes and mix with salt and cornstarch. 2. Shape into small patties. 3. Pan-fry on low heat until crispy and golden on both sides."
-              },
-              "id": "hash-browns-6bdf0f"
-            },
-            {
-              "name": {
                 "zh": "托斯卡纳三文鱼",
                 "en": "Tuscan Salmon"
               },
@@ -1355,18 +1355,6 @@
                 "zh": "配料：三文鱼、奶油、蒜、洋葱、番茄、菠菜、帕玛森芝士、盐、黑胡椒、橄榄油\n做法：1. 三文鱼撒盐和黑胡椒煎至两面微焦。2. 热锅加橄榄油炒蒜末和洋葱，加入奶油、番茄和菠菜煮软。3. 加芝士融化后放入三文鱼，小火炖2分钟即可。",
                 "en": "Ingredients: Salmon, butter, garlic, onion, tomato, spinach, parmesan cheese, salt, black pepper, olive oil\nMethod: 1. Season salmon with salt and pepper, sear until golden. 2. In another pan, sauté garlic and onion, then add butter, tomato, and spinach. 3. Stir in cheese until melted, return salmon to pan, simmer for 2 minutes."
               }
-            },
-            {
-              "name": {
-                "zh": "北非蛋/土耳其烩蛋",
-                "en": "Shakshuka/Turkish Eggs"
-              },
-              "status": "unlocked",
-              "notes": {
-                "zh": "做法：1. 鸡蛋打散，加入盐和黑胡椒调味。2. 热锅加橄榄油，倒入鸡蛋液，煎至两面金黄。3. 加入番茄酱、洋葱、辣椒粉、橄榄油、盐、黑胡椒调味。4. 放入烤箱/空气炸锅180度烤10分钟。5. 烤好后取出，撒上葱花即可。",
-                "en": "Method: 1. Beat eggs, season with salt and black pepper. 2. Heat olive oil in a pan, pour in egg mixture, cook until golden on both sides. 3. Add tomato sauce, onion, chili powder, olive oil, salt, black pepper, and cook until soft. 4. Bake in a preheated 180°C oven/air fryer for 10 minutes. 5. Bake until golden brown and serve."
-              },
-              "id": "shakshuka/turkish-eggs-c6772b"
             },
             {
               "name": {
@@ -1391,46 +1379,6 @@
                 "en": "Ingredients: Potato, butter, garlic, cheese, salt, black pepper, parsley\nMethod: 1. Boil and mash potatoes. 2. Mix in sautéed garlic and butter, then add cheese, salt, and pepper. 3. Bake for 5-8 minutes until golden, garnish with parsley."
               },
               "id": "butter-and-cheese-garlic-potato-3476f0"
-            },
-            {
-              "name": {
-                "zh": "土豆培根芝士蛋饼",
-                "en": "Potato, Bacon and Cheese Egg Pancake"
-              },
-              "status": "unlocked",
-              "emoji": "🥚",
-              "rating": 93,
-              "notes": {
-                "zh": "配料：土豆、培根、鸡蛋、奶酪、盐、胡椒、面粉\n做法：1. 土豆刨丝，培根切丁炒香。2. 混合鸡蛋、土豆丝、培根、奶酪和面粉调成糊状。3. 平底锅小火煎至两面金黄。",
-                "en": "Ingredients: Potato, bacon, egg, cheese, salt, pepper, flour\nMethod: 1. Grate potatoes, dice and fry bacon. 2. Mix eggs, potato, bacon, cheese, and flour into batter. 3. Pan-fry on low heat until golden on both sides."
-              },
-              "id": "potato,-bacon-and-cheese-egg-pancake-40524a"
-            },
-            {
-              "name": {
-                "zh": "黄油香肠葱香蛋饼",
-                "en": "Butter Sausage and Scallion Egg Pancake"
-              },
-              "status": "unlocked",
-              "emoji": "🥚",
-              "rating": 92,
-              "notes": {
-                "zh": "配料：鸡蛋、香肠、黄油、葱花、面粉、盐\n做法：1. 香肠切丁，葱花备好。2. 混合鸡蛋、面粉、葱花和盐调糊，加入香肠丁。3. 平底锅加黄油，小火煎至两面金黄。",
-                "en": "Ingredients: Eggs, sausage, butter, chopped scallions, flour, salt\nMethod: 1. Dice sausage and prepare scallions. 2. Mix eggs, flour, scallions, and salt, add sausage. 3. Cook in butter on low heat until golden both sides."
-              },
-              "id": "butter-sausage-and-scallion-egg-pancake-f1fd79"
-            },
-            {
-              "name": {
-                "zh": "菠菜口蘑胡萝卜火腿肠芝士蛋饼",
-                "en": "Spinach, Mushroom, Carrot, Ham and Cheese Egg Pancake"
-              },
-              "status": "unlocked",
-              "notes": {
-                "zh": "配料：鸡蛋、菠菜、口蘑、胡萝卜、火腿肠、芝士、盐、面粉、食用油\n做法：1. 所有蔬菜切丁炒熟备用，火腿切丁。2. 鸡蛋打散，加面粉、盐搅匀，加入蔬菜和芝士。3. 平底锅加油，倒入蛋液，小火煎至两面金黄。",
-                "en": "Ingredients: Eggs, spinach, mushrooms, carrots, ham, cheese, salt, flour, cooking oil\nMethod: 1. Dice and pre-cook all vegetables, dice ham. 2. Beat eggs, add flour and salt, then mix in vegetables and cheese. 3. Cook on low heat until golden on both sides."
-              },
-              "id": "spinach,-mushroom,-carrot,-ham-and-cheese-egg-pancake-d01ff9"
             },
             {
               "name": {
@@ -1470,18 +1418,6 @@
                 "en": "Method: 1. Clean the lobster, remove the shell and shrimp line. 2. Cut the lobster meat into small pieces, add mayonnaise, salt, pepper, minced garlic, onion, chili powder, olive oil. 3. Place the mixed lobster meat in a baking sheet, bake in a preheated 180°C oven for 10 minutes. 4. Bake until golden brown and serve."
               },
               "id": "mayonnaise-baked-lobster-1b6057"
-            },
-            {
-              "name": {
-                "zh": "自选组装三明治",
-                "en": "Customizable Sandwich"
-              },
-              "status": "unlocked",
-              "notes": {
-                "zh": "焦糖洋葱 ⭐95\n培根\n鸡蛋\n芝士\n火腿\n奶油菠菜\n炸虾排\n蔬菜沙拉\n汉堡排",
-                "en": "Caramelized Onion (95/100)\nBacon\nEgg\nCheese\nHam\nCreamed Spinach\nFried Shrimp\nVegetable Salad\nHamburger Steak"
-              },
-              "id": "customizable-sandwich-cd7250"
             },
             {
               "name": {
@@ -2572,6 +2508,104 @@
         }
       ],
       "id": "93499323-104e-4083-aaec-820dad70bc16"
+    },
+    {
+      "name": {
+        "zh": "早餐类",
+        "en": "Breakfast Dishes"
+      },
+      "subcategories": [
+        {
+          "name": {
+            "zh": "早餐",
+            "en": "Breakfast"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "炸薯饼",
+                "en": "Hash Browns"
+              },
+              "status": "unlocked",
+              "emoji": "🥔",
+              "rating": 91,
+              "notes": {
+                "zh": "配料：土豆、淀粉、盐、食用油\n做法：1. 土豆刨丝加盐和淀粉拌匀。2. 捏成小饼状。3. 热锅加油，小火煎至两面金黄酥脆。",
+                "en": "Ingredients: Potatoes, cornstarch, salt, cooking oil\nMethod: 1. Grate potatoes and mix with salt and cornstarch. 2. Shape into small patties. 3. Pan-fry on low heat until crispy and golden on both sides."
+              },
+              "id": "hash-browns-6bdf0f"
+            },
+            {
+              "name": {
+                "zh": "自选组装三明治",
+                "en": "Customizable Sandwich"
+              },
+              "status": "unlocked", 
+              "emoji": "🥪",
+              "notes": {
+                "zh": "焦糖洋葱 ⭐95\n培根\n鸡蛋\n芝士\n火腿\n奶油菠菜\n炸虾排\n蔬菜沙拉\n汉堡排",
+                "en": "Caramelized Onion (95/100)\nBacon\nEgg\nCheese\nHam\nCreamed Spinach\nFried Shrimp\nVegetable Salad\nHamburger Steak"
+              },
+              "id": "customizable-sandwich-cd7250"
+            },
+            {
+              "name": {
+                "zh": "菠菜口蘑胡萝卜火腿肠芝士蛋饼",
+                "en": "Spinach, Mushroom, Carrot, Ham and Cheese Egg Pancake"
+              },
+              "status": "unlocked",
+              "emoji": "🥚",
+              "notes": {
+                "zh": "配料：鸡蛋、菠菜、口蘑、胡萝卜、火腿肠、芝士、盐、面粉、食用油\n做法：1. 所有蔬菜切丁炒熟备用，火腿切丁。2. 鸡蛋打散，加面粉、盐搅匀，加入蔬菜和芝士。3. 平底锅加油，倒入蛋液，小火煎至两面金黄。",
+                "en": "Ingredients: Eggs, spinach, mushrooms, carrots, ham, cheese, salt, flour, cooking oil\nMethod: 1. Dice and pre-cook all vegetables, dice ham. 2. Beat eggs, add flour and salt, then mix in vegetables and cheese. 3. Cook on low heat until golden on both sides."
+              },
+              "id": "spinach,-mushroom,-carrot,-ham-and-cheese-egg-pancake-d01ff9"
+            },
+            {
+              "name": {
+                "zh": "北非蛋/土耳其烩蛋",
+                "en": "Shakshuka/Turkish Eggs"
+              },
+              "status": "unlocked", 
+              "emoji": "🥚",
+              "notes": {
+                "zh": "做法：1. 鸡蛋打散，加入盐和黑胡椒调味。2. 热锅加橄榄油，倒入鸡蛋液，煎至两面金黄。3. 加入番茄酱、洋葱、辣椒粉、橄榄油、盐、黑胡椒调味。4. 放入烤箱/空气炸锅180度烤10分钟。5. 烤好后取出，撒上葱花即可。",
+                "en": "Method: 1. Beat eggs, season with salt and black pepper. 2. Heat olive oil in a pan, pour in egg mixture, cook until golden on both sides. 3. Add tomato sauce, onion, chili powder, olive oil, salt, black pepper, and cook until soft. 4. Bake in a preheated 180°C oven/air fryer for 10 minutes. 5. Bake until golden brown and serve."
+              },
+              "id": "shakshuka/turkish-eggs-c6772b"
+            },
+            {
+              "name": {
+                "zh": "土豆培根芝士蛋饼",
+                "en": "Potato, Bacon and Cheese Egg Pancake"
+              },
+              "status": "unlocked",
+              "emoji": "🥚",
+              "rating": 93,
+              "notes": {
+                "zh": "配料：土豆、培根、鸡蛋、奶酪、盐、胡椒、面粉\n做法：1. 土豆刨丝，培根切丁炒香。2. 混合鸡蛋、土豆丝、培根、奶酪和面粉调成糊状。3. 平底锅小火煎至两面金黄。",
+                "en": "Ingredients: Potato, bacon, egg, cheese, salt, pepper, flour\nMethod: 1. Grate potatoes, dice and fry bacon. 2. Mix eggs, potato, bacon, cheese, and flour into batter. 3. Pan-fry on low heat until golden on both sides."
+              },
+              "id": "potato,-bacon-and-cheese-egg-pancake-40524a"
+            },
+            {
+              "name": {
+                "zh": "西葫芦胡萝卜丝小葱蛋饼",
+                "en": "Zucchini, Carrot, Scallion and Egg Pancake"
+              },
+              "status": "unlocked",
+              "emoji": "🥚",
+              "rating": 98,
+              "notes": {
+                "zh": "做法：1. 西葫芦、胡萝卜切丝加两勺盐杀水五分钟，攥干水分。2. 打入三个鸡蛋，加入面粉、十三香（五香粉）、小葱末搅匀。3. 平底锅加油，倒入蛋液，小火煎至两面金黄。",
+                "en": "Method: 1. Dice cucumber and carrot, add salt to remove water. 2. Beat eggs, add flour, salt, pepper, cucumber, carrot, and scallions. 3. Cook on low heat until golden on both sides."
+              },
+              "id": "zucchini,-carrot,-scallion-and-egg-pancake-40524a"
+            }
+          ]
+        }
+      ],
+      "id": "073ce44b-db3c-4dd6-8aaf-14b206564be8"
     }
   ]
 }
