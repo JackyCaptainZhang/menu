@@ -1,0 +1,2611 @@
+{
+  "categories": [
+    {
+      "name": {
+        "zh": "中式家常菜类",
+        "en": "Chinese Home Cooking Dishes"
+      },
+      "subcategories": [
+        {
+          "name": {
+            "zh": "猪肉类",
+            "en": "Pork"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "辣椒炒肉",
+                "en": "Stir-fried Pork with Peppers"
+              },
+              "status": "unlocked",
+              "emoji": "🌶️",
+              "rating": 85,
+              "notes": {
+                "zh": "配料：猪肉、青椒、红椒、大蒜、生姜、酱油、盐、料酒、食用油\n做法：1. 猪肉切片，用料酒和酱油腌制15分钟。2. 青椒和红椒切丝，蒜姜切末。3. 热锅加油，放入蒜姜爆香。4. 加入猪肉炒至变色，再加入辣椒丝翻炒。5. 加盐调味，炒匀出锅。",
+                "en": "Ingredients: Pork, green peppers, red peppers, garlic, ginger, soy sauce, salt, cooking wine, cooking oil\nMethod: 1. Slice pork and marinate with cooking wine and soy sauce for 15 minutes. 2. Slice green and red peppers, mince garlic and ginger. 3. Heat oil in a pan, sauté garlic and ginger until fragrant. 4. Add pork and stir-fry until it changes color, then add pepper slices and stir-fry. 5. Season with salt, stir well, and serve."
+              },
+              "id": "stir-fried-pork-with-peppers-06ff20"
+            },
+            {
+              "name": {
+                "zh": "锅包肉",
+                "en": "Sweet and Sour Crispy Pork"
+              },
+              "status": "unlocked",
+              "emoji": "🥩",
+              "rating": 85,
+              "notes": {
+                "zh": "配料：猪通脊肉400g，盐2g（土豆淀粉腌肉用），土豆淀粉250g（喜欢薄糊210-220g），葱丝，胡萝卜丝，香菜丝。糖醋汁：白糖90g，9度米醋75g，生抽5g，盐2g，淀粉水9g（玉米淀粉2g+清水7g）。\n做法：1. 猪通脊厚片泡水，挤干水分，加盐腌制，切葱丝、胡萝卜丝、香菜丝，土豆淀粉提前1小时泡水。2. 调糖醋汁。3. 裹肉片：土豆淀粉裹肉，倒去多余淀粉，加少量清水裹匀，封豆油。4. 炸肉片：面糊进油锅迅速起大泡炸肉片，下肉片，三秒上浮火力即可，全程大火，定型后分开粘连肉片，肉片稍漏红，外壳硬捞出，再复炸两次，最后呈现枣红色。5. 炒肉：留底油，炒料汁20秒起大泡挂铲，加一点油，炒肉即可。",
+                "en": "Ingredients: 400g pork loin, 2g salt (for marinating with potato starch), 250g potato starch (210-220g for thinner batter), shredded scallion, shredded carrot, shredded cilantro. Sweet and sour sauce: 90g sugar, 75g 9% rice vinegar, 5g light soy sauce, 2g salt, 9g starch water (2g corn starch + 7g water).\nMethod: 1. Soak thick pork loin slices in water, squeeze dry, marinate with salt, cut scallion, carrot, and cilantro into shreds, soak potato starch in advance for 1 hour. 2. Mix sweet and sour sauce. 3. Coat pork slices: coat with potato starch, pour off excess starch, add a little water and mix, seal with a bit of oil. 4. Fry pork: put battered pork into hot oil, fry until large bubbles form, add pork slices, fry on high heat for 3 seconds until they float, separate pieces, fry until slightly red and hard outside, repeat frying twice until golden red. 5. Stir-fry: keep some oil, stir-fry the sauce for 20 seconds until bubbling, add a bit more oil, stir-fry pork and serve."
+              },
+              "id": "sweet-and-sour-crispy-pork-06ff20"
+            },
+            {
+              "name": {
+                "zh": "胡萝卜炒肉",
+                "en": "Stir-fried Pork with Carrots"
+              },
+              "status": "unlocked",
+              "emoji": "🥕",
+              "rating": 90,
+              "notes": {
+                "zh": "配料：猪肉、胡萝卜、葱、姜、酱油、盐、食用油\n做法：1. 猪肉切片，胡萝卜切丝，葱姜切末。2. 猪肉用酱油腌制10分钟。3. 热锅加油，爆香葱姜。4. 放入猪肉炒至变色，再加入胡萝卜丝翻炒。5. 加盐调味，炒至胡萝卜变软即可。",
+                "en": "Ingredients: Pork, carrots, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Slice pork, shred carrots, mince green onions and ginger. 2. Marinate pork with soy sauce for 10 minutes. 3. Heat oil in a pan, sauté green onions and ginger. 4. Add pork and stir-fry until it changes color, then add carrot shreds and stir-fry. 5. Season with salt and cook until carrots soften."
+              },
+              "id": "stir-fried-pork-with-carrots-974ccc"
+            },
+            {
+              "name": {
+                "zh": "五花肉韭菜炒香干",
+                "en": "Stir-fried Pork Belly with Leek and Tofu"
+              },
+              "status": "unlocked",
+              "emoji": "🥬",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：五花肉、韭菜、香干（干豆腐）、蒜、酱油、盐、食用油\n做法：1. 五花肉切片，韭菜切段，香干切条，蒜切末。2. 热锅加油，放入五花肉煸炒出油。3. 加入蒜末爆香，再放入香干翻炒。4. 最后加入韭菜，快速翻炒，加酱油和盐调味，出锅。",
+                "en": "Ingredients: Pork belly, leeks, dried tofu, garlic, soy sauce, salt, cooking oil\nMethod: 1. Slice pork belly, cut leeks into segments, slice dried tofu into strips, mince garlic. 2. Heat oil in a pan, stir-fry pork belly until oil renders. 3. Add minced garlic and sauté until fragrant, then add dried tofu and stir-fry. 4. Finally, add leeks, stir-fry quickly, season with soy sauce and salt, and serve."
+              },
+              "id": "stir-fried-pork-belly-with-leek-and-tofu-35f7bb"
+            },
+            {
+              "name": {
+                "zh": "京酱肉丝",
+                "en": "Jing Jiang Pork Shreds"
+              },
+              "status": "locked",
+              "emoji": "🥢",
+              "notes": {
+                "zh": "配料：猪里脊肉、葱、甜面酱、酱油、料酒、糖、淀粉、食用油\n做法：1. 猪里脊切丝，用料酒、酱油和淀粉腌制20分钟。2. 葱切丝备用。3. 热锅加油，放入肉丝快速炒散至变色，盛出。4. 锅中留底油，加入甜面酱炒香，加糖和少许水调匀。5. 放入肉丝翻炒均匀，搭配葱丝食用。",
+                "en": "Ingredients: Pork tenderloin, green onions, sweet bean paste, soy sauce, cooking wine, sugar, cornstarch, cooking oil\nMethod: 1. Shred pork tenderloin, marinate with cooking wine, soy sauce, and cornstarch for 20 minutes. 2. Shred green onions and set aside. 3. Heat oil in a pan, stir-fry pork shreds quickly until they change color, then remove. 4. Leave some oil in the pan, add sweet bean paste and stir-fry until fragrant, then add sugar and a little water to mix. 5. Return pork to the pan, stir-fry evenly, and serve with green onion shreds."
+              },
+              "id": "jing-jiang-pork-shreds-a5f0da"
+            },
+            {
+              "name": {
+                "zh": "鱼香肉丝",
+                "en": "Yu Xiang Pork Shreds"
+              },
+              "status": "testing",
+              "emoji": "🐟",
+              "notes": {
+                "zh": "配料：猪里脊肉、木耳、胡萝卜、青椒、葱姜蒜、酱油、醋、糖、淀粉、辣椒、食用油\n做法：1. 猪肉切丝，用酱油和淀粉腌制。2. 木耳泡发切丝，胡萝卜和青椒切丝，葱姜蒜切末。3. 调鱼香汁：酱油、醋、糖、淀粉加水拌匀。4. 热锅加油，炒肉丝至变色盛出。5. 锅中爆香葱姜蒜和辣椒，放入蔬菜炒匀，再加入肉丝和鱼香汁，炒至收汁。",
+                "en": "Ingredients: Pork tenderloin, wood ear mushrooms, carrots, green peppers, green onions, ginger, garlic, soy sauce, vinegar, sugar, cornstarch, chili peppers, cooking oil\nMethod: 1. Shred pork and marinate with soy sauce and cornstarch. 2. Soak and shred wood ear mushrooms, shred carrots and green peppers, mince green onions, ginger, and garlic. 3. Prepare Yu Xiang sauce: mix soy sauce, vinegar, sugar, cornstarch, and water. 4. Heat oil in a pan, stir-fry pork until it changes color, then remove. 5. Sauté green onions, ginger, garlic, and chili peppers in the pan, add vegetables and stir-fry, then add pork and Yu Xiang sauce, cooking until thickened."
+              },
+              "id": "yu-xiang-pork-shreds-13241c"
+            },
+            {
+              "name": {
+                "zh": "红烧排骨",
+                "en": "Braised Pork Ribs"
+              },
+              "status": "unlocked",
+              "emoji": "🍖",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：猪排骨、葱、姜、蒜、酱油、料酒、糖、八角、食用油\n做法：1. 排骨洗净焯水去血沫。2. 热锅加油，放入糖炒至焦糖色，加入排骨翻炒上色。3. 加葱姜蒜、八角炒香，再加入酱油和料酒。4. 加水没过排骨，大火烧开后转小火炖40分钟。5. 大火收汁即可。",
+                "en": "Ingredients: Pork ribs, green onions, ginger, garlic, soy sauce, cooking wine, sugar, star anise, cooking oil\nMethod: 1. Rinse ribs and blanch to remove blood foam. 2. Heat oil in a pan, add sugar and cook until caramelized, then add ribs and stir-fry to coat. 3. Add green onions, ginger, garlic, and star anise, sauté until fragrant, then add soy sauce and cooking wine. 4. Add water to cover the ribs, bring to a boil, then simmer for 40 minutes. 5. Reduce sauce over high heat and serve."
+              },
+              "id": "braised-pork-ribs-defdaf"
+            },
+            {
+              "name": {
+                "zh": "红烧肉",
+                "en": "Braised Pork Belly"
+              },
+              "status": "unlocked",
+              "emoji": "🥩",
+              "rating": 96,
+              "notes": {
+                "zh": "配料：五花肉、葱、姜、蒜、酱油、料酒、糖、八角、食用油\n做法：1. 五花肉切块焯水去腥。2. 热锅加油，加糖炒至焦糖色，放入五花肉翻炒上色。3. 加葱姜蒜和八角炒香，再加入酱油和料酒。4. 加水没过肉，大火烧开后小火炖1小时。5. 大火收汁至浓稠即可。",
+                "en": "Ingredients: Pork belly, green onions, ginger, garlic, soy sauce, cooking wine, sugar, star anise, cooking oil\nMethod: 1. Cut pork belly into chunks and blanch to remove odor. 2. Heat oil in a pan, add sugar and cook until caramelized, then add pork belly and stir-fry to coat. 3. Add green onions, ginger, garlic, and star anise, sauté until fragrant, then add soy sauce and cooking wine. 4. Add water to cover the pork, bring to a boil, then simmer for 1 hour. 5. Reduce sauce over high heat until thick and serve."
+              },
+              "id": "braised-pork-belly-348b75"
+            },
+            {
+              "name": {
+                "zh": "土豆玉米红烧肉",
+                "en": "Braised Pork with Potato and Corn"
+              },
+              "status": "unlocked",
+              "emoji": "🌽",
+              "rating": 60,
+              "notes": {
+                "zh": "配料：五花肉、土豆、玉米、葱、姜、酱油、料酒、糖、食用油\n做法：1. 五花肉切块焯水，土豆切块，玉米切段。2. 热锅加油，加糖炒至焦糖色，放入五花肉翻炒上色。3. 加葱姜炒香，加入酱油和料酒。4. 放入土豆和玉米，加水炖40分钟。5. 大火收汁即可。",
+                "en": "Ingredients: Pork belly, potatoes, corn, green onions, ginger, soy sauce, cooking wine, sugar, cooking oil\nMethod: 1. Cut pork belly into chunks and blanch, dice potatoes, and cut corn into segments. 2. Heat oil in a pan, add sugar and cook until caramelized, then add pork belly and stir-fry to coat. 3. Add green onions and ginger, sauté until fragrant, then add soy sauce and cooking wine. 4. Add potatoes and corn, cover with water, and simmer for 40 minutes. 5. Reduce sauce over high heat and serve."
+              },
+              "id": "braised-pork-with-potato-and-corn-2cbaed"
+            },
+            {
+              "name": {
+                "zh": "小酥肉",
+                "en": "Crispy Pork"
+              },
+              "status": "unlocked",
+              "emoji": "🍤",
+              "rating": 75,
+              "notes": {
+                "zh": "配料：猪肉、面粉、淀粉、鸡蛋、五香粉、盐、食用油\n做法：1. 猪肉切小块，用盐和五香粉腌制30分钟。2. 面粉、淀粉和鸡蛋调成糊，裹在肉块上。3. 热锅加油，油温六成热时放入肉块炸至金黄酥脆。4. 捞出控油即可食用。",
+                "en": "Ingredients: Pork, flour, cornstarch, egg, five-spice powder, salt, cooking oil\nMethod: 1. Cut pork into small pieces and marinate with salt and five-spice powder for 30 minutes. 2. Mix flour, cornstarch, and egg into a batter, coat pork pieces. 3. Heat oil in a pan to medium-high heat, fry pork until golden and crispy. 4. Drain oil and serve."
+              },
+              "id": "crispy-pork-991af3"
+            },
+            {
+              "name": {
+                "zh": "港式洋葱猪排",
+                "en": "Hong Kong Style Onion Pork Chop"
+              },
+              "status": "unlocked",
+              "emoji": "🧅",
+              "rating": 82,
+              "notes": {
+                "zh": "配料：猪排、洋葱、酱油、糖、料酒、淀粉、食用油\n做法：1. 猪排用刀背拍松，加入酱油、料酒和淀粉腌制20分钟。2. 洋葱切丝。3. 热锅加油，煎猪排至两面金黄，盛出。4. 锅中留油，炒洋葱至软，加糖和酱油调味。5. 放入猪排翻炒均匀即可。",
+                "en": "Ingredients: Pork chop, onion, soy sauce, sugar, cooking wine, cornstarch, cooking oil\nMethod: 1. Tenderize pork chop with the back of a knife, marinate with soy sauce, cooking wine, and cornstarch for 20 minutes. 2. Slice onion. 3. Heat oil in a pan, fry pork chop until golden on both sides, then remove. 4. Leave some oil in the pan, stir-fry onion until soft, season with sugar and soy sauce. 5. Return pork chop to the pan, stir-fry evenly, and serve."
+              },
+              "id": "hong-kong-style-onion-pork-chop-f32c5e"
+            },
+            {
+              "name": {
+                "zh": "青椒猪肉丝",
+                "en": "Stir-fried Pork Shreds with Peppers"
+              },
+              "status": "locked",
+              "emoji": "🌶️",
+              "notes": {
+                "zh": "配料：猪里脊肉、青椒、葱、姜、酱油、盐、淀粉、食用油\n做法：1. 猪肉切丝，用酱油和淀粉腌制15分钟。2. 青椒切丝，葱姜切末。3. 热锅加油，爆香葱姜。4. 放入肉丝炒至变色，再加入青椒丝翻炒。5. 加盐调味，炒匀出锅。",
+                "en": "Ingredients: Pork tenderloin, green peppers, green onions, ginger, soy sauce, salt, cornstarch, cooking oil\nMethod: 1. Shred pork and marinate with soy sauce and cornstarch for 15 minutes. 2. Shred green peppers, mince green onions and ginger. 3. Heat oil in a pan, sauté green onions and ginger. 4. Add pork shreds and stir-fry until they change color, then add pepper shreds and stir-fry. 5. Season with salt, stir well, and serve."
+              },
+              "id": "stir-fried-pork-shreds-with-peppers-0b9415"
+            },
+            {
+              "name": {
+                "zh": "猪肉粉条炖白菜",
+                "en": "Pork with Vermicelli and Cabbage Stew"
+              },
+              "status": "locked",
+              "emoji": "🥬",
+              "notes": {
+                "zh": "配料：猪肉、粉条、白菜、葱、姜、酱油、盐、食用油\n做法：1. 猪肉切片，粉条泡软，白菜切段。2. 热锅加油，炒猪肉至变色，加葱姜炒香。3. 加入白菜翻炒至软，放入粉条。4. 加水和酱油，大火烧开后小火炖20分钟。5. 加盐调味即可。",
+                "en": "Ingredients: Pork, vermicelli, cabbage, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Slice pork, soak vermicelli until soft, cut cabbage into segments. 2. Heat oil in a pan, stir-fry pork until it changes color, add green onions and ginger and sauté. 3. Add cabbage and stir-fry until soft, then add vermicelli. 4. Add water and soy sauce, bring to a boil, then simmer for 20 minutes. 5. Season with salt and serve."
+              },
+              "id": "pork-with-vermicelli-and-cabbage-stew-67414d"
+            },
+            {
+              "name": {
+                "zh": "番茄滑肉",
+                "en": "Tomato Slippery Pork"
+              },
+              "status": "locked",
+              "emoji": "🍅",
+              "notes": {
+                "zh": "配料：猪里脊肉、番茄、鸡蛋、淀粉、葱、盐、食用油\n做法：1. 猪肉切片，用淀粉和鸡蛋液腌制20分钟。2. 番茄切块，葱切段。3. 热锅加油，将肉片滑炒至变色，盛出。4. 锅中留油，炒番茄至出汁，加水煮开。5. 放入肉片，加盐调味，煮2分钟即可。",
+                "en": "Ingredients: Pork tenderloin, tomatoes, egg, cornstarch, green onions, salt, cooking oil\nMethod: 1. Slice pork and marinate with cornstarch and egg for 20 minutes. 2. Dice tomatoes, cut green onions into segments. 3. Heat oil in a pan, stir-fry pork slices until they change color, then remove. 4. Leave some oil in the pan, cook tomatoes until juicy, add water and bring to a boil. 5. Add pork slices, season with salt, and cook for 2 minutes before serving."
+              },
+              "id": "tomato-slippery-pork-a5d4e7"
+            },
+            {
+              "name": {
+                "zh": "糖醋里脊",
+                "en": "Sweet and Sour Pork"
+              },
+              "status": "locked",
+              "emoji": "🍯",
+              "notes": {
+                "zh": "配料：猪里脊肉、面粉、淀粉、鸡蛋、醋、糖、番茄酱、食用油\n做法：1. 猪肉切条，用盐腌制10分钟。2. 面粉、淀粉和鸡蛋调成糊，裹在肉条上。3. 热锅加油，炸肉条至金黄酥脆，捞出。4. 锅中留油，加糖、醋和番茄酱炒匀成酱汁。5. 放入肉条翻炒裹上酱汁即可。",
+                "en": "Ingredients: Pork tenderloin, flour, cornstarch, egg, vinegar, sugar, ketchup, cooking oil\nMethod: 1. Cut pork into strips and marinate with salt for 10 minutes. 2. Mix flour, cornstarch, and egg into a batter, coat pork strips. 3. Heat oil in a pan, fry pork strips until golden and crispy, then remove. 4. Leave some oil in the pan, add sugar, vinegar, and ketchup, stir-fry to make a sauce. 5. Add pork strips, stir-fry to coat with sauce, and serve."
+              },
+              "id": "sweet-and-sour-pork-041a3e"
+            },
+            {
+              "name": {
+                "zh": "糖醋排骨",
+                "en": "Sweet and Sour Pork Ribs"
+              },
+              "status": "unlocked",
+              "emoji": "🍯",
+              "rating": 98,
+              "notes": {
+                "zh": "配料：猪排骨、葱、姜、醋、糖、酱油、料酒、淀粉、食用油\n做法：1. 排骨焯水备用。2. 热锅加油，将排骨煎至两面金黄。3. 加葱姜炒香，加入酱油、料酒、醋和糖调味。4. 加水炖煮30分钟至排骨软烂。5. 大火收汁，撒上淀粉水勾芡即可。",
+                "en": "Ingredients: Pork ribs, green onions, ginger, vinegar, sugar, soy sauce, cooking wine, cornstarch, cooking oil\nMethod: 1. Blanch ribs and set aside. 2. Heat oil in a pan, fry ribs until golden on both sides. 3. Add green onions and ginger, sauté until fragrant, then add soy sauce, cooking wine, vinegar, and sugar. 4. Add water and simmer for 30 minutes until ribs are tender. 5. Reduce sauce over high heat, thicken with cornstarch slurry, and serve."
+              },
+              "id": "sweet-and-sour-pork-ribs-3051e8"
+            },
+            {
+              "name": {
+                "zh": "蒜香排骨",
+                "en": "Garlic Pork Ribs"
+              },
+              "status": "unlocked",
+              "emoji": "🧄",
+              "rating": 85,
+              "notes": {
+                "zh": "配料：猪排骨、大蒜、酱油、料酒、糖、盐、食用油\n做法：1. 排骨焯水洗净，用酱油、料酒和盐腌制1小时。2. 大蒜切末。3. 热锅加油，放入排骨煎至两面金黄。4. 加入蒜末炒香，加糖和少许水焖煮10分钟。5. 大火收汁即可。",
+                "en": "Ingredients: Pork ribs, garlic, soy sauce, cooking wine, sugar, salt, cooking oil\nMethod: 1. Blanch ribs and rinse, marinate with soy sauce, cooking wine, and salt for 1 hour. 2. Mince garlic. 3. Heat oil in a pan, fry ribs until golden on both sides. 4. Add minced garlic and sauté until fragrant, then add sugar and a little water, simmer for 10 minutes. 5. Reduce sauce over high heat and serve."
+              },
+              "id": "garlic-pork-ribs-2ae7dc"
+            },
+            {
+              "name": {
+                "zh": "蜜汁叉烧",
+                "en": "Honey Char Siu"
+              },
+              "status": "unlocked",
+              "emoji": "🍯",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：猪梅花肉、蜂蜜、酱油、料酒、糖、五香粉、蒜、食用油\n做法：1. 猪肉切长条，用酱油、料酒、糖、五香粉和蒜末腌制一夜。2. 烤箱/空气炸锅预热180度，猪肉放在烤架上，刷上蜂蜜。3. 烤30分钟，每10分钟翻面并刷一次蜜汁。4. 烤至表面焦糖色即可。",
+                "en": "Ingredients: Pork shoulder, honey, soy sauce, cooking wine, sugar, five-spice powder, garlic, cooking oil\nMethod: 1. Cut pork into long strips, marinate with soy sauce, cooking wine, sugar, five-spice powder, and minced garlic overnight. 2. Preheat oven/air fryer to 180°C, place pork on a rack, and brush with honey. 3. Bake for 30 minutes, flipping and brushing with honey every 10 minutes. 4. Bake until caramelized and serve."
+              },
+              "id": "honey-char-siu-2ee923"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "海鲜类",
+            "en": "Seafood"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "红烧鱼",
+                "en": "Braised Fish"
+              },
+              "status": "unlocked",
+              "emoji": "🐟",
+              "rating": 95,
+              "id": "braised-fish-2516ab",
+              "notes": {
+                "zh": "配料：草鱼（或鲤鱼）、葱、姜、蒜、酱油、料酒、糖、盐、八角、食用油\n做法：1. 鱼去鳞去内脏，洗净两面切花刀，用料酒腌制10分钟。2. 热锅加油，煎鱼至两面金黄。3. 加葱姜蒜炒香，倒入酱油、糖、料酒、八角。4. 加水淹过鱼身，小火焖煮15分钟。5. 加盐调味，大火收汁即可。",
+                "en": "Ingredients: Grass carp (or carp), green onions, ginger, garlic, soy sauce, cooking wine, sugar, salt, star anise, cooking oil\nMethod: 1. Clean and score both sides of the fish, marinate with cooking wine for 10 minutes. 2. Heat oil in a pan, fry the fish until golden on both sides. 3. Add green onions, ginger, and garlic, stir-fry until fragrant, then add soy sauce, sugar, cooking wine, and star anise. 4. Add water to cover the fish and simmer for 15 minutes. 5. Season with salt and reduce the sauce over high heat."
+              }
+            },
+            {
+              "name": {
+                "zh": "酸菜鱼",
+                "en": "Sour Cabbage Fish"
+              },
+              "status": "unlocked",
+              "emoji": "🥬",
+              "rating": 85,
+              "id": "sour-cabbage-fish-fe4be7",
+              "notes": {
+                "zh": "配料：草鱼片、酸菜、豆芽、姜、蒜、干辣椒、花椒、料酒、盐、鸡蛋清、淀粉、食用油\n做法：1. 鱼片加盐、料酒、蛋清、淀粉抓匀腌制。2. 酸菜切丝，豆芽焯水备用。3. 热锅加油炒姜蒜、花椒和干辣椒，加入酸菜炒香。4. 加水煮沸，放入鱼片煮熟。5. 盛出，撒辣椒花椒热油激香。",
+                "en": "Ingredients: Fish fillet (grass carp), pickled mustard greens, bean sprouts, ginger, garlic, dried chili, Sichuan peppercorns, cooking wine, salt, egg white, cornstarch, cooking oil\nMethod: 1. Marinate fish slices with salt, cooking wine, egg white, and cornstarch. 2. Shred pickled mustard greens and blanch bean sprouts. 3. Heat oil in a pan, sauté ginger, garlic, peppercorns, and dried chili, then add mustard greens. 4. Add water, bring to a boil, and cook fish slices. 5. Serve with hot oil poured over dried chili and peppercorn topping."
+              }
+            },
+            {
+              "name": {
+                "zh": "麻辣鱼",
+                "en": "Spicy Fish"
+              },
+              "status": "locked",
+              "emoji": "🌶️",
+              "id": "spicy-fish-b693a8",
+              "notes": {
+                "zh": "配料：草鱼片、干辣椒、花椒、豆瓣酱、姜、蒜、豆芽、白菜、料酒、食用油、盐\n做法：1. 鱼片用料酒和盐腌制，蔬菜焯水铺底。2. 热锅加油，爆香姜蒜、豆瓣酱，加入花椒和干辣椒炒香。3. 加水煮沸，放入鱼片煮熟。4. 盛出，另起锅热油炸香干辣椒与花椒淋在鱼上。",
+                "en": "Ingredients: Fish fillet (grass carp), dried chili, Sichuan peppercorns, bean paste, ginger, garlic, bean sprouts, Chinese cabbage, cooking wine, cooking oil, salt\nMethod: 1. Marinate fish with salt and cooking wine, blanch vegetables and place at bottom. 2. Heat oil, sauté ginger, garlic, and bean paste, then add chili and peppercorns. 3. Add water, bring to a boil, cook fish slices. 4. Pour over with hot oil infused with dried chili and peppercorns."
+              }
+            },
+            {
+              "name": {
+                "zh": "辣椒炒牡蛎肉",
+                "en": "Stir-fried Oysters with Peppers"
+              },
+              "status": "unlocked",
+              "emoji": "🦪",
+              "rating": 92,
+              "notes": {
+                "zh": "配料：牡蛎肉、青椒、红椒、葱、姜、酱油、盐、食用油\n做法：1. 牡蛎肉洗净沥干，青椒和红椒切丝，葱姜切末。2. 热锅加油，爆香葱姜。3. 放入牡蛎肉翻炒至变色。4. 加入辣椒丝快速炒匀，加酱油和盐调味即可。",
+                "en": "Ingredients: Oyster meat, green peppers, red peppers, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Rinse and drain oyster meat, shred green and red peppers, mince green onions and ginger. 2. Heat oil in a pan, sauté green onions and ginger. 3. Add oyster meat and stir-fry until it changes color. 4. Add pepper shreds, stir-fry quickly, season with soy sauce and salt, and serve."
+              },
+              "id": "stir-fried-oysters-with-peppers-de30b8"
+            },
+            {
+              "name": {
+                "zh": "宫保腰果芹菜炒虾仁",
+                "en": "Kung Pao Shrimp with Cashew and Celery"
+              },
+              "status": "unlocked",
+              "emoji": "🍤",
+              "rating": 96,
+              "id": "kung-pao-shrimp-with-cashew-and-celery-e5ce59",
+              "notes": {
+                "zh": "配料：虾仁、芹菜、腰果、干辣椒、花椒、葱、姜、蒜、酱油、醋、糖、盐、淀粉、食用油\n做法：1. 虾仁去壳去虾线，用料酒和淀粉腌制10分钟。2. 芹菜切段，腰果烤香备用。3. 热锅加油，爆香葱姜蒜、干辣椒和花椒。4. 放入虾仁翻炒至变色，再加入芹菜翻炒。5. 加入调好的酱油、糖、醋混合汁翻炒均匀，最后撒上腰果出锅。",
+                "en": "Ingredients: Shrimp, celery, cashews, dried chili, Sichuan peppercorns, green onion, ginger, garlic, soy sauce, vinegar, sugar, salt, cornstarch, cooking oil\nMethod: 1. Devein and clean shrimp, marinate with cooking wine and cornstarch for 10 minutes. 2. Cut celery into segments, roast cashews. 3. Heat oil, sauté green onion, ginger, garlic, dried chili, and peppercorns. 4. Stir-fry shrimp until pink, add celery and stir-fry. 5. Add mixed sauce of soy sauce, sugar, and vinegar, stir well, top with cashews and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "油焖大虾",
+                "en": "Braised Shrimp"
+              },
+              "status": "unlocked",
+              "emoji": "🦐",
+              "rating": 88,
+              "notes": {
+                "zh": "配料：大虾、葱、姜、蒜、酱油、料酒、糖、食用油\n做法：1. 大虾剪须洗净。2. 热锅加油，放入大虾煎至两面变红。3. 加葱姜蒜炒香，加入酱油、料酒和糖调味。4. 加少许水焖煮5分钟。5. 大火收汁即可。",
+                "en": "Ingredients: Large shrimp, green onions, ginger, garlic, soy sauce, cooking wine, sugar, cooking oil\nMethod: 1. Trim and rinse shrimp. 2. Heat oil in a pan, fry shrimp until both sides turn red. 3. Add green onions, ginger, and garlic, sauté until fragrant, then add soy sauce, cooking wine, and sugar. 4. Add a little water and braise for 5 minutes. 5. Reduce sauce over high heat and serve."
+              },
+              "id": "braised-shrimp-7782b7"
+            },
+            {
+              "name": {
+                "zh": "姜蒜鱿鱼圈",
+                "en": "Stir-fried Squid Rings with Ginger and Garlic"
+              },
+              "status": "locked",
+              "emoji": "🦑",
+              "notes": {
+                "zh": "配料：鱿鱼、姜、蒜、葱、酱油、料酒、盐、食用油\n做法：1. 鱿鱼切圈，用料酒腌制10分钟。2. 姜蒜切末，葱切段。3. 热锅加油，爆香姜蒜。4. 放入鱿鱼圈快速翻炒至卷曲。5. 加酱油和盐调味，撒葱段出锅。",
+                "en": "Ingredients: Squid, ginger, garlic, green onions, soy sauce, cooking wine, salt, cooking oil\nMethod: 1. Cut squid into rings, marinate with cooking wine for 10 minutes. 2. Mince ginger and garlic, cut green onions into segments. 3. Heat oil in a pan, sauté ginger and garlic. 4. Add squid rings and stir-fry quickly until they curl. 5. Season with soy sauce and salt, sprinkle with green onions, and serve."
+              },
+              "id": "stir-fried-squid-rings-with-ginger-and-garlic-6abcf9"
+            },
+            {
+              "name": {
+                "zh": "蒜蓉粉丝/生蚝/虾/扇贝",
+                "en": "Steamed Seafood with Garlic and Vermicelli"
+              },
+              "status": "unlocked",
+              "emoji": "🧄",
+              "rating": 90,
+              "notes": {
+                "zh": "配料：粉丝、生蚝/虾/扇贝、大蒜、葱、酱油、食用油\n做法：1. 粉丝泡软铺在盘底，生蚝/虾/扇贝洗净放上。2. 大蒜切末，热油炒香，加入酱油调味。3. 将蒜蓉酱淋在海鲜上。4. 水开后蒸8-10分钟。5. 撒葱花出锅。",
+                "en": "Ingredients: Vermicelli, oysters/shrimp/scallops, garlic, green onions, soy sauce, cooking oil\nMethod: 1. Soak vermicelli until soft and place at the bottom of a dish, rinse oysters/shrimp/scallops and arrange on top. 2. Mince garlic, heat oil and sauté until fragrant, add soy sauce to season. 3. Pour garlic sauce over the seafood. 4. Steam for 8-10 minutes after water boils. 5. Sprinkle with green onions and serve."
+              },
+              "id": "steamed-seafood-with-garlic-and-vermicelli-5a302b"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "鸡肉类",
+            "en": "Chicken"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "可乐鸡翅",
+                "en": "Coke Chicken Wings"
+              },
+              "status": "unlocked",
+              "emoji": "🥤",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：鸡翅、可乐、葱、姜、酱油、料酒、盐、食用油\n做法：1. 鸡翅洗净两面划刀，用料酒腌制10分钟。2. 热锅加油，煎鸡翅至两面金黄。3. 加葱姜炒香，加入酱油和可乐没过鸡翅。4. 大火烧开后小火炖20分钟。5. 大火收汁即可。",
+                "en": "Ingredients: Chicken wings, cola, green onions, ginger, soy sauce, cooking wine, salt, cooking oil\nMethod: 1. Rinse chicken wings and score both sides, marinate with cooking wine for 10 minutes. 2. Heat oil in a pan, fry wings until golden on both sides. 3. Add green onions and ginger, sauté until fragrant, then add soy sauce and cola to cover the wings. 4. Bring to a boil, then simmer for 20 minutes. 5. Reduce sauce over high heat and serve."
+              },
+              "id": "coke-chicken-wings-cd7f55"
+            },
+            {
+              "name": {
+                "zh": "鸡翅煲",
+                "en": "Chicken Wings Pot"
+              },
+              "status": "unlocked",
+              "emoji": "🍗",
+              "rating": 98,
+              "notes": {
+                "zh": "配料：鸡翅、土豆、青椒、葱、姜、蒜、酱油、料酒、糖、食用油\n做法：1. 鸡翅用料酒和酱油腌制20分钟，土豆切块，青椒切段。2. 热锅加油，煎鸡翅至金黄。3. 加葱姜蒜炒香，放入土豆和青椒翻炒。4. 加水、酱油和糖，大火烧开后小火炖30分钟。5. 大火收汁即可。",
+                "en": "Ingredients: Chicken wings, potatoes, green peppers, green onions, ginger, garlic, soy sauce, cooking wine, sugar, cooking oil\nMethod: 1. Marinate chicken wings with cooking wine and soy sauce for 20 minutes, dice potatoes, cut green peppers into segments. 2. Heat oil in a pan, fry wings until golden. 3. Add green onions, ginger, and garlic, sauté until fragrant, then add potatoes and green peppers, stir-fry. 4. Add water, soy sauce, and sugar, bring to a boil, then simmer for 30 minutes. 5. Reduce sauce over high heat and serve."
+              },
+              "id": "chicken-wings-pot-dbd0ca"
+            },
+            {
+              "name": {
+                "zh": "葱油焖鸡",
+                "en": "Scallion Oil Braised Chicken"
+              },
+              "status": "unlocked",
+              "emoji": "🧅",
+              "rating": 98,
+              "notes": {
+                "zh": "配料：鸡腿肉、葱、姜、酱油、料酒、糖、食用油\n做法：1. 鸡腿肉切块，用料酒和酱油腌制15分钟。2. 葱切段，姜切片。3. 热锅加油，煎鸡肉至两面金黄。4. 加葱姜炒香，加入酱油和糖调味。5. 加水小火焖煮20分钟，大火收汁即可。",
+                "en": "Ingredients: Chicken thigh, green onions, ginger, soy sauce, cooking wine, sugar, cooking oil\nMethod: 1. Cut chicken thigh into pieces, marinate with cooking wine and soy sauce for 15 minutes. 2. Cut green onions into segments, slice ginger. 3. Heat oil in a pan, fry chicken until golden on both sides. 4. Add green onions and ginger, sauté until fragrant, then add soy sauce and sugar. 5. Add water, simmer for 20 minutes, then reduce sauce over high heat and serve."
+              },
+              "id": "scallion-oil-braised-chicken-3feecb"
+            },
+            {
+              "name": {
+                "zh": "南乳炸鸡翅",
+                "en": "Fermented Bean Curd Fried Chicken Wings"
+              },
+              "status": "unlocked",
+              "emoji": "🍗",
+              "rating": 98,
+              "id": "fermented-bean-curd-fried-chicken-wings-8ea8a3",
+              "notes": {
+                "zh": "配料：鸡翅、红腐乳、蒜、酱油、糖、淀粉、食用油\n做法：1. 红腐乳捣碎与酱油、糖、蒜泥混合成腌料，鸡翅腌制2小时。2. 表面裹上一层淀粉。3. 热锅加油，油温七成热时下锅炸至金黄酥脆。4. 捞出控油即可食用。",
+                "en": "Ingredients: Chicken wings, red fermented bean curd, garlic, soy sauce, sugar, cornstarch, cooking oil\nMethod: 1. Mash bean curd and mix with soy sauce, sugar, and minced garlic to make marinade. Marinate chicken wings for 2 hours. 2. Coat wings lightly with cornstarch. 3. Heat oil to 70% hot, deep-fry wings until golden and crispy. 4. Drain oil and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "蒜香/蜂蜜/糖醋炸鸡",
+                "en": "Fried Chicken (Garlic/Honey/Sweet & Sour)"
+              },
+              "status": "unlocked",
+              "emoji": "🍗",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：鸡翅或鸡腿、蒜（蒜香）、蜂蜜（蜂蜜）、醋和糖（糖醋）、面粉、淀粉、盐、食用油\n做法：1. 鸡肉用盐腌制20分钟。2. 面粉和淀粉调成糊，裹在鸡肉上。3. 热锅加油，炸鸡肉至金黄酥脆。4. 蒜香：炒蒜末淋上；蜂蜜：刷蜂蜜；糖醋：炒醋和糖成酱汁裹上。5. 出锅食用。",
+                "en": "Ingredients: Chicken wings or thighs, garlic (garlic flavor), honey (honey flavor), vinegar and sugar (sweet & sour), flour, cornstarch, salt, cooking oil\nMethod: 1. Marinate chicken with salt for 20 minutes. 2. Mix flour and cornstarch into a batter, coat chicken. 3. Heat oil in a pan, fry chicken until golden and crispy. 4. Garlic: Sauté minced garlic and drizzle over; Honey: Brush with honey; Sweet & Sour: Stir-fry vinegar and sugar into a sauce and coat. 5. Serve."
+              },
+              "id": "fried-chicken-wings-8ea8a4"
+            },
+            {
+              "name": {
+                "zh": "土豆番茄油焖鸡",
+                "en": "Braised Chicken with Potato and Tomato"
+              },
+              "status": "unlocked",
+              "emoji": "🍅",
+              "rating": 92,
+              "notes": {
+                "zh": "配料：鸡腿肉、土豆、番茄、葱、姜、酱油、糖、食用油\n做法：1. 鸡腿肉切块，用酱油腌制15分钟，土豆和番茄切块。2. 热锅加油，煎鸡肉至金黄。3. 加葱姜炒香，放入土豆和番茄翻炒。4. 加水和糖，大火烧开后小火炖30分钟。5. 大火收汁即可。",
+                "en": "Ingredients: Chicken thigh, potatoes, tomatoes, green onions, ginger, soy sauce, sugar, cooking oil\nMethod: 1. Cut chicken thigh into pieces, marinate with soy sauce for 15 minutes, dice potatoes and tomatoes. 2. Heat oil in a pan, fry chicken until golden. 3. Add green onions and ginger, sauté until fragrant, then add potatoes and tomatoes, stir-fry. 4. Add water and sugar, bring to a boil, then simmer for 30 minutes. 5. Reduce sauce over high heat and serve."
+              },
+              "id": "braised-chicken-with-potato-and-tomato-56ca75"
+            },
+            {
+              "name": {
+                "zh": "农家小炒鸡",
+                "en": "Stir-fried Chicken"
+              },
+              "status": "unlocked",
+              "emoji": "🌶️",
+              "rating": 90,
+              "notes": {
+                "zh": "配料：鸡肉、青椒、红椒、干辣椒、葱、姜、蒜、酱油、料酒、盐、食用油\n做法：1. 鸡肉切块，用料酒和酱油腌制15分钟。2. 青椒和红椒切丝，葱姜蒜切末，干辣椒剪段。3. 热锅加油，爆香葱姜蒜和干辣椒。4. 放入鸡肉炒至变色，再加入青红椒丝翻炒。5. 加盐调味，炒匀出锅。",
+                "en": "Ingredients: Chicken, green peppers, red peppers, dried chilies, green onions, ginger, garlic, soy sauce, cooking wine, salt, cooking oil\nMethod: 1. Cut chicken into pieces and marinate with cooking wine and soy sauce for 15 minutes. 2. Slice green and red peppers, mince green onions, ginger, and garlic, cut dried chilies into segments. 3. Heat oil in a pan, sauté green onions, ginger, garlic, and dried chilies. 4. Add chicken and stir-fry until it changes color, then add pepper slices and stir-fry. 5. Season with salt, stir well, and serve."
+              },
+              "id": "stir-fried-chicken-0920c3"
+            },
+            {
+              "name": {
+                "zh": "柱侯酱蒜头炒鸡",
+                "en": "Chicken with Garlic and Sauce"
+              },
+              "status": "unlocked",
+              "emoji": "🧄",
+              "rating": 80,
+              "notes": {
+                "zh": "配料：鸡肉、大蒜、柱侯酱、葱、姜、酱油、食用油\n做法：1. 鸡肉切块，用酱油腌制15分钟。2. 大蒜拍碎，葱姜切末。3. 热锅加油，炒鸡肉至变色。4. 加葱姜和大蒜炒香，放入柱侯酱翻炒均匀。5. 加少许水焖煮5分钟即可。",
+                "en": "Ingredients: Chicken, garlic, Chu Hou sauce, green onions, ginger, soy sauce, cooking oil\nMethod: 1. Cut chicken into pieces, marinate with soy sauce for 15 minutes. 2. Crush garlic, mince green onions and ginger. 3. Heat oil in a pan, stir-fry chicken until it changes color. 4. Add green onions, ginger, and garlic, sauté until fragrant, then add Chu Hou sauce and stir-fry evenly. 5. Add a little water, simmer for 5 minutes, and serve."
+              },
+              "id": "chicken-with-garlic-and-sauce-71544c"
+            },
+            {
+              "name": {
+                "zh": "黄焖鸡",
+                "en": "Yellow Braised Chicken"
+              },
+              "status": "unlocked",
+              "emoji": "🍲",
+              "rating": 75,
+              "notes": {
+                "zh": "配料：鸡腿肉、土豆、香菇、青椒、葱、姜、酱油、料酒、糖、食用油\n做法：1. 鸡肉切块，用料酒和酱油腌制15分钟。2. 土豆切块，香菇泡发切片，青椒切段。3. 热锅加油，炒鸡肉至变色。4. 加葱姜炒香，放入土豆、香菇和青椒。5. 加水、酱油和糖，小火焖30分钟，大火收汁即可。",
+                "en": "Ingredients: Chicken thigh, potatoes, shiitake mushrooms, green peppers, green onions, ginger, soy sauce, cooking wine, sugar, cooking oil\nMethod: 1. Cut chicken into pieces, marinate with cooking wine and soy sauce for 15 minutes. 2. Dice potatoes, soak and slice shiitake mushrooms, cut green peppers into segments. 3. Heat oil in a pan, stir-fry chicken until it changes color. 4. Add green onions and ginger, sauté until fragrant, then add potatoes, mushrooms, and green peppers. 5. Add water, soy sauce, and sugar, simmer for 30 minutes, then reduce sauce over high heat and serve."
+              },
+              "id": "yellow-braised-chicken-a44500"
+            },
+            {
+              "name": {
+                "zh": "蒜香鸡胸肉",
+                "en": "Garlic Chicken Breast"
+              },
+              "status": "unlocked",
+              "emoji": "🧄",
+              "rating": 85,
+              "notes": {
+                "zh": "配料：鸡胸肉、大蒜、酱油、料酒、盐、食用油\n做法：1. 鸡胸肉切片，用酱油和料酒腌制20分钟。2. 大蒜切末。3. 热锅加油，煎鸡肉至两面金黄。4. 加蒜末炒香，加盐调味。5. 炒匀出锅即可。",
+                "en": "Ingredients: Chicken breast, garlic, soy sauce, cooking wine, salt, cooking oil\nMethod: 1. Slice chicken breast, marinate with soy sauce and cooking wine for 20 minutes. 2. Mince garlic. 3. Heat oil in a pan, fry chicken until golden on both sides. 4. Add minced garlic and sauté until fragrant, season with salt. 5. Stir well and serve."
+              },
+              "id": "garlic-chicken-breast-1fe2d0"
+            },
+            {
+              "name": {
+                "zh": "干锅鸡翅",
+                "en": "Dry Pot Chicken Wings"
+              },
+              "status": "locked",
+              "emoji": "🌶️",
+              "notes": {
+                "zh": "配料：鸡翅、干辣椒、花椒、葱、姜、蒜、洋葱、土豆、豆瓣酱、酱油、料酒、食用油\n做法：1. 鸡翅用料酒和酱油腌制15分钟，土豆切片炸至金黄备用。2. 热锅加油，煎鸡翅至表面金黄。3. 加干辣椒、花椒、葱姜蒜爆香，加入洋葱炒软。4. 放入鸡翅、豆瓣酱炒匀，再加入炸好的土豆片。5. 干锅翻炒均匀后装盘即可。",
+                "en": "Ingredients: Chicken wings, dried chilies, Sichuan peppercorns, green onion, ginger, garlic, onion, potato, bean paste, soy sauce, cooking wine, cooking oil\nMethod: 1. Marinate chicken wings with soy sauce and cooking wine for 15 minutes. Fry potato slices until golden. 2. Pan-fry chicken wings until golden. 3. Sauté dried chili, peppercorns, green onion, ginger, garlic, then add onion and stir-fry. 4. Add chicken wings and bean paste, stir well, add potatoes. 5. Stir everything together and serve."
+              },
+              "id": "dry-pot-chicken-wings-c85e3a"
+            },
+            {
+              "name": {
+                "zh": "重庆鸡公煲",
+                "en": "Chongqing Chicken Pot"
+              },
+              "status": "locked",
+              "emoji": "🍲",
+              "notes": {
+                "zh": "配料：鸡肉、土豆、洋葱、干辣椒、花椒、豆瓣酱、啤酒、酱油、葱、姜、蒜、食用油\n做法：1. 鸡肉切块焯水去血沫，土豆切块，洋葱切片。2. 热锅加油，爆香葱姜蒜、干辣椒、花椒和豆瓣酱。3. 放入鸡肉翻炒上色后加入啤酒、酱油焖煮20分钟。4. 加入土豆继续焖煮15分钟，最后放入洋葱翻炒收汁即可。",
+                "en": "Ingredients: Chicken, potato, onion, dried chili, Sichuan peppercorns, broad bean paste, beer, soy sauce, green onion, ginger, garlic, cooking oil\nMethod: 1. Blanch chicken pieces to remove blood, cut potato into chunks, slice onion. 2. Heat oil, sauté green onion, ginger, garlic, dried chili, peppercorns, and bean paste. 3. Add chicken, stir-fry until colored, then add beer and soy sauce, simmer 20 minutes. 4. Add potatoes and continue simmering 15 minutes. Finally add onion and stir to reduce sauce."
+              },
+              "id": "chongqing-chicken-pot-3c5c83"
+            },
+            {
+              "name": {
+                "zh": "宫保鸡丁",
+                "en": "Kung Pao Chicken"
+              },
+              "status": "locked",
+              "emoji": "🥜",
+              "id": "kung-pao-chicken-7dd781",
+              "notes": {
+                "zh": "配料：鸡胸肉、花生米、干辣椒、花椒、葱、姜、蒜、酱油、糖、醋、淀粉、盐、食用油\n做法：1. 鸡胸肉切丁，用酱油和淀粉腌制15分钟。2. 干辣椒剪段，葱姜蒜切末，花生炸香。3. 热锅加油，炒香花椒和干辣椒，加入鸡丁炒至变色。4. 加入葱姜蒜、调好的糖醋汁翻炒。5. 最后加入炸花生炒匀即可。",
+                "en": "Ingredients: Chicken breast, peanuts, dried chili, Sichuan peppercorns, green onion, ginger, garlic, soy sauce, sugar, vinegar, cornstarch, salt, cooking oil\nMethod: 1. Dice chicken breast and marinate with soy sauce and cornstarch for 15 minutes. 2. Cut dried chili, mince green onion, ginger, garlic, and roast peanuts. 3. Heat oil, sauté peppercorns and dried chili, add chicken and stir-fry until color changes. 4. Add aromatics and prepared sweet-sour sauce, stir well. 5. Add peanuts, stir-fry evenly, and serve."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "凉拌类",
+            "en": "Cold Dishes"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "椒麻口水鸡",
+                "en": "Spicy Chicken"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：鸡肉、花椒、干辣椒、葱、姜、蒜、酱油、醋、糖、食用油\n做法：1. 鸡肉煮熟后撕成丝，过凉水沥干。2. 葱切段，姜蒜切末，干辣椒剪段。3. 热锅加油，炒香花椒和干辣椒，捞出备用。4. 调酱汁：酱油、醋、糖、炒好的花椒辣椒油拌匀。5. 将酱汁倒入鸡丝中拌匀，撒上葱段后食用。",
+                "en": "Ingredients: Chicken, Sichuan peppercorns, dried chilies, green onions, ginger, garlic, soy sauce, vinegar, sugar, cooking oil\nMethod: 1. Cook chicken, shred it, rinse with cold water, and drain. 2. Cut green onions into segments, mince ginger and garlic, cut dried chilies into segments. 3. Heat oil in a pan, sauté Sichuan peppercorns and dried chilies, then remove and set aside. 4. Mix sauce: soy sauce, vinegar, sugar, and the sautéed pepper-chili oil. 5. Pour sauce over chicken shreds, mix well, sprinkle with green onions, and serve."
+              },
+              "id": "spicy-chicken-e2bbc2"
+            },
+            {
+              "name": {
+                "zh": "凉拌麻酱手撕鸡",
+                "en": "Cold Shredded Chicken with Sesame Sauce"
+              },
+              "status": "unlocked",
+              "emoji": "🐔",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：鸡胸肉、芝麻酱、黄瓜、葱、姜、蒜、酱油、醋、糖、食用油\n做法：1. 鸡胸肉煮熟撕成丝，黄瓜切丝备用。2. 芝麻酱加酱油、醋、糖和少量温水调匀。3. 葱姜蒜切末备用。4. 将鸡丝、黄瓜、葱姜蒜和酱汁拌匀。5. 静置5分钟入味后即可食用。",
+                "en": "Ingredients: Chicken breast, sesame paste, cucumber, green onion, ginger, garlic, soy sauce, vinegar, sugar, cooking oil\nMethod: 1. Boil chicken breast and shred, slice cucumber into thin strips. 2. Mix sesame paste with soy sauce, vinegar, sugar, and warm water to make sauce. 3. Mince green onion, ginger, and garlic. 4. Combine all ingredients and mix well. 5. Let sit for 5 minutes before serving."
+              },
+              "id": "cold-shredded-chicken-with-sesame-sauce-22b33e"
+            },
+            {
+              "name": {
+                "zh": "凉拌黄瓜",
+                "en": "Cold Cucumber"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：黄瓜、蒜、酱油、醋、糖、辣椒油、食用油\n做法：1. 黄瓜洗净拍碎切块。2. 蒜切末。3. 调酱汁：酱油、醋、糖、辣椒油拌匀。4. 将酱汁倒入黄瓜中拌匀。5. 静置10分钟后食用。",
+                "en": "Ingredients: Cucumber, garlic, soy sauce, vinegar, sugar, chili oil, cooking oil\nMethod: 1. Rinse cucumber, smash and cut into chunks. 2. Mince garlic. 3. Mix sauce: soy sauce, vinegar, sugar, and chili oil. 4. Pour sauce over cucumber and mix well. 5. Let sit for 10 minutes before serving."
+              },
+              "id": "cold-cucumber-ceb603"
+            },
+            {
+              "name": {
+                "zh": "蒜香花生米",
+                "en": "Garlic Peanuts"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：花生米、大蒜、干辣椒、酱油、糖、食用油\n做法：1. 花生米洗净沥干。2. 热锅加油，炸花生米至金黄酥脆，捞出控油。3. 锅中留底油，炒香蒜末和干辣椒。4. 放入花生米，加酱油和糖翻炒均匀。5. 出锅放凉后食用。",
+                "en": "Ingredients: Peanuts, garlic, dried chilies, soy sauce, sugar, cooking oil\nMethod: 1. Rinse and drain peanuts. 2. Heat oil in a pan, fry peanuts until golden and crispy, then drain oil. 3. Leave some oil in the pan, sauté minced garlic and dried chilies. 4. Add peanuts, season with soy sauce and sugar, and stir-fry evenly. 5. Remove from heat, let cool, and serve."
+              },
+              "id": "garlic-peanuts-ee4b2e"
+            },
+            {
+              "name": {
+                "zh": "凉拌土豆丝",
+                "en": "Cold Potato Shreds"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：土豆、葱、蒜、酱油、醋、糖、辣椒油、食用油\n做法：1. 土豆去皮切丝，焯水后过凉水沥干。2. 葱切段，蒜切末。3. 调酱汁：酱油、醋、糖、辣椒油拌匀。4. 将酱汁倒入土豆丝中拌匀。5. 撒上葱段后食用。",
+                "en": "Ingredients: Potatoes, green onions, garlic, soy sauce, vinegar, sugar, chili oil, cooking oil\nMethod: 1. Peel and shred potatoes, blanch in boiling water, then rinse with cold water and drain. 2. Cut green onions into segments, mince garlic. 3. Mix sauce: soy sauce, vinegar, sugar, and chili oil. 4. Pour sauce over potato shreds and mix well. 5. Sprinkle with green onions and serve."
+              },
+              "id": "cold-potato-shreds-a6cf7a"
+            },
+            {
+              "name": {
+                "zh": "凉拌豆腐皮",
+                "en": "Cold Tofu Skin"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：豆腐皮、葱、蒜、酱油、醋、糖、辣椒油、食用油\n做法：1. 豆腐皮切丝，焯水后过凉水沥干。2. 葱切段，蒜切末。3. 调酱汁：酱油、醋、糖、辣椒油拌匀。4. 将酱汁倒入豆腐皮中拌匀。5. 撒上葱段后食用。",
+                "en": "Ingredients: Tofu skin, green onions, garlic, soy sauce, vinegar, sugar, chili oil, cooking oil\nMethod: 1. Cut tofu skin into strips, blanch in boiling water, then rinse with cold water and drain. 2. Cut green onions into segments, mince garlic. 3. Mix sauce: soy sauce, vinegar, sugar, and chili oil. 4. Pour sauce over tofu skin and mix well. 5. Sprinkle with green onions and serve."
+              },
+              "id": "cold-tofu-skin-b6cb33"
+            },
+            {
+              "name": {
+                "zh": "凉拌豆腐",
+                "en": "Cold Tofu"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：豆腐、葱、蒜、酱油、醋、糖、辣椒油、食用油\n做法：1. 豆腐切小块，焯水后过凉水沥干。2. 葱切段，蒜切末。3. 调酱汁：酱油、醋、糖、辣椒油拌匀。4. 将酱汁倒入豆腐中拌匀。5. 撒上葱段后食用。",
+                "en": "Ingredients: Tofu, green onions, garlic, soy sauce, vinegar, sugar, chili oil, cooking oil\nMethod: 1. Cut tofu into small cubes, blanch in boiling water, then rinse with cold water and drain. 2. Cut green onions into segments, mince garlic. 3. Mix sauce: soy sauce, vinegar, sugar, and chili oil. 4. Pour sauce over tofu and mix well. 5. Sprinkle with green onions and serve."
+              },
+              "id": "cold-tofu-611c39"
+            },
+            {
+              "name": {
+                "zh": "皮蛋豆腐",
+                "en": "Century Egg with Tofu"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：皮蛋、豆腐、葱、酱油、醋、糖、食用油\n做法：1. 皮蛋去壳切块，豆腐切小块焯水后过凉水沥干。2. 葱切段。3. 调酱汁：酱油、醋、糖拌匀。4. 将皮蛋和豆腐放入盘中，倒入酱汁拌匀。5. 撒上葱段后食用。",
+                "en": "Ingredients: Century egg, tofu, green onions, soy sauce, vinegar, sugar, cooking oil\nMethod: 1. Peel and cut century egg into pieces, cut tofu into small cubes, blanch, rinse with cold water, and drain. 2. Cut green onions into segments. 3. Mix sauce: soy sauce, vinegar, and sugar. 4. Place century egg and tofu in a dish, pour sauce over and mix well. 5. Sprinkle with green onions and serve."
+              },
+              "id": "century-egg-with-tofu-b5287b"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "鸭肉类",
+            "en": "Duck"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "啤酒鸭",
+                "en": "Beer Duck"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：鸭肉、啤酒、葱、姜、蒜、酱油、八角、干辣椒、食用油\n做法：1. 鸭肉切块焯水去腥。2. 热锅加油，炒鸭肉至出油。3. 加葱姜蒜、八角和干辣椒炒香。4. 倒入啤酒和酱油，大火烧开后小火炖40分钟。5. 大火收汁即可。",
+                "en": "Ingredients: Duck, beer, green onions, ginger, garlic, soy sauce, star anise, dried chilies, cooking oil\nMethod: 1. Cut duck into pieces and blanch to remove odor. 2. Heat oil in a pan, stir-fry duck until oil renders. 3. Add green onions, ginger, garlic, star anise, and dried chilies, sauté until fragrant. 4. Pour in beer and soy sauce, bring to a boil, then simmer for 40 minutes. 5. Reduce sauce over high heat and serve."
+              },
+              "id": "beer-duck-5414db"
+            },
+            {
+              "name": {
+                "zh": "烤鸭",
+                "en": "Roast Duck"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：鸭子、蜂蜜、酱油、五香粉、料酒、葱、姜\n做法：1. 鸭子洗净，用酱油、五香粉和料酒腌制一夜。2. 烤箱预热180度，鸭子刷上蜂蜜。3. 放入烤箱烤1.5小时，每20分钟翻面并刷蜜汁。4. 烤至皮脆肉嫩，切片搭配葱丝食用。",
+                "en": "Ingredients: Duck, honey, soy sauce, five-spice powder, cooking wine, green onions, ginger\nMethod: 1. Clean duck and marinate with soy sauce, five-spice powder, and cooking wine overnight. 2. Preheat oven to 180°C, brush duck with honey. 3. Roast in the oven for 1.5 hours, flipping and brushing with honey every 20 minutes. 4. Roast until skin is crispy and meat is tender, slice and serve with green onion shreds."
+              },
+              "id": "roast-duck-0b05f7"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "羊肉类",
+            "en": "Lamb"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "葱爆羊肉",
+                "en": "Stir-fried Lamb with Scallion"
+              },
+              "status": "unlocked",
+              "emoji": "🧅",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：羊肉、葱、姜、酱油、料酒、盐、食用油\n做法：1. 羊肉切薄片，用酱油和料酒腌制15分钟。2. 葱切段，姜切丝。3. 热锅加油，爆香姜丝。4. 放入羊肉快速翻炒至变色。5. 加入葱段翻炒均匀，加盐调味后出锅。",
+                "en": "Ingredients: Lamb, green onions, ginger, soy sauce, cooking wine, salt, cooking oil\nMethod: 1. Slice lamb thinly and marinate with soy sauce and cooking wine for 15 minutes. 2. Cut green onions into segments, shred ginger. 3. Heat oil in a pan, sauté ginger. 4. Add lamb and stir-fry quickly until it changes color. 5. Add green onions, stir-fry evenly, season with salt, and serve."
+              },
+              "id": "stir-fried-lamb-with-scallion-f57098"
+            },
+            {
+              "name": {
+                "zh": "孜然羊肉",
+                "en": "Cumin Lamb"
+              },
+              "status": "unlocked",
+              "emoji": "🐑",
+              "rating": 92,
+              "notes": {
+                "zh": "配料：羊肉、孜然粉、干辣椒、葱、姜、酱油、盐、食用油\n做法：1. 羊肉切薄片，用酱油腌制15分钟。2. 葱切段，姜切丝，干辣椒剪段。3. 热锅加油，爆香姜丝和干辣椒。4. 放入羊肉炒至变色，撒入孜然粉翻炒均匀。5. 加盐调味，加入葱段炒匀后出锅。",
+                "en": "Ingredients: Lamb, cumin powder, dried chilies, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Slice lamb thinly and marinate with soy sauce for 15 minutes. 2. Cut green onions into segments, shred ginger, cut dried chilies into segments. 3. Heat oil in a pan, sauté ginger and dried chilies. 4. Add lamb and stir-fry until it changes color, sprinkle with cumin powder and stir-fry evenly. 5. Season with salt, add green onions, stir well, and serve."
+              },
+              "id": "cumin-lamb-f06ccf"
+            },
+            {
+              "name": {
+                "zh": "法式炖羊肉",
+                "en": "French Lamb Stew"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：羊肉、胡萝卜、土豆、西红柿、洋葱、迷迭香、红酒、盐、黑胡椒、橄榄油\n做法：1. 羊肉切块焯水去腥，胡萝卜、土豆、西红柿和洋葱切块。2. 热锅加橄榄油煎羊肉至微黄。3. 加入洋葱、胡萝卜和土豆翻炒片刻，倒入红酒煮沸。4. 加西红柿、迷迭香、盐和黑胡椒，炖1小时后收汁即可。",
+                "en": "Ingredients: Lamb, carrots, potatoes, tomatoes, onions, rosemary, red wine, salt, black pepper, olive oil\nMethod: 1. Cut lamb into pieces, blanch to remove odor. Dice vegetables. 2. Heat olive oil, sear lamb until lightly browned. 3. Add onion, carrot, and potato, stir-fry briefly, then pour in red wine and boil. 4. Add tomato, rosemary, salt, and pepper, simmer for 1 hour and reduce sauce before serving."
+              },
+              "id": "french-lamb-stew-1d3502"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "牛肉类",
+            "en": "Beef"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "香菜炒牛肉",
+                "en": "Stir-fried Beef with Cilantro"
+              },
+              "status": "unlocked",
+              "emoji": "🥬",
+              "rating": 90,
+              "notes": {
+                "zh": "配料：牛肉、香菜、葱、姜、蒜、酱油、料酒、盐、食用油\n做法：1. 牛肉切薄片，用酱油和料酒腌制15分钟。2. 香菜洗净切段，葱姜蒜切末。3. 热锅加油，爆香葱姜蒜。4. 放入牛肉快速翻炒至变色。5. 加入香菜翻炒均匀，加盐调味后出锅。",
+                "en": "Ingredients: Beef, cilantro, green onions, ginger, garlic, soy sauce, cooking wine, salt, cooking oil\nMethod: 1. Slice beef thinly and marinate with soy sauce and cooking wine for 15 minutes. 2. Rinse cilantro and cut into segments, mince green onions, ginger, and garlic. 3. Heat oil in a pan, sauté green onions, ginger, and garlic. 4. Add beef and stir-fry quickly until it changes color. 5. Add cilantro, stir-fry evenly, season with salt, and serve."
+              },
+              "id": "stir-fried-beef-with-cilantro-f5f445"
+            },
+            {
+              "name": {
+                "zh": "辣椒炒牛肉",
+                "en": "Stir-fried Beef with Peppers"
+              },
+              "status": "unlocked",
+              "emoji": "🌶️",
+              "rating": 93,
+              "notes": {
+                "zh": "配料：牛肉、青椒、红椒、葱、姜、酱油、淀粉、盐、食用油\n做法：1. 牛肉切丝，用酱油和淀粉腌制15分钟。2. 青椒和红椒切丝，葱姜切末。3. 热锅加油，爆香葱姜。4. 放入牛肉丝炒至变色，再加入辣椒丝翻炒。5. 加盐调味，炒匀后出锅。",
+                "en": "Ingredients: Beef, green peppers, red peppers, green onions, ginger, soy sauce, cornstarch, salt, cooking oil\nMethod: 1. Shred beef and marinate with soy sauce and cornstarch for 15 minutes. 2. Shred green and red peppers, mince green onions and ginger. 3. Heat oil in a pan, sauté green onions and ginger. 4. Add beef shreds and stir-fry until they change color, then add pepper shreds and stir-fry. 5. Season with salt, stir well, and serve."
+              },
+              "id": "stir-fried-beef-with-peppers-505b22"
+            },
+            {
+              "name": {
+                "zh": "番茄牛尾/牛腩煲",
+                "en": "Tomato Beef Tail/Brisket Pot"
+              },
+              "status": "unlocked",
+              "emoji": "🍅",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：牛尾或牛腩、番茄、洋葱、胡萝卜、葱、姜、酱油、料酒、糖、盐、食用油\n做法：1. 牛尾或牛腩切块，焯水去血沫。2. 番茄切块，洋葱和胡萝卜切丁，葱姜切末。3. 热锅加油，炒香葱姜，放入牛肉煸炒至表面微焦。4. 加入番茄、洋葱和胡萝卜翻炒，加酱油、料酒和糖调味。5. 加水没过食材，大火烧开后小火炖1.5小时，加盐调味后出锅。",
+                "en": "Ingredients: Beef tail or brisket, tomatoes, onion, carrots, green onions, ginger, soy sauce, cooking wine, sugar, salt, cooking oil\nMethod: 1. Cut beef tail or brisket into chunks and blanch to remove blood foam. 2. Dice tomatoes, onion, and carrots, mince green onions and ginger. 3. Heat oil in a pan, sauté green onions and ginger, then add beef and stir-fry until slightly browned. 4. Add tomatoes, onion, and carrots, stir-fry, and season with soy sauce, cooking wine, and sugar. 5. Add water to cover ingredients, bring to a boil, then simmer for 1.5 hours, season with salt, and serve."
+              },
+              "id": "tomato-beef-tail/brisket-pot-7d3695"
+            },
+            {
+              "name": {
+                "zh": "咖喱牛腩",
+                "en": "Curry Beef Brisket"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：牛腩、土豆、胡萝卜、洋葱、咖喱块、椰奶、盐、食用油\n做法：1. 牛腩切块焯水。2. 热锅加油，炒洋葱至透明，加入牛腩炒至表面焦黄。3. 加土豆和胡萝卜块翻炒。4. 加入咖喱块和椰奶，加水炖40分钟。5. 加盐调味，大火收汁即可。",
+                "en": "Ingredients: Beef brisket, potatoes, carrots, onions, curry blocks, coconut milk, salt, cooking oil\nMethod: 1. Cut beef brisket into chunks and blanch. 2. Heat oil in a pan, sauté onions until translucent, add brisket and brown the surface. 3. Add potato and carrot chunks, stir-fry. 4. Add curry blocks and coconut milk, add water and simmer for 40 minutes. 5. Season with salt, reduce sauce over high heat, and serve."
+              },
+              "id": "curry-beef-brisket-9d70da"
+            },
+            {
+              "name": {
+                "zh": "卤牛肉",
+                "en": "Braised Beef"
+              },
+              "status": "unlocked",
+              "emoji": "🥩",
+              "rating": 93,
+              "notes": {
+                "zh": "配料：牛腱肉、葱、姜、八角、桂皮、酱油、料酒、糖、盐\n做法：1. 牛肉焯水去血沫。2. 锅中加水，放入葱姜、八角、桂皮、酱油、料酒和糖煮开。3. 放入牛肉，小火炖2小时。4. 加盐调味，继续炖30分钟。5. 捞出放凉切片即可。",
+                "en": "Ingredients: Beef shank, green onions, ginger, star anise, cinnamon, soy sauce, cooking wine, sugar, salt\nMethod: 1. Blanch beef to remove blood foam. 2. Add water to a pot with green onions, ginger, star anise, cinnamon, soy sauce, cooking wine, and sugar, bring to a boil. 3. Add beef and simmer for 2 hours. 4. Season with salt and simmer for another 30 minutes. 5. Remove, cool, and slice to serve."
+              },
+              "id": "braised-beef-616017"
+            },
+            {
+              "name": {
+                "zh": "凉拌卤牛肉",
+                "en": "Cold Braised Beef"
+              },
+              "status": "unlocked",
+              "emoji": "🥩",
+              "rating": 92,
+              "notes": {
+                "zh": "配料：卤牛肉、香菜、葱、花椒油、酱油、醋、糖、辣椒油\n做法：1. 卤牛肉切薄片，香菜和葱切段。2. 调酱汁：酱油、醋、糖、花椒油和辣椒油拌匀。3. 将酱汁倒入牛肉中拌匀。4. 撒上香菜和葱段即可。",
+                "en": "Ingredients: Braised beef, cilantro, green onions, Sichuan pepper oil, soy sauce, vinegar, sugar, chili oil\nMethod: 1. Slice braised beef thinly, cut cilantro and green onions into segments. 2. Mix sauce: soy sauce, vinegar, sugar, Sichuan pepper oil, and chili oil. 3. Pour sauce over beef and mix well. 4. Sprinkle with cilantro and green onions and serve."
+              },
+              "id": "cold-braised-beef-279a17"
+            },
+            {
+              "name": {
+                "zh": "卤牛肉炒蒜苗",
+                "en": "Stir-fried Braised Beef with Garlic Sprouts"
+              },
+              "status": "unlocked",
+              "emoji": "🧄",
+              "rating": 94,
+              "notes": {
+                "zh": "配料：卤牛肉、蒜苗、葱、姜、酱油、食用油\n做法：1. 卤牛肉切片，蒜苗切段，葱姜切末。2. 热锅加油，爆香葱姜。3. 放入牛肉翻炒，再加入蒜苗快速炒匀。4. 加酱油调味，出锅即可。",
+                "en": "Ingredients: Braised beef, garlic sprouts, green onions, ginger, soy sauce, cooking oil\nMethod: 1. Slice braised beef, cut garlic sprouts into segments, mince green onions and ginger. 2. Heat oil in a pan, sauté green onions and ginger. 3. Add beef and stir-fry, then add garlic sprouts and stir-fry quickly. 4. Season with soy sauce and serve."
+              },
+              "id": "stir-fried-braised-beef-with-garlic-sprouts-d88a86"
+            },
+            {
+              "name": {
+                "zh": "蜜汁椒香牛肉粒",
+                "en": "Honey Pepper Beef Cubes"
+              },
+              "status": "unlocked",
+              "emoji": "🍯",
+              "rating": 96,
+              "notes": {
+                "zh": "1.5酱油 2蜂蜜😋",
+                "en": "1.5 soy sauce, 2 honey"
+              },
+              "id": "honey-pepper-beef-cubes-e21644"
+            },
+            {
+              "name": {
+                "zh": "水煮牛肉",
+                "en": "Boiled Beef"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：牛肉、豆芽、干辣椒、花椒、葱、姜、蒜、豆瓣酱、酱油、食用油\n做法：1. 牛肉切薄片，用淀粉和酱油腌制15分钟。2. 热锅加油，炒香豆瓣酱、干辣椒和花椒。3. 加水煮开，下豆芽煮熟捞出垫底。4. 下牛肉煮至变色，淋上热油和葱花即可。",
+                "en": "Ingredients: Beef, bean sprouts, dried chilies, Sichuan peppercorns, green onions, ginger, garlic, bean paste, soy sauce, cooking oil\nMethod: 1. Slice beef thinly, marinate with cornstarch and soy sauce for 15 minutes. 2. Heat oil in a pan, sauté bean paste, dried chilies, and peppercorns. 3. Add water and bring to a boil, cook bean sprouts and remove to serve as a base. 4. Add beef and cook until it changes color, drizzle with hot oil and green onions, and serve."
+              },
+              "id": "boiled-beef-0ca35e"
+            },
+            {
+              "name": {
+                "zh": "土豆炒牛肉",
+                "en": "Stir-fried Beef with Potato"
+              },
+              "status": "testing",
+              "notes": {
+                "zh": "配料：牛肉、土豆、葱、姜、酱油、盐、食用油\n做法：1. 牛肉切片，用酱油腌制15分钟，土豆切片。2. 热锅加油，炒牛肉至变色，盛出。3. 加葱姜炒香，放入土豆片炒至半熟。4. 回锅牛肉，加盐调味，炒匀即可。",
+                "en": "Ingredients: Beef, potatoes, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Slice beef and marinate with soy sauce for 15 minutes, slice potatoes. 2. Heat oil in a pan, stir-fry beef until it changes color, then remove. 3. Sauté green onions and ginger, add potato slices and cook until half-done. 4. Return beef to the pan, season with salt, stir well, and serve."
+              },
+              "id": "stir-fried-beef-with-potato-0af0b6"
+            },
+            {
+              "name": {
+                "zh": "青椒牛肉丝",
+                "en": "Stir-fried Beef Shreds with Peppers"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：牛肉、青椒、葱、姜、酱油、淀粉、食用油\n做法：1. 牛肉切丝，用酱油和淀粉腌制15分钟。2. 青椒切丝，葱姜切末。3. 热锅加油，爆香葱姜。4. 放入牛肉丝炒至变色，再加青椒丝翻炒。5. 加盐调味，出锅即可。",
+                "en": "Ingredients: Beef, green peppers, green onions, ginger, soy sauce, cornstarch, cooking oil\nMethod: 1. Shred beef and marinate with soy sauce and cornstarch for 15 minutes. 2. Shred green peppers, mince green onions and ginger. 3. Heat oil in a pan, sauté green onions and ginger. 4. Add beef shreds and stir-fry until they change color, then add pepper shreds and stir-fry. 5. Season with salt and serve."
+              },
+              "id": "stir-fried-beef-shreds-with-peppers-ce7666"
+            },
+            {
+              "name": {
+                "zh": "黑椒牛肉粒",
+                "en": "Black Pepper Beef Cubes"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：牛肉、黑胡椒粉、洋葱、青椒、酱油、糖、淀粉、食用油\n做法：1. 牛肉切丁，用酱油和淀粉腌制20分钟。2. 洋葱和青椒切块。3. 热锅加油，炒牛肉至变色，盛出。4. 加洋葱和青椒炒软，放入牛肉。5. 加黑胡椒粉和糖调味，炒匀即可。",
+                "en": "Ingredients: Beef, black pepper powder, onion, green pepper, soy sauce, sugar, cornstarch, cooking oil\nMethod: 1. Dice beef and marinate with soy sauce and cornstarch for 20 minutes. 2. Dice onion and green pepper. 3. Heat oil in a pan, stir-fry beef until it changes color, then remove. 4. Sauté onion and green pepper until soft, add beef back. 5. Season with black pepper and sugar, stir well, and serve."
+              },
+              "id": "black-pepper-beef-cubes-18eaab"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "鸡蛋",
+            "en": "Egg Dishes"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "青椒鸡蛋",
+                "en": "Egg with Peppers"
+              },
+              "status": "unlocked",
+              "id": "egg-with-peppers-ca9a2c",
+              "notes": {
+                "zh": "配料：鸡蛋、青椒、盐、食用油\n做法：1. 青椒去籽切丝，鸡蛋打散加少许盐。2. 热锅加油，倒入蛋液炒至微凝固。3. 加入青椒丝翻炒至断生，炒匀出锅。",
+                "en": "Ingredients: Eggs, green peppers, salt, cooking oil\nMethod: 1. Remove seeds and slice green peppers. Beat eggs with a pinch of salt. 2. Heat oil, pour in eggs and cook until semi-set. 3. Add green peppers and stir-fry until tender. Mix well and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "韭菜鸡蛋",
+                "en": "Egg with Leek"
+              },
+              "status": "unlocked",
+              "id": "egg-with-leek-6ecacd",
+              "notes": {
+                "zh": "配料：鸡蛋、韭菜、盐、食用油\n做法：1. 韭菜洗净切段，鸡蛋打散加盐。2. 热锅加油，炒鸡蛋至凝固盛出。3. 加入韭菜炒软，再倒入鸡蛋炒匀即可。",
+                "en": "Ingredients: Eggs, Chinese chives, salt, cooking oil\nMethod: 1. Wash and cut chives. Beat eggs with salt. 2. Stir-fry eggs until set and remove. 3. Stir-fry chives until soft, then return eggs and mix well."
+              }
+            },
+            {
+              "name": {
+                "zh": "番茄鸡蛋",
+                "en": "Egg with Tomato"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "评分：95",
+                "en": "Rating: 95/100"
+              },
+              "id": "egg-with-tomato-397096"
+            },
+            {
+              "name": {
+                "zh": "葱烧鸡蛋",
+                "en": "Egg with Scallion"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "评分：92",
+                "en": "Rating: 92/100"
+              },
+              "id": "egg-with-scallion-8e4996"
+            },
+            {
+              "name": {
+                "zh": "芦笋炒蛋",
+                "en": "Egg with Asparagus"
+              },
+              "status": "unlocked",
+              "id": "egg-with-asparagus-da0d36",
+              "notes": {
+                "zh": "配料：鸡蛋、芦笋、盐、食用油\n做法：1. 芦笋切段焯水，鸡蛋打散加盐。2. 热锅加油，炒鸡蛋至微熟盛出。3. 加入芦笋翻炒，再倒入鸡蛋炒匀即可。",
+                "en": "Ingredients: Eggs, asparagus, salt, cooking oil\nMethod: 1. Cut asparagus into sections and blanch. Beat eggs with salt. 2. Stir-fry eggs until half-cooked and remove. 3. Stir-fry asparagus, then return eggs and mix well."
+              }
+            },
+            {
+              "name": {
+                "zh": "生菜丝炒鸡蛋",
+                "en": "Egg with Shredded Lettuce"
+              },
+              "status": "unlocked",
+              "id": "egg-with-shredded-lettuce-f50a16",
+              "notes": {
+                "zh": "配料：鸡蛋、生菜、盐、葱、食用油\n做法：1. 生菜洗净切细丝，鸡蛋加盐打匀。2. 热锅加油炒鸡蛋至凝固盛出。3. 再热锅加少许油，爆香葱末，加入生菜炒软。4. 倒入鸡蛋炒匀出锅。",
+                "en": "Ingredients: Eggs, lettuce, salt, green onions, cooking oil\nMethod: 1. Shred lettuce finely, beat eggs with salt. 2. Fry eggs until just set, remove. 3. Heat oil again, sauté green onions, stir-fry lettuce until soft. 4. Return eggs, mix and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "四季豆炒鸡蛋",
+                "en": "Egg with Green Beans"
+              },
+              "status": "unlocked",
+              "id": "egg-with-green-beans-e5793b",
+              "notes": {
+                "zh": "配料：鸡蛋、四季豆、盐、蒜、食用油\n做法：1. 四季豆去筋切段，焯水备用。2. 鸡蛋加盐打散。3. 炒蛋至凝固取出。4. 炒四季豆加蒜，最后倒入鸡蛋炒匀。",
+                "en": "Ingredients: Eggs, green beans, salt, garlic, oil\nMethod: 1. Trim and blanch green beans. 2. Beat eggs with salt. 3. Fry eggs until set, remove. 4. Sauté beans with garlic, return eggs, stir and serve."
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "蔬菜",
+            "en": "Vegetables Dishes"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "油渣/白灼菜心",
+                "en": "Stir-fried/Blanched Greens"
+              },
+              "status": "unlocked",
+              "id": "stir-fried/blanched-greens-b13849",
+              "notes": {
+                "zh": "配料：菜心、蒜、油渣（可选）、盐、食用油\n做法：1. 菜心洗净。2. 白灼做法：加盐焯水1分钟后淋蒜油。3. 炒制做法：热锅爆香蒜末和油渣，快速翻炒菜心，加盐调味出锅。",
+                "en": "Ingredients: Choy sum, garlic, pork cracklings (optional), salt, oil\nMethod: 1. Wash greens. 2. Blanched version: blanch with salted water 1 min, drizzle garlic oil. 3. Stir-fried version: sauté garlic and cracklings, stir-fry greens, season and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "培根炒甘蓝",
+                "en": "Stir-fried Kale with Bacon"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：甘蓝、培根、蒜、盐、食用油、蜂蜜、黑胡椒\n做法：1. 甘蓝洗净切段，放入沸水焯1-2分钟后捞出沥干。2. 将焯好的甘蓝放入空气炸锅，200度烤10分钟。3. 培根切小片，蒜切末。4. 热锅加油，放入培根炒出油脂。5. 加蒜末炒香，再放入烤好的甘蓝翻炒至软。6. 加盐、蜂蜜和黑胡椒调味，炒匀后出锅。",
+                "en": "Ingredients: Kale, bacon, garlic, salt, cooking oil, honey, black pepper\nMethod: 1. Rinse and cut kale into segments, blanch in boiling water for 1-2 minutes, then drain. 2. Place blanched kale in an air fryer, bake at 200°C for 10 minutes. 3. Slice bacon into small pieces, mince garlic. 4. Heat oil in a pan, fry bacon until oil renders. 5. Add minced garlic and sauté until fragrant, then add air-fried kale and stir-fry until soft. 6. Season with salt, honey, and black pepper, stir well, and serve."
+              },
+              "id": "stir-fried-kale-with-bacon-91cd00"
+            },
+            {
+              "name": {
+                "zh": "地三鲜",
+                "en": "Three Fresh Vegetables"
+              },
+              "status": "unlocked",
+              "id": "three-fresh-vegetables-9a56b5",
+              "notes": {
+                "zh": "配料：土豆、茄子、青椒、大蒜、盐、生抽、蚝油、糖、食用油\n做法：1. 土豆、茄子切块，青椒切段。2. 土豆炸至金黄，茄子炸软。3. 热锅加油炒蒜，依次下土豆、茄子、青椒。4. 加调味料炒匀出锅。",
+                "en": "Ingredients: Potato, eggplant, green pepper, garlic, salt, soy sauce, oyster sauce, sugar, cooking oil\nMethod: 1. Cut vegetables into chunks. 2. Fry potato till golden, eggplant till soft. 3. Sauté garlic, stir-fry all vegetables. 4. Add sauces, mix and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "醋溜炝炒藕片",
+                "en": "Stir-fried Lotus Root with Vinegar"
+              },
+              "status": "unlocked",
+              "emoji": "🥬",
+              "rating": 91,
+              "notes": {
+                "zh": "配料：藕、醋、干辣椒、蒜、盐、糖、食用油\n做法：1. 藕去皮切片，泡水防氧化。2. 干辣椒、蒜切末。3. 热锅加油，炒香辣椒蒜末。4. 加藕片大火快炒，加糖和醋炒匀。5. 出锅前加盐调味。",
+                "en": "Ingredients: Lotus root, vinegar, dried chili, garlic, salt, sugar, oil\nMethod: 1. Peel and slice lotus root, soak in water. 2. Chop chili and garlic. 3. Stir-fry chili and garlic. 4. Add lotus root, stir with sugar and vinegar. 5. Season with salt and serve."
+              },
+              "id": "stir-fried-lotus-root-with-vinegar-69bbc5"
+            },
+            {
+              "name": {
+                "zh": "炸藕盒",
+                "en": "Fried Lotus Root"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：莲藕、猪肉末、面粉、淀粉、鸡蛋、葱、姜、酱油、盐、食用油\n做法：1. 莲藕切片，猪肉末加葱姜末、酱油和盐拌匀。2. 将肉馅夹在两片莲藕间。3. 面粉、淀粉和鸡蛋调成糊，裹在藕盒上。4. 热锅加油，炸至金黄酥脆。5. 捞出控油后食用。",
+                "en": "Ingredients: Lotus root, ground pork, flour, cornstarch, egg, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Slice lotus root, mix ground pork with minced green onions, ginger, soy sauce, and salt. 2. Sandwich pork filling between two lotus root slices. 3. Mix flour, cornstarch, and egg into a batter, coat the lotus root sandwiches. 4. Heat oil in a pan, fry until golden and crispy. 5. Drain oil and serve."
+              },
+              "id": "fried-lotus-root-eb8ba9"
+            },
+            {
+              "name": {
+                "zh": "醋溜包菜",
+                "en": "Stir-fried Cabbage with Vinegar"
+              },
+              "status": "unlocked",
+              "emoji": "🥬",
+              "rating": 90,
+              "notes": {
+                "zh": "配料：包菜、醋、干辣椒、葱、姜、酱油、糖、食用油\n做法：1. 包菜撕成片洗净。2. 热锅加油，炒香干辣椒、葱和姜。3. 放入包菜翻炒至软。4. 加醋、酱油和糖调味，快速炒匀即可。",
+                "en": "Ingredients: Cabbage, vinegar, dried chilies, green onions, ginger, soy sauce, sugar, cooking oil\nMethod: 1. Tear cabbage into pieces and rinse. 2. Heat oil in a pan, sauté dried chilies, green onions, and ginger. 3. Add cabbage and stir-fry until soft. 4. Season with vinegar, soy sauce, and sugar, stir-fry quickly, and serve."
+              },
+              "id": "stir-fried-cabbage-with-vinegar-d51e36"
+            },
+            {
+              "name": {
+                "zh": "老厨白菜",
+                "en": "Stir-fried Cabbage"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：白菜、蒜、干辣椒、酱油、盐、食用油\n做法：1. 白菜洗净切段。2. 蒜切片，干辣椒剪段。3. 热锅加油，爆香蒜片和干辣椒。4. 放入白菜翻炒至软。5. 加酱油和盐调味，炒匀后出锅。",
+                "en": "Ingredients: Cabbage, garlic, dried chilies, soy sauce, salt, cooking oil\nMethod: 1. Rinse and cut cabbage into segments. 2. Slice garlic, cut dried chilies into segments. 3. Heat oil in a pan, sauté garlic and dried chilies. 4. Add cabbage and stir-fry until soft. 5. Season with soy sauce and salt, stir well, and serve."
+              },
+              "id": "stir-fried-cabbage-90d1a9"
+            },
+            {
+              "name": {
+                "zh": "烂糊白菜",
+                "en": "Stir-fried Cabbage Soup"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：白菜、猪肉片、粉条、葱、姜、酱油、盐、食用油\n做法：1. 白菜切段，粉条泡软，猪肉切薄片。2. 热锅加油，炒猪肉至变色，加葱姜炒香。3. 放入白菜翻炒至软，加入粉条。4. 加水煮开，小火炖至白菜烂糊。5. 加酱油和盐调味后出锅。",
+                "en": "Ingredients: Cabbage, pork slices, vermicelli, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Cut cabbage into segments, soak vermicelli until soft, slice pork thinly. 2. Heat oil in a pan, stir-fry pork until it changes color, add green onions and ginger and sauté. 3. Add cabbage and stir-fry until soft, then add vermicelli. 4. Add water and bring to a boil, simmer until cabbage is mushy. 5. Season with soy sauce and salt, then serve."
+              },
+              "id": "stir-fried-cabbage-soup-1bdeff"
+            },
+            {
+              "name": {
+                "zh": "蒜蓉娃娃菜",
+                "en": "Stir-fried Baby Cabbage with Garlic"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：娃娃菜、大蒜、酱油、盐、食用油\n做法：1. 娃娃菜洗净切段，大蒜切末。2. 热锅加油，放入蒜末炒香。3. 加入娃娃菜翻炒至软。4. 加酱油和盐调味，炒匀后出锅。",
+                "en": "Ingredients: Baby cabbage, garlic, soy sauce, salt, cooking oil\nMethod: 1. Rinse and cut baby cabbage into segments, mince garlic. 2. Heat oil in a pan, sauté minced garlic until fragrant. 3. Add baby cabbage and stir-fry until soft. 4. Season with soy sauce and salt, stir well, and serve."
+              },
+              "id": "stir-fried-baby-cabbage-with-garlic-9f1a3b"
+            },
+            {
+              "name": {
+                "zh": "醋溜土豆丝",
+                "en": "Stir-fried Potato Shreds with Vinegar"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：土豆、醋、干辣椒、葱、盐、食用油\n做法：1. 土豆去皮切丝，泡水洗去淀粉后沥干。2. 葱切段，干辣椒剪段。3. 热锅加油，爆香干辣椒和葱段。4. 放入土豆丝快速翻炒至变软。5. 加醋和盐调味，炒匀后出锅。",
+                "en": "Ingredients: Potatoes, vinegar, dried chilies, green onions, salt, cooking oil\nMethod: 1. Peel and shred potatoes, soak in water to remove starch, then drain. 2. Cut green onions into segments, cut dried chilies into segments. 3. Heat oil in a pan, sauté dried chilies and green onions. 4. Add potato shreds and stir-fry quickly until soft. 5. Season with vinegar and salt, stir well, and serve."
+              },
+              "id": "stir-fried-potato-shreds-with-vinegar-722067"
+            },
+            {
+              "name": {
+                "zh": "孜然土豆",
+                "en": "Cumin Potato"
+              },
+              "status": "unlocked",
+              "emoji": "🥔",
+              "rating": 92,
+              "notes": {
+                "zh": "配料：土豆、孜然粉、干辣椒、葱、盐、食用油\n做法：1. 土豆去皮切小块，煮至八成熟后捞出。2. 葱切段，干辣椒剪段。3. 热锅加油，放入土豆块煎至表面金黄。4. 加干辣椒和葱段炒香，撒孜然粉炒匀即可。",
+                "en": "Ingredients: Potatoes, cumin powder, dried chilies, green onions, salt, cooking oil\nMethod: 1. Peel and cut potatoes into small chunks, boil until 80% cooked, then drain. 2. Cut green onions into segments, cut dried chilies into segments. 3. Heat oil in a pan, fry potato chunks until golden on the surface. 4. Add dried chilies and green onions, sauté until fragrant, then sprinkle with cumin powder and stir-fry evenly. 5. Season with salt, stir well, and serve."
+              },
+              "id": "cumin-potato-3b1979"
+            },
+            {
+              "name": {
+                "zh": "培根土豆片",
+                "en": "Stir-fried Potato with Bacon"
+              },
+              "status": "unlocked",
+              "emoji": "🥔",
+              "rating": 90,
+              "notes": {
+                "zh": "配料：土豆、培根、葱、蒜、酱油、盐、食用油\n做法：1. 土豆去皮切薄片，泡水洗去淀粉后沥干。2. 培根切小片，葱切段，蒜切末。3. 热锅加油，放入培根炒出油脂。4. 加蒜末炒香，再放入土豆片翻炒至熟。5. 加酱油和盐调味，撒上葱段后出锅。",
+                "en": "Ingredients: Potatoes, bacon, green onions, garlic, soy sauce, salt, cooking oil\nMethod: 1. Peel and slice potatoes thinly, soak in water to remove starch, then drain. 2. Cut bacon into small pieces, cut green onions into segments, mince garlic. 3. Heat oil in a pan, fry bacon until oil renders. 4. Add minced garlic and sauté until fragrant, then add potato slices and stir-fry until cooked. 5. Season with soy sauce and salt, sprinkle with green onions, and serve."
+              },
+              "id": "stir-fried-potato-with-bacon-e75598"
+            },
+            {
+              "name": {
+                "zh": "葱烧豆腐",
+                "en": "Stir-fried Tofu with Scallion"
+              },
+              "status": "unlocked",
+              "id": "stir-fried-tofu-with-scallion-b94335",
+              "notes": {
+                "zh": "配料：老豆腐、葱、姜、酱油、糖、盐、水淀粉、食用油\n做法：1. 豆腐切块煎至两面金黄。2. 加入葱段姜片炒香。3. 倒入酱油、糖，加水煮几分钟。4. 勾芡加盐收汁出锅。",
+                "en": "Ingredients: Firm tofu, scallion, ginger, soy sauce, sugar, salt, starch water, oil\nMethod: 1. Pan-fry tofu till golden. 2. Add scallion and ginger. 3. Pour in soy sauce, sugar, water, simmer. 4. Thicken with starch, season and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "麻婆豆腐",
+                "en": "Mapo Tofu"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：豆腐、牛肉末、豆瓣酱、花椒、干辣椒、葱、姜、蒜、酱油、淀粉、食用油\n做法：1. 豆腐切块焯水备用。2. 热锅加油，炒香豆瓣酱、花椒和干辣椒。3. 加葱姜蒜炒香，放入牛肉末炒至变色。4. 加入豆腐，加水煮开后小火炖5分钟。5. 用淀粉水勾芡，撒葱花后出锅。",
+                "en": "Ingredients: Tofu, ground beef, bean paste, Sichuan peppercorns, dried chilies, green onions, ginger, garlic, soy sauce, cornstarch, cooking oil\nMethod: 1. Cut tofu into cubes and blanch in boiling water, set aside. 2. Heat oil in a pan, sauté bean paste, Sichuan peppercorns, and dried chilies. 3. Add green onions, ginger, and garlic, sauté until fragrant, then add ground beef and stir-fry until it changes color. 4. Add tofu, pour in water, bring to a boil, then simmer for 5 minutes. 5. Thicken with cornstarch slurry, sprinkle with green onions, and serve."
+              },
+              "id": "mapo-tofu-6ae50c"
+            },
+            {
+              "name": {
+                "zh": "炸茄盒",
+                "en": "Fried Eggplant"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：茄子、猪肉末、面粉、淀粉、鸡蛋、葱、姜、酱油、盐、食用油\n做法：1. 茄子切片，猪肉末加葱姜末、酱油和盐拌匀。2. 将肉馅夹在两片茄子间。3. 面粉、淀粉和鸡蛋调成糊，裹在茄盒上。4. 热锅加油，炸至金黄酥脆。5. 捞出控油后食用。",
+                "en": "Ingredients: Eggplant, ground pork, flour, cornstarch, egg, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Slice eggplant, mix ground pork with minced green onions, ginger, soy sauce, and salt. 2. Sandwich pork filling between two eggplant slices. 3. Mix flour, cornstarch, and egg into a batter, coat the eggplant sandwiches. 4. Heat oil in a pan, fry until golden and crispy. 5. Drain oil and serve."
+              },
+              "id": "fried-eggplant-7f34c0"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "锅仔",
+            "en": "Hotpot Dishes"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "麻辣拌",
+                "en": "Spicy Mix"
+              },
+              "status": "unlocked",
+              "id": "spicy-mix-761813",
+              "notes": {
+                "zh": "配料：豆皮、土豆片、金针菇、木耳、莴笋等可选配料，辣椒油、花椒油、蒜泥、酱油、醋、香菜\n做法：1. 所有食材焯水捞出沥干。2. 加调料拌匀即可食用。",
+                "en": "Ingredients: Tofu skin, potato slices, enoki mushrooms, wood ear, lettuce, chili oil, pepper oil, minced garlic, soy sauce, vinegar, cilantro\nMethod: 1. Blanch all ingredients, drain. 2. Mix with all sauces and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "麻辣香锅",
+                "en": "Spicy Pot"
+              },
+              "status": "unlocked",
+              "id": "spicy-pot-54664c",
+              "notes": {
+                "zh": "配料：五花肉片、土豆片、藕片、豆皮、西兰花、香肠、辣椒、花椒、郫县豆瓣酱、蒜、葱、姜\n做法：1. 所有食材处理备用。2. 热锅炒香辣椒、花椒、豆瓣酱、蒜姜葱。3. 依次加入主料翻炒入味，出锅装盘。",
+                "en": "Ingredients: Pork belly, potato, lotus root, tofu skin, broccoli, sausage, chili, Sichuan peppercorns, douban paste, garlic, scallion, ginger\nMethod: 1. Prep all ingredients. 2. Sauté chili, peppercorns, paste, garlic, scallion, ginger. 3. Add main ingredients, stir-fry and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "三汁焖锅",
+                "en": "Three Sauce Pot"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "待确认",
+                "en": "To be confirmed"
+              },
+              "id": "three-sauce-pot-766a49"
+            }
+          ]
+        }
+      ],
+      "id": "2aa0b4b1-f5db-444b-bd0e-f72ec652fab1"
+    },
+    {
+      "name": {
+        "zh": "西餐类",
+        "en": "Western Dishes"
+      },
+      "subcategories": [
+        {
+          "name": {
+            "zh": "西餐",
+            "en": "Western"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "法式番茄奶油炖鸡",
+                "en": "French Tomato Cream Chicken"
+              },
+              "status": "unlocked",
+              "emoji": "🍅",
+              "rating": 92,
+              "notes": {
+                "zh": "做法：1. 鸡肉切块，用盐和黑胡椒腌制。2. 热锅加橄榄油，煎鸡肉至两面金黄，取出备用。3. 锅中加蒜末炒香，放入番茄炒软。4. 倒入奶油，加入鸡肉煮至软化。5. 放回鸡肉，小火炖5分钟，撒上帕尔马干酪后出锅。",
+                "en": "Method: 1. Cut chicken into pieces, marinate with salt and black pepper. 2. Heat olive oil in a pan, sear chicken 2-3 minutes per side until golden, then set aside. 3. Sauté minced garlic in the pan until fragrant, add tomatoes and cook until soft. 4. Pour in cream, add chicken, and cook until tender. 5. Return chicken to the pan, simmer for 5 minutes, sprinkle with Parmesan, and serve."
+              },
+              "id": "french-tomato-cream-chicken-72511a"
+            },
+            {
+              "name": {
+                "zh": "泰式薄荷脆皮鸡排",
+                "en": "Thai Mint Crispy Chicken"
+              },
+              "status": "unlocked",
+              "emoji": "🌿",
+              "rating": 94,
+              "notes": {
+                "zh": "配料：鸡胸肉、鸡蛋、淀粉、薄荷叶、蒜、泰式甜辣酱、盐、食用油\n做法：1. 鸡胸肉拍平，撒盐腌10分钟。2. 裹蛋液和淀粉，煎至两面金黄。3. 切片后淋上蒜末和甜辣酱，撒薄荷叶即可。",
+                "en": "Ingredients: Chicken breast, egg, starch, mint leaves, garlic, Thai sweet chili sauce, salt, cooking oil\nMethod: 1. Flatten chicken breast and marinate with salt. 2. Coat with egg and starch, pan-fry until golden. 3. Slice, drizzle with minced garlic, chili sauce, and mint leaves."
+              },
+              "id": "thai-mint-crispy-chicken-763079"
+            },
+            {
+              "name": {
+                "zh": "帕玛森芝士鸡排",
+                "en": "Parmesan Chicken"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "做法：1. 鸡排两面均匀撒上盐和黑胡椒。2. 在鸡排两面均匀撒上帕玛森芝士。3. 放入预热180度的烤箱烤10分钟。4. 烤好后取出，切成小块即可。",
+                "en": "Method: 1. Sprinkle chicken cutlets with salt and black pepper evenly. 2. Sprinkle parmesan cheese evenly on both sides of the chicken cutlets. 3. Bake in a preheated 180°C oven for 10 minutes. 4. Bake until golden brown and serve."
+              },
+              "id": "parmesan-chicken-6b1de2"
+            },
+            {
+              "name": {
+                "zh": "牛肉汉堡",
+                "en": "Beef Burger"
+              },
+              "status": "unlocked",
+              "emoji": "🍔",
+              "rating": 93,
+              "notes": {
+                "zh": "配料：牛肉饼、汉堡胚、生菜、番茄、洋葱、芝士片、沙拉酱\n做法：1. 牛肉饼煎至熟透。2. 汉堡胚切开加热。3. 依次夹入生菜、番茄片、洋葱圈、牛肉饼、芝士和酱料组合即可。",
+                "en": "Ingredients: Beef patty, burger bun, lettuce, tomato, onion, cheese slice, mayonnaise\nMethod: 1. Cook beef patty thoroughly. 2. Warm burger bun. 3. Layer lettuce, tomato, onion, patty, cheese, and sauce inside bun and serve."
+              },
+              "id": "beef-burger-e500ba"
+            },
+            {
+              "name": {
+                "zh": "培根芝士薯条",
+                "en": "Bacon and Cheese Fries"
+              },
+              "status": "unlocked",
+              "emoji": "🍟",
+              "rating": 94,
+              "notes": {
+                "zh": "配料：薯条、培根、芝士碎、葱花\n做法：1. 薯条炸至金黄，培根煎熟切碎。2. 撒上芝士和培根碎，放入烤箱烤至芝士融化。3. 撒葱花后食用。",
+                "en": "Ingredients: French fries, bacon, shredded cheese, green onions\nMethod: 1. Fry fries until golden, cook and chop bacon. 2. Sprinkle cheese and bacon over fries, bake until cheese melts. 3. Top with green onions and serve."
+              },
+              "id": "bacon-and-cheese-fries-f2dfaf"
+            },
+            {
+              "name": {
+                "zh": "披萨",
+                "en": "Pizza"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：面粉、酵母、番茄酱、奶酪、火腿、洋葱、青椒、橄榄油\n做法：1. 面粉加酵母和水揉成面团，发酵1小时。2. 擀成圆形饼底，涂上番茄酱。3. 撒上奶酪，铺上火腿、洋葱和青椒。4. 放入预热200度的烤箱，烤15-20分钟。5. 烤至奶酪融化后取出食用。",
+                "en": "Ingredients: Flour, yeast, tomato sauce, cheese, ham, onion, green pepper, olive oil\nMethod: 1. Mix flour with yeast and water to form a dough, let ferment for 1 hour. 2. Roll into a round base, spread with tomato sauce. 3. Sprinkle with cheese, top with ham, onion, and green pepper. 4. Bake in a preheated 200°C oven for 15-20 minutes. 5. Remove when cheese is melted and serve."
+              },
+              "id": "pizza-d3c3b8"
+            },
+            {
+              "name": {
+                "zh": "托斯卡纳三文鱼",
+                "en": "Tuscan Salmon"
+              },
+              "status": "unlocked",
+              "id": "tuscan-salmon-d795df",
+              "notes": {
+                "zh": "配料：三文鱼、奶油、蒜、洋葱、番茄、菠菜、帕玛森芝士、盐、黑胡椒、橄榄油\n做法：1. 三文鱼撒盐和黑胡椒煎至两面微焦。2. 热锅加橄榄油炒蒜末和洋葱，加入奶油、番茄和菠菜煮软。3. 加芝士融化后放入三文鱼，小火炖2分钟即可。",
+                "en": "Ingredients: Salmon, butter, garlic, onion, tomato, spinach, parmesan cheese, salt, black pepper, olive oil\nMethod: 1. Season salmon with salt and pepper, sear until golden. 2. In another pan, sauté garlic and onion, then add butter, tomato, and spinach. 3. Stir in cheese until melted, return salmon to pan, simmer for 2 minutes."
+              }
+            },
+            {
+              "name": {
+                "zh": "韩式拌饭",
+                "en": "Korean Bibimbap"
+              },
+              "status": "unlocked",
+              "id": "korean-bibimbap-aef28b",
+              "notes": {
+                "zh": "配料：米饭、鸡蛋、胡萝卜、菠菜、黄豆芽、牛肉、韩式辣酱、香油、芝麻\n做法：1. 各种蔬菜分别焯水后调味炒熟。2. 牛肉切丝炒香，鸡蛋煎荷包蛋。3. 米饭中间放蛋，其它配料围边，淋辣酱和香油撒芝麻即可。",
+                "en": "Ingredients: Rice, egg, carrot, spinach, soybean sprouts, beef, Korean chili paste, sesame oil, sesame seeds\nMethod: 1. Blanch and season each vegetable separately. 2. Stir-fry beef strips, fry an egg. 3. Place rice in bowl, top with egg and ingredients, add chili paste, sesame oil, and sesame seeds."
+              }
+            },
+            {
+              "name": {
+                "zh": "黄油芝士蒜香土豆",
+                "en": "Butter and Cheese Garlic Potato"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：土豆、黄油、大蒜、奶酪、盐、黑胡椒、欧芹\n做法：1. 土豆煮熟后压成泥。2. 加入炒香的蒜末和黄油拌匀，加入奶酪、盐、黑胡椒调味。3. 烤箱烘烤5-8分钟至表面金黄，撒欧芹装饰。",
+                "en": "Ingredients: Potato, butter, garlic, cheese, salt, black pepper, parsley\nMethod: 1. Boil and mash potatoes. 2. Mix in sautéed garlic and butter, then add cheese, salt, and pepper. 3. Bake for 5-8 minutes until golden, garnish with parsley."
+              },
+              "id": "butter-and-cheese-garlic-potato-3476f0"
+            },
+            {
+              "name": {
+                "zh": "牛排",
+                "en": "Steak"
+              },
+              "status": "unlocked",
+              "emoji": "🥩",
+              "rating": 95,
+              "id": "steak-039118",
+              "notes": {
+                "zh": "配料：牛排、黑胡椒、盐、黄油、大蒜、迷迭香\n做法：1. 牛排室温放置20分钟，撒盐和黑胡椒。2. 热锅加油煎至两面上色，加入黄油、蒜和迷迭香反复淋油。3. 依喜好火候煎制后静置5分钟切片食用。",
+                "en": "Ingredients: Steak, black pepper, salt, butter, garlic, rosemary\nMethod: 1. Bring steak to room temp, season with salt and pepper. 2. Sear both sides in hot pan, add butter, garlic, rosemary, baste steak. 3. Cook to desired doneness, rest 5 mins before slicing."
+              }
+            },
+            {
+              "name": {
+                "zh": "惠灵顿牛排",
+                "en": "Wellington Steak"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：牛排、酥皮、蘑菇、火腿、盐、黑胡椒、黄油、鸡蛋\n做法：1. 牛排用盐和黑胡椒腌制，煎至两面金黄。2. 蘑菇切碎炒干水分，加黄油调味。3. 酥皮铺平，放入火腿、蘑菇和牛排，包紧。4. 刷上蛋液，放入预热200度的烤箱烤30分钟。5. 烤至酥皮金黄后取出切片食用。",
+                "en": "Ingredients: Steak, puff pastry, mushrooms, ham, salt, black pepper, butter, egg\nMethod: 1. Season steak with salt and black pepper, sear until golden on both sides. 2. Chop mushrooms, sauté until dry, season with butter. 3. Lay out puff pastry, layer with ham, mushrooms, and steak, wrap tightly. 4. Brush with egg wash, bake in a preheated 200°C oven for 30 minutes. 5. Remove when pastry is golden, slice, and serve."
+              },
+              "id": "wellington-steak-607382"
+            },
+            {
+              "name": {
+                "zh": "蛋黄酱焗龙虾",
+                "en": "Mayonnaise Baked Lobster"
+              },
+              "status": "unlocked",
+              "rating": 70,
+              "notes": {
+                "zh": "做法：1. 龙虾洗净，去壳，去虾线。2. 将龙虾肉切成小块，加入蛋黄酱、盐、胡椒粉、蒜末、洋葱末、辣椒粉、橄榄油拌匀。3. 将拌好的龙虾肉放入烤盘中，放入预热180度的烤箱烤10分钟。4. 烤好后取出，撒上葱花即可。",
+                "en": "Method: 1. Clean the lobster, remove the shell and shrimp line. 2. Cut the lobster meat into small pieces, add mayonnaise, salt, pepper, minced garlic, onion, chili powder, olive oil. 3. Place the mixed lobster meat in a baking sheet, bake in a preheated 180°C oven for 10 minutes. 4. Bake until golden brown and serve."
+              },
+              "id": "mayonnaise-baked-lobster-1b6057"
+            },
+            {
+              "name": {
+                "zh": "意面",
+                "en": "Pasta"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "番茄牛肉 ⭐95\n辣奶油奶油海鲜（虾仁，扇贝都可）\nCarbonara ⭐93\n咖喱牛肉/鸡排（待测）",
+                "en": "Tomato Beef (95/100)\nSpicy Cream Seafood (Shrimp, Scallops)\nCarbonara (93/100)\nCurry Beef/Chicken (To be tested)"
+              },
+              "id": "pasta-c7c606"
+            },
+            {
+              "name": {
+                "zh": "牧羊人派",
+                "en": "Shepherd\"s Pie"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：牛肉末、土豆、胡萝卜、洋葱、黄油、奶酪、盐、黑胡椒\n做法：1. 土豆煮熟捣成泥加奶油和盐调味。2. 牛肉炒熟加胡萝卜和洋葱煮至软化，加盐胡椒。3. 把肉酱铺底、土豆泥铺顶、撒芝士，烤箱200度烤20分钟。",
+                "en": "Ingredients: Ground beef, potatoes, carrots, onion, butter, cheese, salt, black pepper\nMethod: 1. Boil and mash potatoes, mix with butter and salt. 2. Cook beef with carrots and onion, season. 3. Layer meat then mashed potatoes, top with cheese, bake at 200°C for 20 minutes."
+              },
+              "id": "shepherd\"s-pie-a50300"
+            },
+            {
+              "name": {
+                "zh": "培根蘑菇奶油浓汤",
+                "en": "Bacon and Mushroom Cream Soup"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：培根、蘑菇、洋葱、黄油、面粉、牛奶、盐、黑胡椒\n做法：1. 培根切小片，蘑菇和洋葱切碎。2. 热锅加黄油，炒培根至出油，加入洋葱和蘑菇炒软。3. 撒上面粉炒匀，倒入牛奶搅拌至浓稠。4. 加盐和黑胡椒调味，小火煮5分钟。5. 出锅后即可食用。",
+                "en": "Ingredients: Bacon, mushrooms, onion, butter, flour, milk, salt, black pepper\nMethod: 1. Cut bacon into small pieces, chop mushrooms and onion. 2. Heat butter in a pot, fry bacon until oil renders, add onion and mushrooms, sauté until soft. 3. Sprinkle flour, stir well, pour in milk, and stir until thickened. 4. Season with salt and black pepper, simmer for 5 minutes. 5. Serve immediately."
+              },
+              "id": "bacon-and-mushroom-cream-soup-69c4c7"
+            }
+          ]
+        }
+      ],
+      "id": "b9352277-bf98-4fa0-b5d3-495d1a9d667d"
+    },
+    {
+      "name": {
+        "zh": "烧烤类",
+        "en": "Grilled Dishes"
+      },
+      "subcategories": [
+        {
+          "name": {
+            "zh": "中式烧烤",
+            "en": "Chinese BBQ"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "烤生蚝",
+                "en": "Roast Oysters"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：生蚝、大蒜、粉丝、蒸鱼豉油、葱、红椒、食用油\n做法：1. 粉丝泡软，放在蚝壳上。2. 蒜末炒香加豉油，浇在粉丝上。3. 放葱花红椒碎，蒸8分钟或上烤箱烤熟。",
+                "en": "Ingredients: Oysters, garlic, vermicelli, steamed fish soy sauce, scallions, red pepper, cooking oil\nMethod: 1. Soak vermicelli, place on oyster shell. 2. Fry garlic with soy sauce, pour over. 3. Top with scallions and red pepper, steam 8 min or roast."
+              },
+              "id": "roast-oysters-8874d2"
+            },
+            {
+              "name": {
+                "zh": "烤鸡",
+                "en": "Roast Chicken"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：整鸡、盐、黑胡椒、蒜粉、迷迭香、橄榄油\n做法：1. 鸡洗净，用厨房纸擦干。2. 混合盐、黑胡椒、蒜粉和迷迭香，涂抹鸡内外。3. 刷上橄榄油，放入预热180度的烤箱。4. 烤1.5小时，每30分钟翻面一次。5. 烤至表面金黄酥脆后取出食用。",
+                "en": "Ingredients: Whole chicken, salt, black pepper, garlic powder, rosemary, olive oil\nMethod: 1. Rinse chicken and pat dry with paper towels. 2. Mix salt, black pepper, garlic powder, and rosemary, rub inside and outside the chicken. 3. Brush with olive oil, place in a preheated 180°C oven. 4. Roast for 1.5 hours, flipping every 30 minutes. 5. Remove when the surface is golden and crispy, then serve."
+              },
+              "id": "roast-chicken-e38970"
+            },
+            {
+              "name": {
+                "zh": "奥尔良鸡翅&手枪腿",
+                "en": "Orleans Chicken Wings & Drumsticks"
+              },
+              "status": "unlocked",
+              "emoji": "🍗",
+              "rating": 94,
+              "id": "orleans-chicken-wings-&-drumsticks-c4bc59",
+              "notes": {
+                "zh": "配料：鸡翅、鸡腿、奥尔良腌料、蜂蜜、食用油\n做法：1. 鸡翅鸡腿洗净，用奥尔良腌料腌制4小时。2. 烤箱预热200度，鸡肉刷蜂蜜，烤25分钟至表皮金黄。",
+                "en": "Ingredients: Chicken wings, drumsticks, Orleans marinade, honey, cooking oil\nMethod: 1. Marinate cleaned chicken in Orleans spice for 4 hours. 2. Brush with honey, roast at 200°C for 25 minutes until golden."
+              }
+            },
+            {
+              "name": {
+                "zh": "菠萝烤鸡翅",
+                "en": "Pineapple Roast Chicken Wings"
+              },
+              "status": "unlocked",
+              "emoji": "🍍",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：鸡翅中、菠萝、蜂蜜、酱油、料酒、蒜末、黑胡椒、食用油\n做法：1. 鸡翅洗净划刀，用酱油、料酒、蒜末、蜂蜜腌制2小时。2. 菠萝切块备用。3. 鸡翅摆盘，与菠萝一同入烤箱200°C烤25分钟，中间翻面。4. 表面刷蜂蜜，撒黑胡椒再烤5分钟出炉。",
+                "en": "Ingredients: Chicken wings, pineapple, honey, soy sauce, cooking wine, minced garlic, black pepper, oil\nMethod: 1. Clean and score wings, marinate with soy sauce, wine, garlic, and honey for 2 hours. 2. Cut pineapple into chunks. 3. Roast wings and pineapple at 200°C for 25 minutes, flip halfway. 4. Brush with honey, sprinkle pepper, roast 5 more minutes."
+              },
+              "id": "pineapple-roast-chicken-wings-3bb36e"
+            },
+            {
+              "name": {
+                "zh": "烤羊排",
+                "en": "Roast Lamb Ribs"
+              },
+              "status": "unlocked",
+              "emoji": "🍖",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：羊肋排、孜然粉、辣椒粉、蒜末、盐、黑胡椒、食用油\n做法：1. 羊排洗净抹干，用蒜末、盐、孜然粉、辣椒粉、黑胡椒和油腌制3小时。2. 放入预热烤箱200°C，烤40分钟，中途翻面并刷油。3. 表面微焦香脆后取出装盘。",
+                "en": "Ingredients: Lamb ribs, cumin powder, chili powder, minced garlic, salt, black pepper, oil\nMethod: 1. Pat ribs dry and marinate with garlic, salt, cumin, chili powder, pepper and oil for 3 hours. 2. Roast at 200°C for 40 minutes, flip and baste midway. 3. Serve once crisp and browned."
+              },
+              "id": "roast-lamb-ribs-d77e9a"
+            },
+            {
+              "name": {
+                "zh": "烤韭菜",
+                "en": "Roast Leek"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：韭菜、蒜蓉、辣椒粉、孜然粉、酱油、食用油\n做法：1. 韭菜洗净控水，摆入烤盘。2. 混合蒜蓉、辣椒粉、孜然粉、酱油和油做料汁。3. 韭菜刷上调料，入烤箱200°C烤10分钟即可。",
+                "en": "Ingredients: Leek, minced garlic, chili powder, cumin, soy sauce, oil\nMethod: 1. Wash and drain leeks, arrange on tray. 2. Mix garlic, chili, cumin, soy sauce and oil as sauce. 3. Brush over leeks, roast at 200°C for 10 minutes."
+              },
+              "id": "roast-leek-61af86"
+            },
+            {
+              "name": {
+                "zh": "烤玉米",
+                "en": "Roast Corn"
+              },
+              "status": "unlocked",
+              "emoji": "🌽",
+              "rating": 93,
+              "notes": {
+                "zh": "配料：玉米棒、黄油、盐、黑胡椒、蜂蜜\n做法：1. 玉米洗净，用黄油、盐、黑胡椒均匀抹匀。2. 烤箱预热200°C，烤20分钟，中途翻面。3. 出炉前刷一层蜂蜜再烤3分钟即可。",
+                "en": "Ingredients: Corn cob, butter, salt, black pepper, honey\nMethod: 1. Clean corn and coat with butter, salt, pepper. 2. Roast at 200°C for 20 minutes, flipping once. 3. Brush with honey and roast 3 more minutes."
+              },
+              "id": "roast-corn-43b9a4"
+            },
+            {
+              "name": {
+                "zh": "烤包菜",
+                "en": "Roast Cabbage"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：包菜（圆白菜）、蒜末、辣椒粉、盐、橄榄油\n做法：1. 包菜切块或切厚片，拌上蒜末、盐、辣椒粉和橄榄油。2. 烤盘铺纸，摆上包菜。3. 烤箱200°C烤20分钟至边缘微焦即可。",
+                "en": "Ingredients: Cabbage, minced garlic, chili powder, salt, olive oil\nMethod: 1. Cut cabbage into chunks or thick slices, toss with garlic, salt, chili and oil. 2. Lay on baking paper. 3. Roast at 200°C for 20 minutes until edges are crisp."
+              },
+              "id": "roast-cabbage-39aad6"
+            },
+            {
+              "name": {
+                "zh": "烤茄子",
+                "en": "Roast Eggplant"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：茄子、大蒜、葱、辣椒粉、孜然、酱油、食用油\n做法：1. 茄子切半，表面划刀，用油刷匀。2. 烤箱预热200°C，茄子烤15分钟。3. 炒香蒜末、辣椒粉、孜然和酱油，浇在茄子上继续烤10分钟，撒葱花即可。",
+                "en": "Ingredients: Eggplant, garlic, scallions, chili powder, cumin, soy sauce, cooking oil\nMethod: 1. Halve eggplant and score, brush with oil. 2. Roast at 200°C for 15 min. 3. Sauté garlic, chili, cumin, soy sauce, pour on eggplant and roast 10 more min. Top with scallions."
+              },
+              "id": "roast-eggplant-e4717b"
+            },
+            {
+              "name": {
+                "zh": "烤牛排",
+                "en": "Roast Steak"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：牛排、盐、黑胡椒、黄油、蒜、迷迭香\n做法：1. 牛排室温放置20分钟，抹盐和黑胡椒。2. 热锅煎至两面上色，加入黄油、蒜和迷迭香反复淋油至熟。3. 静置5分钟切片食用。",
+                "en": "Ingredients: Steak, salt, black pepper, butter, garlic, rosemary\nMethod: 1. Bring steak to room temp, season with salt & pepper. 2. Sear both sides, baste with butter, garlic, rosemary until done. 3. Rest 5 mins before slicing."
+              },
+              "id": "roast-steak-2fc8ab"
+            }
+          ]
+        },
+        {
+         "name": {
+            "zh": "韩式烤肉",
+            "en": "Korean BBQ"
+          }, 
+          "dishes": [
+            {
+              "name": {
+                "zh": "韩式五花肉",
+                "en": "Korean Pork Belly"
+              },
+              "status": "unlocked",
+              "emoji": "🥓",
+              "notes": {
+                "zh": "配料：白芝麻一勺，蒜末两勺，蜂蜜一勺，韩式辣酱两勺，香油一勺，生抽一勺",
+                "en": "Ingredients: White sesame, minced garlic, honey, Korean chili paste, sesame oil, soy sauce"
+              },
+              "id": "korean-pork-belly-234567"
+            },
+            {
+              "name": {
+                "zh": "孜然牛肉",
+                "en": "Beef with Cumin"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：蒜末一勺，洋葱丝，白糖一勺，生抽一勺，孜然粉2勺",
+                "en": "Ingredients: Minced garlic, onion, sugar, soy sauce, cumin powder"
+              },
+              "id": "beef-with-cumin-234567"
+            },
+            {
+              "name": {
+                "zh": "烤羊肉",
+                "en": "Roast Lamb"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：鸡蛋一个，白胡椒粉半勺，孜然粉两勺，花椒粉一勺，盐适量，葱末姜丝",
+                "en": "Ingredients: Egg, white pepper, cumin, pepper, salt, scallions, ginger"
+              },
+              "id": "roast-lamb-234567"
+            },
+            {
+              "name": {
+                "zh": "黑椒肥牛",
+                "en": "Black Pepper Beef"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：洋葱丝，盐半勺，黑胡椒粉三勺，生抽一勺，耗油一勺，蜂蜜半勺。",
+                "en": "Ingredients: Onion, salt, black pepper, soy sauce, oyster sauce, honey"
+              },
+              "id": "black-pepper-beef-234567"
+            },
+            {
+              "name": {
+                "zh": "奥尔良烤翅",
+                "en": "Oraly Chicken Wings"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：奥尔良腌料4勺，蜂蜜一勺",
+                "en": "Ingredients: Oraly seasoning, honey"
+              },
+              "id": "oraly-chicken-wings-234567"
+            },
+            {
+              "name": {
+                "zh": "烤鱿鱼",
+                "en": "Roast Squid"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：洋葱丝，蒜末一勺，花椒面半勺，生抽一勺，蚝油一勺，孜然粉两勺",
+                "en": "Ingredients: Onion, minced garlic, pepper, soy sauce, oyster sauce, cumin"
+              },
+              "id": "roast-squid-234567"
+            },
+            {
+              "name": {
+                "zh": "蜜汁鸡胸肉",
+                "en": "Honey Chicken Breast"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：葱姜，盐一勺，生抽一勺，蚝油一勺，蜂蜜两勺",
+                "en": "Ingredients: Scallions, ginger, salt, soy sauce, oyster sauce, honey"
+              },
+              "id": "honey-chicken-breast-234567"
+            },
+            {
+              "name": {
+                "zh": "香辣鸡腿肉",
+                "en": "Spicy Chicken Leg"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：辣椒面三勺，盐一勺，生抽一勺，耗油一勺，孜然粉两勺，食用油适量",
+                "en": "Ingredients: Chili paste, salt, soy sauce, oyster sauce, cumin"
+              },
+              "id": "spicy-chicken-leg-234567"
+            },
+            {
+              "name": {
+                "zh": "蜜汁五花肉",
+                "en": "Honey Pork Belly"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：蒜末两勺，黑胡椒粉一勺，生抽两勺，蚝油一勺，蜂蜜两勺",
+                "en": "Ingredients: Minced garlic, black pepper, soy sauce, oyster sauce, honey"
+              },
+              "id": "honey-pork-belly-234567"
+            },
+            {
+              "name": {
+                "zh": "麻辣牛肉",
+                "en": "Spicy Beef"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：辣椒面四勺，盐一勺，鸡精一勺，花椒面一勺，淀粉，食用油",
+                "en": "Ingredients: Chili paste, salt, chicken powder, pepper, starch, cooking oil"
+              },
+              "id": "spicy-beef-234567"
+            }
+          ]
+        }
+      ],
+      "id": "07252338-78bd-4f0e-a69a-ee35f82faa9e"
+    },
+    {
+      "name": {
+        "zh": "主食类",
+        "en": "Main Dishes"
+      },
+      "subcategories": [
+        {
+          "name": {
+            "zh": "饭",
+            "en": "Rice"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "黑松露鸡肉焖饭",
+                "en": "Truffle Chicken Rice"
+              },
+              "status": "unlocked",
+              "emoji": "🍄",
+              "rating": 95,
+              "id": "truffle-chicken-rice-dfb395",
+              "notes": {
+                "zh": "配料：鸡腿肉、香菇、洋葱、黑松露酱、生抽、蚝油、米饭\n做法：1. 鸡肉腌制后与洋葱香菇炒香。2. 加调料和黑松露拌炒，加入米饭焖熟即可。",
+                "en": "Ingredients: Chicken thigh, mushrooms, onion, truffle paste, soy sauce, oyster sauce, rice\nMethod: 1. Marinate chicken, stir-fry with onion and mushrooms. 2. Add sauces and truffle, mix with rice, steam together."
+              }
+            },
+            {
+              "name": {
+                "zh": "卤肉饭",
+                "en": "Braised Pork Rice"
+              },
+              "status": "unlocked",
+              "emoji": "🥩",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：五花肉、姜、蒜、酱油、料酒、糖、鸡蛋、米饭\n做法：1. 五花肉炒至出油，加入调料焖煮入味。2. 放入鸡蛋煮至上色，配米饭食用。",
+                "en": "Ingredients: Pork belly, ginger, garlic, soy sauce, cooking wine, sugar, eggs, rice\nMethod: 1. Fry pork till fat renders, add seasonings, simmer. 2. Add eggs to absorb flavor, serve with rice."
+              },
+              "id": "braised-pork-rice-0a2a60"
+            },
+            {
+              "name": {
+                "zh": "五花肉南瓜/土豆焖饭",
+                "en": "Pork Belly with Pumpkin/Potato Rice"
+              },
+              "status": "locked",
+              "id": "pork-belly-with-pumpkin/potato-rice-a19f08",
+              "notes": {
+                "zh": "配料：五花肉、南瓜或土豆、洋葱、米、酱油、蚝油\n做法：1. 五花肉炒香后加入南瓜或土豆炒匀。2. 加米和调料，加水焖煮至米饭熟透。",
+                "en": "Ingredients: Pork belly, pumpkin or potato, onion, rice, soy sauce, oyster sauce\nMethod: 1. Stir-fry pork, add pumpkin or potato. 2. Mix with rice and sauces, cook with water till done."
+              }
+            },
+            {
+              "name": {
+                "zh": "照烧鸡排饭",
+                "en": "Teriyaki Chicken Rice"
+              },
+              "status": "unlocked",
+              "emoji": "🍗",
+              "rating": 92,
+              "notes": {
+                "zh": "配料：鸡腿肉、照烧酱、米饭、西兰花、胡萝卜\n做法：1. 鸡腿煎熟淋照烧酱收汁。2. 配上米饭和配菜摆盘即可。",
+                "en": "Ingredients: Chicken thigh, teriyaki sauce, rice, broccoli, carrot\nMethod: 1. Pan-fry chicken, glaze with teriyaki sauce. 2. Plate with rice and vegetables."
+              },
+              "id": "teriyaki-chicken-rice-f44a1c"
+            },
+            {
+              "name": {
+                "zh": "羊肉抓饭",
+                "en": "Lamb Rice"
+              },
+              "status": "unlocked",
+              "rating": 90,
+              "id": "lamb-rice-3aec5f",
+              "notes": {
+                "zh": "配料：羊肉、胡萝卜、洋葱、米、孜然、香料、盐\n做法：1. 羊肉焯水后炒香，加入胡萝卜洋葱炒匀。2. 与米饭同焖，加香料煮至入味。",
+                "en": "Ingredients: Lamb, carrot, onion, rice, cumin, spices, salt\nMethod: 1. Blanch and stir-fry lamb, add carrot and onion. 2. Mix with rice and spices, cook until done."
+              }
+            },
+            {
+              "name": {
+                "zh": "牛肉滑蛋饭",
+                "en": "Beef and Egg Rice"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：牛肉、鸡蛋、大米、葱、姜、酱油、淀粉、盐、食用油\n做法：1. 牛肉切薄片，用酱油和淀粉腌制15分钟。2. 鸡蛋打散加少许盐。3. 热锅加油，炒牛肉至变色，盛出。4. 锅中加油，倒入蛋液炒至半熟，加入牛肉翻炒。5. 将炒好的牛肉蛋盖在煮熟的米饭上，撒上葱花食用。",
+                "en": "Ingredients: Beef, eggs, rice, green onions, ginger, soy sauce, cornstarch, salt, cooking oil\nMethod: 1. Slice beef thinly, marinate with soy sauce and cornstarch for 15 minutes. 2. Beat eggs with a pinch of salt. 3. Heat oil in a pan, stir-fry beef until it changes color, then remove. 4. Add oil to the pan, pour in eggs and scramble until half-cooked, add beef back and stir-fry. 5. Serve over cooked rice, sprinkle with green onions."
+              },
+              "id": "beef-and-egg-rice-7b8409"
+            },
+            {
+              "name": {
+                "zh": "咖喱饭",
+                "en": "Curry Rice"
+              },
+              "status": "unlocked",
+              "id": "curry-rice-69b44c",
+              "notes": {
+                "zh": "配料：鸡肉或牛肉、土豆、胡萝卜、洋葱、咖喱块、米饭\n做法：1. 炒肉和蔬菜，加水煮沸。2. 加入咖喱块煮至浓稠，配米饭食用。",
+                "en": "Ingredients: Chicken or beef, potato, carrot, onion, curry cubes, rice\nMethod: 1. Stir-fry meat and vegetables, add water and boil. 2. Add curry cubes, simmer till thickened, serve with rice."
+              }
+            },
+            {
+              "name": {
+                "zh": "汉堡排盖饭",
+                "en": "Hamburger Steak Rice"
+              },
+              "status": "unlocked",
+              "emoji": "🍖",
+              "rating": 92,
+              "id": "hamburger-steak-rice-15da29",
+              "notes": {
+                "zh": "配料：牛肉馅、洋葱、鸡蛋、面包糠、黑椒酱、米饭\n做法：1. 混合牛肉馅、洋葱、蛋和面包糠做成肉饼。2. 煎至两面金黄，淋黑椒酱即可配饭。",
+                "en": "Ingredients: Ground beef, onion, egg, breadcrumbs, black pepper sauce, rice\nMethod: 1. Mix all to form patty, pan-fry until golden. 2. Top with sauce, serve with rice."
+              }
+            },
+            {
+              "name": {
+                "zh": "炒饭",
+                "en": "Fried Rice"
+              },
+              "status": "unlocked",
+              "emoji": "🍚",
+              "rating": 90,
+              "notes": {
+                "zh": "配料：剩饭、鸡蛋、火腿、胡萝卜、葱、酱油、盐、食用油\n做法：1. 鸡蛋打散，火腿和胡萝卜切丁，葱切段。2. 热锅加油，炒鸡蛋至熟，盛出。3. 加少许油，放入火腿和胡萝卜炒香。4. 加入剩饭翻炒均匀，加酱油和盐调味。5. 放入鸡蛋和葱段，炒匀后出锅。",
+                "en": "Ingredients: Leftover rice, eggs, ham, carrots, green onions, soy sauce, salt, cooking oil\nMethod: 1. Beat eggs, dice ham and carrots, cut green onions into segments. 2. Heat oil in a pan, scramble eggs until cooked, then remove. 3. Add a little oil, sauté ham and carrots until fragrant. 4. Add leftover rice, stir-fry evenly, season with soy sauce and salt. 5. Add eggs and green onions, stir well, and serve."
+              },
+              "id": "fried-rice-eaa0c6"
+            },
+            {
+              "name": {
+                "zh": "蜜汁叉烧饭",
+                "en": "Char Siu Rice"
+              },
+              "status": "unlocked",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：猪梅花肉、蜂蜜、酱油、料酒、糖、五香粉、蒜、食用油\n做法：1. 猪肉切长条，用酱油、料酒、糖、五香粉和蒜末腌制一夜。2. 烤箱/空气炸锅预热180度，猪肉放在烤架上，刷上蜂蜜。3. 烤30分钟，每10分钟翻面并刷一次蜜汁。4. 烤至表面焦糖色即可。",
+                "en": "Ingredients: Pork shoulder, honey, soy sauce, cooking wine, sugar, five-spice powder, garlic, cooking oil\nMethod: 1. Cut pork into long strips, marinate with soy sauce, cooking wine, sugar, five-spice powder, and minced garlic overnight. 2. Preheat oven/air fryer to 180°C, place pork on a rack, and brush with honey. 3. Bake for 30 minutes, flipping and brushing with honey every 10 minutes. 4. Bake until caramelized and serve."
+              },
+              "id": "char-siu-rice-8cf474"
+            },
+            {
+              "name": {
+                "zh": "煲仔饭",
+                "en": "Pot Rice"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：大米，肉（鸡腿肉/腊肉/腊肠/牛肉），鸡蛋，生抽，老抽，蚝油，香油，料酒，食用油，盐，糖，黑胡椒，葱花，清水\n做法：1. 大米提前浸泡半小时。\n2. 腌制肉类（牛肉/鸡腿肉），生抽一勺，老抽一勺，香油一勺，料酒一勺，蚝油一勺，淀粉一勺，黑胡椒粉少量。\n3. 锅底部刷油，铺上大米，加入水，水米比例1：1，大火煮沸后转小火盖盖焖煮10分钟 \n4. 铺平加入腌制好的肉类/腊肠/腊肉继续小火盖盖焖煮10分钟. \n5.加入一圈油（为了形成锅巴），打入鸡蛋，继续小火盖盖焖煮5分钟。\n6. 出锅前撒上葱花。\n7. 酱汁：生抽三勺，老抽一勺，蚝油一勺，盐一小勺，糖三勺，白胡椒粉半勺，香油半勺，水四勺",
+                "en": "Ingredients: Rice, meat (chicken thigh / cured pork / Chinese sausage / beef), egg, light soy sauce, dark soy sauce, oyster sauce, sesame oil, cooking wine, cooking oil, salt, sugar, black pepper, chopped scallions, water\nInstructions: 1. Soak the rice in water for 30 minutes.\n2. Marinate the meat (beef or chicken thigh) with 1 tbsp each of light soy sauce, dark soy sauce, sesame oil, cooking wine, oyster sauce, 1 tbsp of starch, and a small amount of black pepper.\n3. Brush oil on the bottom of an enamel pot, spread the rice, add water (water-to-rice ratio 1:1), bring to a boil over high heat, then cover and simmer on low heat for 10 minutes.\n4. Add the marinated meat / Chinese sausage / cured pork evenly, cover, and continue to simmer on low heat for another 10 minutes.\n5. Drizzle a ring of oil (to create crispy rice crust), crack in an egg, cover and simmer on low heat for 5 more minutes.\n6. Sprinkle chopped scallions before serving.\n7. Sauce: Mix 3 tbsp light soy sauce, 1 tbsp dark soy sauce, 1 tbsp oyster sauce, 1 tsp salt, 3 tsp sugar, ½ tsp white pepper, ½ tsp sesame oil, and 4 tbsp water."
+              },
+              "id": "char-siu-rice-8cf474"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "面",
+            "en": "Noodles"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "青椒肉丝面",
+                "en": "Pepper and Pork Noodles"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：面条、猪肉、青椒、葱、姜、酱油、淀粉、盐、食用油\n做法：1. 猪肉切丝，用酱油和淀粉腌制15分钟，青椒切丝。2. 热锅加油，炒肉丝至变色，盛出。3. 加少许油，爆香葱姜，放入青椒炒软。4. 回锅肉丝，加盐调味，炒匀后盖在煮熟的面条上食用。",
+                "en": "Ingredients: Noodles, pork, green peppers, green onions, ginger, soy sauce, cornstarch, salt, cooking oil\nMethod: 1. Shred pork, marinate with soy sauce and cornstarch for 15 minutes, shred green peppers. 2. Heat oil in a pan, stir-fry pork until it changes color, then remove. 3. Add a little oil, sauté green onions and ginger, add green peppers and stir-fry until soft. 4. Return pork to the pan, season with salt, stir well, and serve over cooked noodles."
+              },
+              "id": "pepper-and-pork-noodles-84625d"
+            },
+            {
+              "name": {
+                "zh": "牛肉面",
+                "en": "Beef Noodles"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：面条、牛肉、葱、姜、八角、酱油、盐、食用油\n做法：1. 牛肉切块焯水去血沫。2. 热锅加油，炒葱姜和八角，放入牛肉煸炒。3. 加水煮开，小火炖1小时，加酱油和盐调味。4. 面条煮熟捞出，放入牛肉汤中。5. 撒上葱花后食用。",
+                "en": "Ingredients: Noodles, beef, green onions, ginger, star anise, soy sauce, salt, cooking oil\nMethod: 1. Cut beef into chunks and blanch to remove blood foam. 2. Heat oil in a pan, sauté green onions, ginger, and star anise, add beef and stir-fry. 3. Add water, bring to a boil, simmer for 1 hour, season with soy sauce and salt. 4. Cook noodles, drain, and place in beef broth. 5. Sprinkle with green onions and serve."
+              },
+              "id": "beef-noodles-b505b3"
+            },
+            {
+              "name": {
+                "zh": "排骨土豆焖面",
+                "en": "Ribs and Potato Braised Noodles"
+              },
+              "status": "unlocked",
+              "emoji": "🍜",
+              "rating": 95,
+              "notes": {
+                "zh": "配料：排骨、土豆、宽面、姜、酱油、料酒、盐\n做法：1. 排骨炒香，加土豆炒匀。2. 加调料和水炖煮，再加入面条焖至熟。",
+                "en": "Ingredients: Pork ribs, potato, wide noodles, ginger, soy sauce, cooking wine, salt\nMethod: 1. Fry ribs and potatoes. 2. Add seasonings and water, stew, add noodles to simmer till cooked."
+              },
+              "id": "ribs-and-potato-braised-noodles-6592e0"
+            },
+            {
+              "name": {
+                "zh": "葱油拌面",
+                "en": "Scallion Oil Noodles"
+              },
+              "status": "unlocked",
+              "emoji": "🧅",
+              "rating": 93,
+              "notes": {
+                "zh": "配料：面条、葱、酱油、糖、食用油\n做法：1. 面条煮熟过凉水。2. 炸葱制成葱油。3. 拌入酱油、糖后与面条混合。",
+                "en": "Ingredients: Noodles, scallions, soy sauce, sugar, oil\nMethod: 1. Boil noodles, rinse with cold water. 2. Fry scallions to make oil. 3. Mix with soy and sugar, toss with noodles."
+              },
+              "id": "scallion-oil-noodles-419da2"
+            },
+            {
+              "name": {
+                "zh": "土豆豆角焖面",
+                "en": "Potato and Bean Braised Noodles"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：面条、土豆、四季豆、猪肉、葱、姜、酱油、盐、食用油\n做法：1. 土豆切块，四季豆掰段，猪肉切片。2. 热锅加油，炒猪肉至变色，加葱姜炒香。3. 放入土豆和四季豆翻炒，加酱油和盐调味。4. 加入面条和适量水，大火煮开后小火焖10分钟。5. 水分收干后拌匀食用。",
+                "en": "Ingredients: Noodles, potatoes, green beans, pork, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Cut potatoes into chunks, break green beans into segments, slice pork. 2. Heat oil in a pan, stir-fry pork until it changes color, add green onions and ginger and sauté. 3. Add potatoes and green beans, stir-fry, season with soy sauce and salt. 4. Add noodles and enough water, bring to a boil, then simmer for 10 minutes. 5. Mix well once water is absorbed and serve."
+              },
+              "id": "potato-and-bean-braised-noodles-6c3801"
+            },
+            {
+              "name": {
+                "zh": "番茄鸡蛋拌面",
+                "en": "Tomato and Egg Noodles"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：面条、番茄、鸡蛋、葱、姜、酱油、糖、盐、食用油\n做法：1. 番茄切块，鸡蛋打散，葱姜切末。2. 热锅加油，炒鸡蛋至熟，盛出。3. 加少许油，炒葱姜和番茄至出汁，加糖和盐调味。4. 面条煮熟捞出，放入番茄蛋汁中拌匀。5. 撒上葱花后食用。",
+                "en": "Ingredients: Noodles, tomatoes, eggs, green onions, ginger, soy sauce, sugar, salt, cooking oil\nMethod: 1. Dice tomatoes, beat eggs, mince green onions and ginger. 2. Heat oil in a pan, scramble eggs until cooked, then remove. 3. Add a little oil, sauté green onions, ginger, and tomatoes until juicy, season with sugar and salt. 4. Cook noodles, drain, and mix with tomato-egg sauce. 5. Sprinkle with green onions and serve."
+              },
+              "id": "tomato-and-egg-noodles-f33e40"
+            },
+            {
+              "name": {
+                "zh": "油泼面",
+                "en": "Oil Splashed Noodles"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：面条、葱、蒜、干辣椒粉、酱油、醋、盐、食用油\n做法：1. 面条煮熟捞出，放入碗中。2. 葱切段，蒜切末，撒上干辣椒粉。3. 热锅加油，油烧至冒烟后泼在调料上。4. 加酱油和醋拌匀。5. 拌匀后即可食用。",
+                "en": "Ingredients: Noodles, green onions, garlic, chili powder, soy sauce, vinegar, salt, cooking oil\nMethod: 1. Cook noodles, drain, and place in a bowl. 2. Cut green onions into segments, mince garlic, sprinkle with chili powder. 3. Heat oil in a pan until smoking, pour over the seasonings. 4. Add soy sauce and vinegar, mix well. 5. Stir and serve."
+              },
+              "id": "oil-splashed-noodles-c04b75"
+            },
+            {
+              "name": {
+                "zh": "炸酱面",
+                "en": "Zhajiang Noodles"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：面条、猪肉末、甜面酱、黄豆酱、葱、姜、食用油\n做法：1. 热锅加油，炒葱姜和猪肉末至变色。2. 加入甜面酱和黄豆酱炒香，加少许水煮开。3. 小火熬至酱汁浓稠。4. 面条煮熟捞出，淋上炸酱。5. 拌匀后食用。",
+                "en": "Ingredients: Noodles, ground pork, sweet bean paste, soybean paste, green onions, ginger, cooking oil\nMethod: 1. Heat oil in a pan, sauté green onions, ginger, and ground pork until it changes color. 2. Add sweet bean paste and soybean paste, stir-fry until fragrant, add a little water and bring to a boil. 3. Simmer until the sauce thickens. 4. Cook noodles, drain, and top with the sauce. 5. Mix well and serve."
+              },
+              "id": "zhajiang-noodles-99a5db"
+            },
+            {
+              "name": {
+                "zh": "烤冷面",
+                "en": "Fried Cold Noodles"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：冷面、鸡蛋、火腿肠、葱、酱油、糖、醋、食用油\n做法：1. 冷面提前泡软，火腿肠切片，葱切段。2. 热平底锅加油，放入冷面煎至一面金黄。3. 翻面后打入鸡蛋，煎熟。4. 加火腿肠、酱油、糖和醋调味，撒上葱段。5. 煎至两面焦脆后食用。",
+                "en": "Ingredients: Cold noodles, egg, sausage, green onions, soy sauce, sugar, vinegar, cooking oil\nMethod: 1. Soak cold noodles until soft, slice sausage, cut green onions into segments. 2. Heat oil in a flat pan, fry noodles until one side is golden. 3. Flip, crack an egg on top, and fry until cooked. 4. Add sausage, season with soy sauce, sugar, and vinegar, sprinkle with green onions. 5. Fry until both sides are crispy and serve."
+              },
+              "id": "fried-cold-noodles-a729d0"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "饼/饺",
+            "en": "Bread & Dumplings"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "里脊夹馍",
+                "en": "Pork Fillet Bun"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：面粉、猪里脊肉、面粉、淀粉、鸡蛋、葱、酱油、盐、食用油\n做法：1. 面粉加水揉成面团，发酵后擀成饼，烤至金黄。2. 猪里脊切条，用酱油腌制20分钟。3. 面粉、淀粉和鸡蛋调成糊，裹在肉条上。4. 热锅加油，炸肉条至金黄酥脆。5. 炸好的肉夹入饼中，撒上葱花食用。",
+                "en": "Ingredients: Flour, pork tenderloin, flour, cornstarch, egg, green onions, soy sauce, salt, cooking oil\nMethod: 1. Mix flour with water to form a dough, ferment, roll into flatbreads, and bake until golden. 2. Cut pork tenderloin into strips, marinate with soy sauce for 20 minutes. 3. Mix flour, cornstarch, and egg into a batter, coat pork strips. 4. Heat oil in a pan, fry pork strips until golden and crispy. 5. Place fried pork in the flatbreads, sprinkle with green onions, and serve."
+              },
+              "id": "pork-fillet-bun-2bf036"
+            },
+            {
+              "name": {
+                "zh": "牛肉馅饼",
+                "en": "Beef Pie"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：面粉、牛肉末、葱、姜、酱油、盐、食用油\n做法：1. 面粉加水揉成面团，醒30分钟。2. 牛肉末加葱姜末、酱油和盐拌匀。3. 面团分成小份，擀成圆皮包入牛肉馅。4. 热平底锅加油，煎馅饼至两面金黄。5. 出锅后食用。",
+                "en": "Ingredients: Flour, ground beef, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Mix flour with water to form a dough, let rest for 30 minutes. 2. Mix ground beef with minced green onions, ginger, soy sauce, and salt. 3. Divide dough into small portions, roll into rounds, and fill with beef mixture. 4. Heat oil in a flat pan, fry pies until golden on both sides. 5. Serve immediately."
+              },
+              "id": "beef-pie-9d636f"
+            },
+            {
+              "name": {
+                "zh": "牛肉锅贴",
+                "en": "Beef Dumplings"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：面粉、牛肉末、葱、姜、酱油、盐、食用油\n做法：1. 面粉加水揉成面团，醒30分钟。2. 牛肉末加葱姜末、酱油和盐拌匀。3. 面团分成小份，擀成圆皮包入牛肉馅。4. 热平底锅加油，放入锅贴煎至底部金黄，加水盖盖焖5分钟。5. 水分收干后出锅食用。",
+                "en": "Ingredients: Flour, ground beef, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Mix flour with water to form a dough, let rest for 30 minutes. 2. Mix ground beef with minced green onions, ginger, soy sauce, and salt. 3. Divide dough into small portions, roll into rounds, and fill with beef mixture. 4. Heat oil in a flat pan, fry dumplings until bottoms are golden, add water, cover, and steam for 5 minutes. 5. Serve once water evaporates."
+              },
+              "id": "beef-dumplings-2651fb"
+            },
+            {
+              "name": {
+                "zh": "鸡蛋灌饼",
+                "en": "Egg Pancake"
+              },
+              "status": "unlocked",
+              "id": "egg-pancake-7a0e60",
+              "notes": {
+                "zh": "配料：饼皮、鸡蛋、生菜、火腿、甜面酱\n做法：1. 饼加热后打入鸡蛋摊匀煎熟。2. 涂酱后加配料卷起即可。",
+                "en": "Ingredients: Pancake, egg, lettuce, ham, sweet sauce\nMethod: 1. Cook pancake with egg. 2. Add sauce and fillings, roll up and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "鸡蛋饼",
+                "en": "Plain Egg Pancake"
+              },
+              "status": "unlocked",
+              "emoji": "🥚",
+              "rating": 92,
+              "notes": {
+                "zh": "配料：鸡蛋、面粉、水、盐、葱花、食用油\n做法：1. 鸡蛋打散加面粉、水、盐和葱花搅匀成面糊。2. 平底锅加油，倒入面糊摊平。3. 小火煎至两面金黄，切块食用。",
+                "en": "Ingredients: Eggs, flour, water, salt, chopped green onion, cooking oil\nMethod: 1. Beat eggs and mix with flour, water, salt, and green onion. 2. Heat oil in a pan, pour in batter and spread evenly. 3. Cook on low heat until golden on both sides, then slice and serve."
+              },
+              "id": "plain-egg-pancake-48e94c"
+            },
+            {
+              "name": {
+                "zh": "手抓饼",
+                "en": "Scallion Pancake"
+              },
+              "status": "unlocked",
+              "notes": {
+                "zh": "配料：面粉、水、葱、盐、食用油\n做法：1. 面粉加水和少许盐揉成面团，醒30分钟。2. 擀成薄片，刷油撒上葱花，卷起再擀平。3. 热平底锅加油，放入面饼煎至两面金黄。4. 煎好后用手抓松。5. 出锅后即可食用。",
+                "en": "Ingredients: Flour, water, green onions, salt, cooking oil\nMethod: 1. Mix flour with water and a pinch of salt to form a dough, let rest for 30 minutes. 2. Roll out into a thin sheet, brush with oil, sprinkle with chopped green onions, roll up, and flatten again. 3. Heat oil in a flat pan, fry the pancake until golden on both sides. 4. After frying, scrunch with hands to loosen. 5. Serve immediately."
+              },
+              "id": "scallion-pancake-49894a"
+            },
+            {
+              "name": {
+                "zh": "酱香饼",
+                "en": "Sauce Pancake"
+              },
+              "status": "unlocked",
+              "emoji": "🥯",
+              "rating": 93,
+              "notes": {
+                "zh": "配料：面粉、酱料（甜面酱）、葱、芝麻、盐、食用油\n做法：1. 和面醒发后擀成圆饼状。2. 表面刷酱，撒芝麻和葱花。3. 平底锅加油，小火煎至两面金黄熟透。",
+                "en": "Ingredients: Flour, sauce (sweet bean paste), green onions, sesame seeds, salt, cooking oil\nMethod: 1. Make dough and rest, roll into a round. 2. Spread sauce, sprinkle sesame and green onions. 3. Cook in a pan on low heat until golden and cooked through."
+              },
+              "id": "sauce-pancake-ca3a9f"
+            },
+            {
+              "name": {
+                "zh": "鲜肉锅盔",
+                "en": "Meat Pancake"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：面粉、猪肉末、葱、姜、酱油、盐、食用油\n做法：1. 面粉加水揉成面团，醒30分钟。2. 猪肉末加葱姜末、酱油和盐拌匀。3. 面团擀成大圆皮，抹油撒肉馅，卷起压扁。4. 热平底锅加油，煎至两面金黄酥脆。5. 出锅后食用。",
+                "en": "Ingredients: Flour, ground pork, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Mix flour with water to form a dough, let rest for 30 minutes. 2. Mix ground pork with minced green onions, ginger, soy sauce, and salt. 3. Roll dough into a large round, spread with oil and meat filling, roll up and flatten. 4. Heat oil in a flat pan, fry until golden and crispy on both sides. 5. Serve immediately."
+              },
+              "id": "meat-pancake-26a4ca"
+            },
+            {
+              "name": {
+                "zh": "肉夹馍",
+                "en": "Chinese Hamburger"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：面粉、猪肉、葱、姜、八角、酱油、料酒、糖、食用油\n做法：1. 面粉加水揉成面团，发酵后擀成饼，烤至金黄。2. 猪肉切块焯水，热锅加油炒至表面焦黄。3. 加葱姜、八角、酱油、料酒和糖，加水炖1小时。4. 炖好的肉剁碎，夹入烤好的饼中。5. 出锅后食用。",
+                "en": "Ingredients: Flour, pork, green onions, ginger, star anise, soy sauce, cooking wine, sugar, cooking oil\nMethod: 1. Mix flour with water to form a dough, ferment, roll into flatbreads, and bake until golden. 2. Cut pork into chunks, blanch, then fry in a heated pan with oil until browned. 3. Add green onions, ginger, star anise, soy sauce, cooking wine, and sugar, cover with water and braise for 1 hour. 4. Chop braised pork and stuff into baked flatbreads. 5. Serve immediately."
+              },
+              "id": "chinese-hamburger-b4addc"
+            },
+            {
+              "name": {
+                "zh": "炒饼",
+                "en": "Stir-fried Bread"
+              },
+              "status": "unlocked",
+              "emoji": "🥯",
+              "rating": 90,
+              "notes": {
+                "zh": "配料：切碎烙饼、鸡蛋、青菜、豆芽、酱油、盐、食用油\n做法：1. 烙饼切丝备用。2. 热锅加油炒鸡蛋，盛出。3. 炒菜和豆芽至熟，放入饼丝和鸡蛋，加酱油盐翻炒均匀。",
+                "en": "Ingredients: Sliced flatbread, eggs, vegetables, bean sprouts, soy sauce, salt, cooking oil\nMethod: 1. Cut flatbread into strips. 2. Scramble eggs and remove. 3. Stir-fry vegetables and bean sprouts, then add bread strips and eggs, season and stir evenly."
+              },
+              "id": "stir-fried-bread-728c75"
+            }
+          ]
+        }
+      ],
+      "id": "5915c75e-28a4-4eb4-8813-ab5a958fd8fa"
+    },
+    {
+      "name": {
+        "zh": "汤/粥类",
+        "en": "Soups/Congee"
+      },
+      "subcategories": [
+        {
+          "name": {
+            "zh": "汤/粥",
+            "en": "Soups/Congee"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "玉米鸡汤",
+                "en": "Corn and Chicken Soup"
+              },
+              "status": "unlocked",
+              "emoji": "🌽🐔",
+              "rating": 92,
+              "notes": {
+                "zh": "配料：鸡胸肉、玉米粒、胡萝卜、鸡蛋、盐、淀粉、水\n做法：1. 鸡肉切丁，胡萝卜切小粒。2. 锅中加水，放鸡丁、胡萝卜、玉米煮开。3. 加盐调味，淀粉水勾芡，打入蛋液搅匀即可。",
+                "en": "Ingredients: Chicken breast, corn kernels, carrot, egg, salt, starch, water\nMethod: 1. Dice chicken and carrot. 2. Boil with corn until cooked. 3. Season, thicken with starch water, add egg and stir."
+              },
+              "id": "corn-and-chicken-soup-d93c63"
+            },
+            {
+              "name": {
+                "zh": "羊肉汤",
+                "en": "Lamb Soup"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：羊肉、葱、姜、白萝卜、八角、盐、食用油\n做法：1. 羊肉切块焯水去血沫。2. 热锅加油，炒葱姜和八角，放入羊肉煸炒。3. 加水煮开，小火炖1.5小时。4. 加入白萝卜块，再煮20分钟。5. 加盐调味后出锅。",
+                "en": "Ingredients: Lamb, green onions, ginger, white radish, star anise, salt, cooking oil\nMethod: 1. Cut lamb into chunks and blanch to remove blood foam. 2. Heat oil in a pot, sauté green onions, ginger, and star anise, add lamb and stir-fry. 3. Add water, bring to a boil, simmer for 1.5 hours. 4. Add white radish chunks, cook for another 20 minutes. 5. Season with salt and serve."
+              },
+              "id": "lamb-soup-6796c5"
+            },
+            {
+              "name": {
+                "zh": "粉丝白菜牛肉丸汤",
+                "en": "Vermicelli, Cabbage and Beef Ball Soup"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：粉丝、白菜、牛肉丸、葱、姜、酱油、盐、食用油\n做法：1. 粉丝泡软，白菜切段，牛肉丸备好。2. 热锅加油，爆香葱姜。3. 加水煮开，放入牛肉丸煮5分钟。4. 加入白菜和粉丝，再煮3分钟。5. 加酱油和盐调味后出锅。",
+                "en": "Ingredients: Vermicelli, cabbage, beef balls, green onions, ginger, soy sauce, salt, cooking oil\nMethod: 1. Soak vermicelli until soft, cut cabbage into segments, prepare beef balls. 2. Heat oil in a pot, sauté green onions and ginger. 3. Add water and bring to a boil, add beef balls and cook for 5 minutes. 4. Add cabbage and vermicelli, cook for another 3 minutes. 5. Season with soy sauce and salt, then serve."
+              },
+              "id": "vermicelli,-cabbage-and-beef-ball-soup-b4fe6f"
+            },
+            {
+              "name": {
+                "zh": "咸豆腐脑",
+                "en": "Tofu Soup"
+              },
+              "status": "unlocked",
+              "emoji": "🥣",
+              "rating": 94,
+              "notes": {
+                "zh": "暖暖的，好喝😋。\n 做法：紫菜，榨菜，盐，白胡椒，生抽，香油，葱花，淀粉水勾芡",
+                "en": "Warm and delicious. \n Method: Dried seaweed, pickled vegetables, salt, white pepper, soy sauce, sesame oil, green onions, cornstarch slurry"
+              },
+              "id": "tofu-soup-a582ab"
+            },
+            {
+              "name": {
+                "zh": "番茄蛋汤",
+                "en": "Tomato and Egg Soup"
+              },
+              "status": "unlocked",
+              "emoji": "🍅🥚",
+              "id": "tomato-and-egg-soup-03275c",
+              "notes": {
+                "zh": "配料：番茄、鸡蛋、葱、盐、香油、水\n做法：1. 番茄切块炒软，加水煮开。2. 打入蛋液搅拌成蛋花。3. 加盐调味，撒葱花淋香油即可。",
+                "en": "Ingredients: Tomato, egg, scallions, salt, sesame oil, water\nMethod: 1. Fry tomato until soft, add water and boil. 2. Add beaten eggs and stir. 3. Season, top with scallions and sesame oil."
+              }
+            },
+            {
+              "name": {
+                "zh": "番茄鸡蛋疙瘩汤",
+                "en": "Tomato and Egg Dough Soup"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：面粉、番茄、鸡蛋、葱、盐、食用油\n做法：1. 面粉加水调成面疙瘩，番茄切块，鸡蛋打散。2. 热锅加油，炒番茄至出汁，加水煮开。3. 下入面疙瘩，煮至浮起。4. 倒入蛋液，搅拌成蛋花，加盐调味。5. 撒上葱花后出锅。",
+                "en": "Ingredients: Flour, tomatoes, eggs, green onions, salt, cooking oil\nMethod: 1. Mix flour with water to form dough lumps, dice tomatoes, beat eggs. 2. Heat oil in a pot, sauté tomatoes until juicy, add water and bring to a boil. 3. Add dough lumps, cook until they float. 4. Pour in egg mixture, stir into egg flowers, season with salt. 5. Sprinkle with green onions and serve."
+              },
+              "id": "tomato-and-egg-dough-soup-4abbc8"
+            },
+            {
+              "name": {
+                "zh": "米粥",
+                "en": "Rice Congee"
+              },
+              "status": "unlocked",
+              "emoji": "🍚",
+              "notes": {
+                "zh": "配料：大米、水、盐，可选配料（皮蛋、鸡丝、咸菜）\n做法：1. 大米淘洗后加水煮开，小火慢熬30-40分钟。2. 根据口味加入咸菜、皮蛋、鸡丝等配料。3. 加盐调味即可。",
+                "en": "Ingredients: Rice, water, salt, optional toppings (century egg, shredded chicken, pickles)\nMethod: 1. Rinse rice and cook with water for 30–40 min. 2. Add toppings like chicken or egg. 3. Season with salt."
+              },
+              "id": "rice-congee-877c9e"
+            },
+            {
+              "name": {
+                "zh": "山药玉米排骨汤",
+                "en": "Yam, Corn and Ribs Soup"
+              },
+              "status": "unlocked",
+              "emoji": "🌽🍖",
+              "rating": 94,
+              "notes": {
+                "zh": "配料：山药、玉米、排骨、姜片、盐、水\n做法：1. 排骨焯水去血沫备用，山药去皮切段，玉米切段。2. 锅中加水放入排骨、姜片煮开。3. 加入玉米小火炖40分钟，再加入山药炖20分钟，加盐调味即可。",
+                "en": "Ingredients: Chinese yam, corn, pork ribs, ginger slices, salt, water\nMethod: 1. Blanch ribs, peel and cut yam, cut corn into pieces. 2. Add ribs and ginger to boiling water. 3. Simmer 40 mins, add yam and cook 20 more mins, season with salt."
+              },
+              "id": "yam,-corn-and-ribs-soup-199294"
+            },
+            {
+              "name": {
+                "zh": "酸辣汤",
+                "en": "Hot and Sour Soup"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：木耳、豆腐、猪肉丝、鸡蛋、醋、胡椒粉、酱油、淀粉、食用油\n做法：1. 木耳泡发切丝，豆腐切条，猪肉切丝腌制。2. 热锅加油，炒肉丝至变色，加入木耳和豆腐。3. 加水煮开，调入醋、胡椒粉和酱油。4. 淀粉加水勾芡，倒入蛋液成蛋花。5. 煮1分钟后出锅。",
+                "en": "Ingredients: Wood ear mushrooms, tofu, pork shreds, egg, vinegar, white pepper, soy sauce, cornstarch, cooking oil\nMethod: 1. Soak and shred wood ear mushrooms, cut tofu into strips, marinate pork shreds. 2. Heat oil in a pot, stir-fry pork until it changes color, add wood ear and tofu. 3. Add water and bring to a boil, season with vinegar, white pepper, and soy sauce. 4. Thicken with cornstarch slurry, pour in egg to form egg flowers. 5. Cook for 1 minute and serve."
+              },
+              "id": "hot-and-sour-soup-f913ab"
+            }
+          ]
+        }
+      ],
+      "id": "073ce44b-db3c-4dd6-8aaf-14b206564be2"
+    },
+    {
+      "name": {
+        "zh": "甜品类",
+        "en": "Desserts"
+      },
+      "subcategories": [
+        {
+          "name": {
+            "zh": "甜品",
+            "en": "Desserts"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "奶冻",
+                "en": "Panna Cotta"
+              },
+              "status": "locked",
+              "id": "panna-cotta-1f2f6d",
+              "notes": {
+                "zh": "配料：淡奶油、牛奶、吉利丁、糖、香草精、水果酱\n做法：1. 吉利丁用冷水泡软。2. 淡奶油、牛奶和糖小火加热至糖融化，加入吉利丁搅匀。3. 加香草精倒入杯中冷藏4小时，淋上果酱即可。",
+                "en": "Ingredients: Cream, milk, gelatin, sugar, vanilla extract, fruit sauce\nMethod: 1. Soak gelatin in cold water. 2. Heat cream, milk, sugar until dissolved, add gelatin. 3. Add vanilla, pour into cups, chill 4 hrs, top with fruit sauce."
+              }
+            },
+            {
+              "name": {
+                "zh": "提拉米苏",
+                "en": "Tiramisu"
+              },
+              "status": "locked",
+              "id": "tiramisu-47d9fa",
+              "notes": {
+                "zh": "配料：手指饼干、马斯卡彭奶酪、蛋黄、糖、咖啡液、可可粉、淡奶油\n做法：1. 蛋黄加糖隔水打发，加入马斯卡彭拌匀，再加入打发奶油。2. 手指饼干浸咖啡液铺底，抹奶酪糊，重复两层。3. 冷藏4小时，撒可可粉食用。",
+                "en": "Ingredients: Ladyfingers, mascarpone, egg yolks, sugar, coffee, cocoa powder, cream\nMethod: 1. Whip yolks with sugar over heat, mix in mascarpone and whipped cream. 2. Layer coffee-soaked ladyfingers and cream twice. 3. Chill 4 hrs, dust with cocoa."
+              }
+            },
+            {
+              "name": {
+                "zh": "蛋挞",
+                "en": "Custard Tart"
+              },
+              "status": "locked",
+              "id": "custard-tart-f7caf9",
+              "notes": {
+                "zh": "配料：蛋挞皮、牛奶、淡奶油、鸡蛋、糖、香草精\n做法：1. 鸡蛋打散，加牛奶、奶油、糖和香草精拌匀。2. 将液体倒入挞皮。3. 烤箱200°C烤25分钟至表面微焦即成。",
+                "en": "Ingredients: Tart shell, milk, cream, eggs, sugar, vanilla extract\nMethod: 1. Mix beaten eggs with milk, cream, sugar, and vanilla. 2. Pour into shells. 3. Bake at 200°C for 25 mins until golden."
+              }
+            },
+            {
+              "name": {
+                "zh": "芒果布丁",
+                "en": "Mango Pudding"
+              },
+              "status": "locked",
+              "id": "mango-pudding-579bcf",
+              "notes": {
+                "zh": "配料：芒果、牛奶、淡奶油、吉利丁、糖\n做法：1. 芒果打成果泥，吉利丁泡软。2. 牛奶、奶油加糖加热后加入吉利丁搅匀。3. 混合芒果泥倒入模具冷藏4小时。",
+                "en": "Ingredients: Mango, milk, cream, gelatin, sugar\nMethod: 1. Puree mango, soak gelatin. 2. Heat milk and cream with sugar, stir in gelatin. 3. Mix with mango, pour into molds, chill 4 hrs."
+              }
+            },
+            {
+              "name": {
+                "zh": "戚风蛋糕",
+                "en": "Chiffon Cake"
+              },
+              "status": "locked",
+              "id": "chiffon-cake-1d16be",
+              "notes": {
+                "zh": "配料：低筋面粉、鸡蛋、牛奶、油、糖、柠檬汁\n做法：1. 蛋黄、牛奶、油和面粉拌匀，蛋白加糖和柠檬汁打发。2. 混合蛋白和蛋黄糊。3. 倒入模具，烤箱170°C烤40分钟，倒扣冷却。",
+                "en": "Ingredients: Cake flour, eggs, milk, oil, sugar, lemon juice\nMethod: 1. Mix yolks, milk, oil, flour. Whip whites with sugar and lemon. 2. Combine both. 3. Bake at 170°C for 40 mins, cool upside down."
+              }
+            },
+            {
+              "name": {
+                "zh": "南瓜派",
+                "en": "Pumpkin Pie"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：派皮、南瓜、鸡蛋、淡奶油、糖、肉桂粉、姜粉\n做法：1. 南瓜蒸熟压成泥。2. 鸡蛋、淡奶油、糖、肉桂粉和姜粉拌匀，加入南瓜泥搅拌。3. 将混合物倒入派皮中。4. 放入预热180度的烤箱，烤40-50分钟。5. 烤至馅料凝固，冷却后食用。",
+                "en": "Ingredients: Pie crust, pumpkin, eggs, heavy cream, sugar, cinnamon powder, ginger powder\nMethod: 1. Steam pumpkin and mash into a puree. 2. Mix eggs, heavy cream, sugar, cinnamon, and ginger powder, then stir in pumpkin puree. 3. Pour mixture into pie crust. 4. Bake in a preheated 180°C oven for 40-50 minutes. 5. Bake until filling sets, cool, and serve."
+              },
+              "id": "pumpkin-pie-661dba"
+            }
+          ]
+        }
+      ],
+      "id": "c7000a95-44ff-4e29-9601-725fc84f4c4d"
+    },
+    {
+      "name": {
+        "zh": "饮品类",
+        "en": "Drinks"
+      },
+      "subcategories": [
+        {
+          "name": {
+            "zh": "饮品",
+            "en": "Drinks"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "柠檬茶",
+                "en": "Lemon Tea"
+              },
+              "status": "locked",
+              "id": "lemon-tea-eb7690",
+              "notes": {
+                "zh": "配料：红茶、柠檬、冰糖、清水\n做法：1. 红茶煮好后加入冰糖溶解。2. 放入柠檬片冷藏后饮用。",
+                "en": "Ingredients: Black tea, lemon, rock sugar, water\nMethod: 1. Brew tea and dissolve sugar. 2. Add lemon slices, chill and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "奶茶",
+                "en": "Milk Tea"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：红茶、牛奶、糖、水\n做法：1. 红茶用热水冲泡5分钟。2. 加入牛奶和糖，小火加热搅拌至糖溶解。3. 煮至微沸后关火。4. 过滤茶渣，倒入杯中。5. 可加冰块或热饮用。",
+                "en": "Ingredients: Black tea, milk, sugar, water\nMethod: 1. Brew black tea with hot water for 5 minutes. 2. Add milk and sugar, heat over low flame while stirring until sugar dissolves. 3. Turn off heat just before boiling. 4. Strain tea leaves, pour into a cup. 5. Serve hot or with ice."
+              },
+              "id": "milk-tea-99657a"
+            },
+            {
+              "name": {
+                "zh": "芒果冰沙",
+                "en": "Mango Smoothie"
+              },
+              "status": "locked",
+              "id": "mango-smoothie-e6ff99",
+              "notes": {
+                "zh": "配料：芒果、冰块、牛奶或酸奶、蜂蜜\n做法：1. 所有食材放入搅拌机搅匀即可。",
+                "en": "Ingredients: Mango, ice, milk or yogurt, honey\nMethod: 1. Blend all ingredients until smooth and serve."
+              }
+            },
+            {
+              "name": {
+                "zh": "抹茶拿铁",
+                "en": "Matcha Latte"
+              },
+              "status": "locked",
+              "notes": {
+                "zh": "配料：抹茶粉、牛奶、糖或蜂蜜、水\n做法：1. 抹茶粉用少量热水调成糊状。2. 牛奶加热至微热，加入糖或蜂蜜搅拌。3. 将抹茶糊倒入牛奶中，搅拌均匀。4. 可加奶泡装饰。5. 热饮或加冰饮用。",
+                "en": "Ingredients: Matcha powder, milk, sugar or honey, water\nMethod: 1. Mix matcha powder with a little hot water into a paste. 2. Heat milk until warm, stir in sugar or honey. 3. Pour matcha paste into milk, stir well. 4. Optionally top with foam. 5. Serve hot or over ice."
+              },
+              "id": "matcha-latte-a07552"
+            }
+          ]
+        },
+        {
+          "name": {
+            "zh": "暖心饮品",
+            "en": "Warm Drinks"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "红糖姜茶",
+                "en": "Brown Sugar Ginger Tea"
+              },
+              "status": "locked",
+              "emoji": "🫖",
+              "notes": {
+                "zh": "配料：生姜、红糖、枣（可选）、桂圆（可选）\n做法：1. 生姜切片，红枣去核。2. 锅中加水煮沸，放入姜片和红枣。3. 小火煮15分钟，加入红糖调味。\n功效：暖宫驱寒，缓解痛经，补气血。",
+                "en": "Ingredients: Fresh ginger, brown sugar, dates (optional), longan (optional)\nMethod: 1. Slice ginger, pit dates. 2. Boil water, add ginger and dates. 3. Simmer for 15 mins, add brown sugar.\nBenefits: Warms the body, relieves menstrual pain, nourishes blood."
+              },
+              "id": "brown-sugar-ginger-tea-af3b21"
+            },
+            {
+              "name": {
+                "zh": "玫瑰花茶",
+                "en": "Rose Tea"
+              },
+              "status": "locked",
+              "emoji": "🌹",
+              "notes": {
+                "zh": "配料：玫瑰花、枸杞、冰糖\n做法：1. 玫瑰花洗净，加入枸杞。2. 用沸水冲泡5分钟。3. 加入冰糖调味。\n功效：美容养颜，理气解郁，改善气色。",
+                "en": "Ingredients: Rose buds, goji berries, rock sugar\nMethod: 1. Clean rose buds, add goji berries. 2. Steep in hot water for 5 mins. 3. Add rock sugar.\nBenefits: Beauty enhancement, mood improvement, complexion improvement."
+              },
+              "id": "rose-tea-b2c432"
+            },
+            {
+              "name": {
+                "zh": "桂圆红枣茶",
+                "en": "Longan and Date Tea"
+              },
+              "status": "locked",
+              "emoji": "🫖",
+              "notes": {
+                "zh": "配料：桂圆、红枣、枸杞、冰糖\n做法：1. 桂圆和红枣洗净。2. 锅中加水煮沸，放入所有食材。3. 小火煮15分钟，加冰糖调味。\n功效：补血安神，改善睡眠，养颜补气。",
+                "en": "Ingredients: Longan, red dates, goji berries, rock sugar\nMethod: 1. Clean longan and dates. 2. Boil water, add all ingredients. 3. Simmer for 15 mins, add rock sugar.\nBenefits: Blood nourishment, better sleep, beauty enhancement."
+              },
+              "id": "longan-and-date-tea-c5d543"
+            },
+            {
+              "name": {
+                "zh": "柠檬蜂蜜水",
+                "en": "Lemon Honey Water"
+              },
+              "status": "locked",
+              "emoji": "🍯",
+              "notes": {
+                "zh": "配料：柠檬、蜂蜜、温水\n做法：1. 柠檬切片。2. 温水冲泡，加入蜂蜜调味。3. 水温不宜过热，以保留蜂蜜营养。\n功效：补充维C，美白养颜，提升免疫力。",
+                "en": "Ingredients: Lemon, honey, warm water\nMethod: 1. Slice lemon. 2. Add to warm water with honey. 3. Keep water temperature moderate to preserve honey's nutrients.\nBenefits: Vitamin C supplement, skin brightening, immunity boost."
+              },
+              "id": "lemon-honey-water-d6e654"
+            },
+            {
+              "name": {
+                "zh": "红糖暖宫茶",
+                "en": "Brown Sugar Warming Tea"
+              },
+              "status": "locked",
+              "emoji": "🫖",
+              "notes": {
+                "zh": "配料：红糖、生姜、红枣、桂圆、黑糖、红糖\n做法：1. 姜片和红枣煮沸。2. 加入桂圆继续熬制。3. 最后加入红糖调味。\n功效：暖宫调经，补血养气，缓解痛经。特别适合姨妈期饮用。",
+                "en": "Ingredients: Brown sugar, ginger, red dates, longan\nMethod: 1. Boil ginger and dates. 2. Add longan and continue cooking. 3. Add brown sugar.\nBenefits: Warms the body, regulates menstruation, relieves menstrual pain. Perfect for period days."
+              },
+              "id": "brown-sugar-warming-tea-e7f765"
+            }
+          ]
+        }
+      ],
+      "id": "93499323-104e-4083-aaec-820dad70bc16"
+    },
+    {
+      "name": {
+        "zh": "早餐类",
+        "en": "Breakfast Dishes"
+      },
+      "subcategories": [
+        {
+          "name": {
+            "zh": "早餐",
+            "en": "Breakfast"
+          },
+          "dishes": [
+            {
+              "name": {
+                "zh": "炸薯饼",
+                "en": "Hash Browns"
+              },
+              "status": "unlocked",
+              "emoji": "🥔",
+              "rating": 91,
+              "notes": {
+                "zh": "配料：土豆、淀粉、盐、食用油\n做法：1. 土豆刨丝加盐和淀粉拌匀。2. 捏成小饼状。3. 热锅加油，小火煎至两面金黄酥脆。",
+                "en": "Ingredients: Potatoes, cornstarch, salt, cooking oil\nMethod: 1. Grate potatoes and mix with salt and cornstarch. 2. Shape into small patties. 3. Pan-fry on low heat until crispy and golden on both sides."
+              },
+              "id": "hash-browns-6bdf0f"
+            },
+            {
+              "name": {
+                "zh": "自选组装三明治",
+                "en": "Customizable Sandwich"
+              },
+              "status": "unlocked", 
+              "emoji": "🥪",
+              "notes": {
+                "zh": "焦糖洋葱 ⭐95\n培根\n鸡蛋\n芝士\n火腿\n奶油菠菜\n炸虾排\n蔬菜沙拉\n汉堡排",
+                "en": "Caramelized Onion (95/100)\nBacon\nEgg\nCheese\nHam\nCreamed Spinach\nFried Shrimp\nVegetable Salad\nHamburger Steak"
+              },
+              "id": "customizable-sandwich-cd7250"
+            },
+            {
+              "name": {
+                "zh": "菠菜口蘑胡萝卜火腿肠芝士蛋饼",
+                "en": "Spinach, Mushroom, Carrot, Ham and Cheese Egg Pancake"
+              },
+              "status": "unlocked",
+              "emoji": "🥚",
+              "notes": {
+                "zh": "配料：鸡蛋、菠菜、口蘑、胡萝卜、火腿肠、芝士、盐、面粉、食用油\n做法：1. 所有蔬菜切丁炒熟备用，火腿切丁。2. 鸡蛋打散，加面粉、盐搅匀，加入蔬菜和芝士。3. 平底锅加油，倒入蛋液，小火煎至两面金黄。",
+                "en": "Ingredients: Eggs, spinach, mushrooms, carrots, ham, cheese, salt, flour, cooking oil\nMethod: 1. Dice and pre-cook all vegetables, dice ham. 2. Beat eggs, add flour and salt, then mix in vegetables and cheese. 3. Cook on low heat until golden on both sides."
+              },
+              "id": "spinach,-mushroom,-carrot,-ham-and-cheese-egg-pancake-d01ff9"
+            },
+            {
+              "name": {
+                "zh": "北非蛋/土耳其烩蛋",
+                "en": "Shakshuka/Turkish Eggs"
+              },
+              "status": "unlocked", 
+              "emoji": "🥚",
+              "notes": {
+                "zh": "做法：1. 鸡蛋打散，加入盐和黑胡椒调味。2. 热锅加橄榄油，倒入鸡蛋液，煎至两面金黄。3. 加入番茄酱、洋葱、辣椒粉、橄榄油、盐、黑胡椒调味。4. 放入烤箱/空气炸锅180度烤10分钟。5. 烤好后取出，撒上葱花即可。",
+                "en": "Method: 1. Beat eggs, season with salt and black pepper. 2. Heat olive oil in a pan, pour in egg mixture, cook until golden on both sides. 3. Add tomato sauce, onion, chili powder, olive oil, salt, black pepper, and cook until soft. 4. Bake in a preheated 180°C oven/air fryer for 10 minutes. 5. Bake until golden brown and serve."
+              },
+              "id": "shakshuka/turkish-eggs-c6772b"
+            },
+            {
+              "name": {
+                "zh": "土豆培根芝士蛋饼",
+                "en": "Potato, Bacon and Cheese Egg Pancake"
+              },
+              "status": "unlocked",
+              "emoji": "🥚",
+              "rating": 93,
+              "notes": {
+                "zh": "配料：土豆、培根、鸡蛋、奶酪、盐、胡椒、面粉\n做法：1. 土豆刨丝，培根切丁炒香。2. 混合鸡蛋、土豆丝、培根、奶酪和面粉调成糊状。3. 平底锅小火煎至两面金黄。",
+                "en": "Ingredients: Potato, bacon, egg, cheese, salt, pepper, flour\nMethod: 1. Grate potatoes, dice and fry bacon. 2. Mix eggs, potato, bacon, cheese, and flour into batter. 3. Pan-fry on low heat until golden on both sides."
+              },
+              "id": "potato,-bacon-and-cheese-egg-pancake-40524a"
+            },
+            {
+              "name": {
+                "zh": "西葫芦胡萝卜丝小葱蛋饼",
+                "en": "Zucchini, Carrot, Scallion and Egg Pancake"
+              },
+              "status": "unlocked",
+              "emoji": "🥚",
+              "rating": 98,
+              "notes": {
+                "zh": "做法：1. 西葫芦、胡萝卜切丝加两勺盐杀水五分钟，攥干水分。2. 打入三个鸡蛋，加入面粉、十三香（五香粉）、小葱末搅匀。3. 平底锅加油，倒入蛋液，小火煎至两面金黄。",
+                "en": "Method: 1. Dice cucumber and carrot, add salt to remove water. 2. Beat eggs, add flour, salt, pepper, cucumber, carrot, and scallions. 3. Cook on low heat until golden on both sides."
+              },
+              "id": "zucchini,-carrot,-scallion-and-egg-pancake-40524a"
+            }
+          ]
+        }
+      ],
+      "id": "073ce44b-db3c-4dd6-8aaf-14b206564be8"
+    }
+  ]
+}
