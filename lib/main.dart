@@ -6,6 +6,8 @@ import 'screens/main_container.dart';
 import 'package:flutter/services.dart';
 import 'dart:ui';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,6 +24,32 @@ void main() async {
   runApp(const MyApp());
 }
 
+class AppAuthProvider extends ChangeNotifier {
+  User? user;
+  AppAuthProvider() {
+    FirebaseAuth.instance.authStateChanges().listen((u) {
+      user = u;
+      notifyListeners();
+    });
+  }
+  Future<void> signInWithGoogle() async {
+    final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+    if (googleUser == null) return;
+    final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
+    final credential = GoogleAuthProvider.credential(
+      accessToken: googleAuth.accessToken,
+      idToken: googleAuth.idToken,
+    );
+    await FirebaseAuth.instance.signInWithCredential(credential);
+    user = FirebaseAuth.instance.currentUser;
+    notifyListeners();
+  }
+  Future<void> signOut() async {
+    await FirebaseAuth.instance.signOut();
+    await GoogleSignIn().signOut();
+  }
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -31,6 +59,7 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => LanguageProvider()),
         ChangeNotifierProvider(create: (_) => MenuProvider()),
+        ChangeNotifierProvider(create: (_) => AppAuthProvider()),
       ],
       child: MaterialApp(
         title: 'Menu App',
