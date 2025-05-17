@@ -31,12 +31,17 @@ class _MainContainerState extends State<MainContainer> {
           ),
         ],
       ),
-      body: IndexedStack(
-        index: _selectedIndex,
-        children: const [
-          HomeScreen(),
-          RecipeTipsScreen(),
-        ],
+      body: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 700),
+          child: IndexedStack(
+            index: _selectedIndex,
+            children: const [
+              HomeScreen(),
+              RecipeTipsScreen(),
+            ],
+          ),
+        ),
       ),
       bottomNavigationBar: NavigationBar(
         selectedIndex: _selectedIndex,

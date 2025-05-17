@@ -5,8 +5,20 @@ import 'providers/menu_provider.dart';
 import 'screens/main_container.dart';
 import 'package:flutter/services.dart';
 import 'dart:ui';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: const FirebaseOptions(
+      apiKey: "AIzaSyAcoX8YHHH5yXQd6_5f-LQKFRcPvGauE1M",
+      authDomain: "menu-app-823bd.firebaseapp.com",
+      projectId: "menu-app-823bd",
+      storageBucket: "menu-app-823bd.appspot.com",
+      messagingSenderId: "840849253944",
+      appId: "1:840849253944:web:7df351b402c88a3a03a8cd",
+    ),
+  );
   runApp(const MyApp());
 }
 
@@ -37,72 +49,29 @@ class MyApp extends StatelessWidget {
 
 class FontPreloader extends StatefulWidget {
   final Widget child;
-  
   const FontPreloader({super.key, required this.child});
-  
   @override
   State<FontPreloader> createState() => _FontPreloaderState();
 }
 
 class _FontPreloaderState extends State<FontPreloader> {
   bool _fontsLoaded = false;
-  bool _assetsLoaded = false;
-  
   @override
   void initState() {
     super.initState();
-    // 确保字体预加载先于其他资源
     _preloadFonts();
-    _preloadAssets();
-    
-    // 添加超时处理，防止加载过程卡住
-    _setupTimeout();
   }
-  
-  void _setupTimeout() {
-    // 无论字体是否加载完成，最多等待3秒后强制显示主界面
-    Future.delayed(const Duration(seconds: 3), () {
-      if (mounted && (!_fontsLoaded || !_assetsLoaded)) {
-        print('预加载超时，强制显示主界面');
-        setState(() {
-          _fontsLoaded = true;
-          _assetsLoaded = true;
-        });
-      }
-    });
-  }
-  
-  Future<void> _preloadAssets() async {
-    // 预加载JSON数据
-    try {
-      await rootBundle.loadString('lib/models/menu_data.json');
-    } catch (e) {
-      print('预加载JSON失败: $e');
-    }
-    
-    // 标记资源加载完成
-    if (mounted) {
-      setState(() {
-        _assetsLoaded = true;
-      });
-    }
-  }
-  
   Future<void> _preloadFonts() async {
     try {
-      // 预加载所有文本 - 特别是移动设备上可能需要的文本
       final List<TextSpan> spans = [
-        // 预加载所有中文菜单项和状态标签
         const TextSpan(
           text: '菜单 食谱秘籍 已解锁 测试中 待解锁 备注 关闭 加载中 乐乐&袁宝の美味Menu 分 湘菜 川菜 粤菜 鲁菜 徽菜 苏/浙 闽菜',
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
-        // 预加载英文文本
         const TextSpan(
           text: 'Menu Recipe Tips Unlocked Testing Locked Notes Close Loading',
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
         ),
-        // 预加载所有Material图标字体
         TextSpan(
           text: String.fromCharCode(Icons.menu_book.codePoint),
           style: TextStyle(fontFamily: Icons.menu_book.fontFamily, package: Icons.menu_book.fontPackage, fontSize: 24),
@@ -124,8 +93,6 @@ class _FontPreloaderState extends State<FontPreloader> {
           style: TextStyle(fontFamily: Icons.language.fontFamily, package: Icons.language.fontPackage, fontSize: 24),
         ),
       ];
-      
-      // 使用简单的TextPainter进行预渲染，避免Canvas渲染可能导致的问题
       for (final span in spans) {
         final textPainter = TextPainter(
           text: span,
@@ -133,14 +100,10 @@ class _FontPreloaderState extends State<FontPreloader> {
         );
         textPainter.layout();
       }
-      
-      // 较短的等待时间，防止界面卡住
       await Future.delayed(const Duration(milliseconds: 800));
-      
     } catch (e) {
       print('预加载字体失败: $e');
     } finally {
-      // 无论成功或失败，都标记为加载完成
       if (mounted) {
         setState(() {
           _fontsLoaded = true;
@@ -148,11 +111,9 @@ class _FontPreloaderState extends State<FontPreloader> {
       }
     }
   }
-  
   @override
   Widget build(BuildContext context) {
-    // 只有当字体和资源都加载完成时才显示主界面
-    if (!_fontsLoaded || !_assetsLoaded) {
+    if (!_fontsLoaded) {
       return MaterialApp(
         theme: Theme.of(context),
         home: Scaffold(
@@ -177,7 +138,6 @@ class _FontPreloaderState extends State<FontPreloader> {
         ),
       );
     }
-    
     return widget.child;
   }
 }
