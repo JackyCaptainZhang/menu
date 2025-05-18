@@ -324,10 +324,12 @@ class SubcategorySection extends StatelessWidget {
                 TextField(
                   controller: notesZhController,
                   decoration: const InputDecoration(labelText: '备注（中文）'),
+                  maxLines: 4,
                 ),
                 TextField(
                   controller: notesEnController,
                   decoration: const InputDecoration(labelText: 'Notes (EN)'),
+                  maxLines: 4,
                 ),
                 TextField(
                   controller: ratingController,
