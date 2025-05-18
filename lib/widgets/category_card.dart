@@ -152,8 +152,8 @@ class _CategoryCardState extends State<CategoryCard> with SingleTickerProviderSt
                         ._showDishForm(
                           context,
                           dish: dish,
-                          categoryId: category.id,
-                          categoryName: category.name,
+                          categoryId: widget.category.id,
+                          categoryName: widget.category.name,
                           subcategoryId: subcategory.id,
                           subcategoryName: subcategory.name,
                         );
@@ -290,102 +290,127 @@ class SubcategorySection extends StatelessWidget {
     final notesEnController = TextEditingController(text: isEdit ? (dish!.notes?['en'] ?? '') : '');
     final ratingController = TextEditingController(text: isEdit && dish!.rating != null ? dish!.rating.toString() : '');
     String status = isEdit ? dish!.status : 'locked';
-    showDialog(
+    showModalBottomSheet(
       context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
       builder: (context) {
-        return AlertDialog(
-          title: Text(isEdit ? (currentLang == 'zh' ? '编辑菜品' : 'Edit Dish') : (currentLang == 'zh' ? '添加菜品' : 'Add Dish')),
-          content: SingleChildScrollView(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                TextField(
-                  controller: nameZhController,
-                  decoration: const InputDecoration(labelText: '中文名'),
-                ),
-                TextField(
-                  controller: nameEnController,
-                  decoration: const InputDecoration(labelText: '英文名'),
-                ),
-                TextField(
-                  controller: emojiController,
-                  decoration: const InputDecoration(labelText: 'Emoji'),
-                ),
-                DropdownButtonFormField<String>(
-                  value: status,
-                  items: const [
-                    DropdownMenuItem(value: 'unlocked', child: Text('已解锁/Unlocked')),
-                    DropdownMenuItem(value: 'testing', child: Text('测试中/Testing')),
-                    DropdownMenuItem(value: 'locked', child: Text('待解锁/Locked')),
+        return Padding(
+          padding: EdgeInsets.only(
+            bottom: MediaQuery.of(context).viewInsets.bottom,
+            left: 12, right: 12, top: 24,
+          ),
+          child: Container(
+            decoration: BoxDecoration(
+              color: Theme.of(context).dialogBackgroundColor,
+              borderRadius: BorderRadius.circular(28),
+            ),
+            child: SingleChildScrollView(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      isEdit ? (currentLang == 'zh' ? '编辑菜品' : 'Edit Dish') : (currentLang == 'zh' ? '添加菜品' : 'Add Dish'),
+                      style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
+                    ),
+                    const SizedBox(height: 18),
+                    TextField(
+                      controller: nameZhController,
+                      decoration: const InputDecoration(labelText: '中文名'),
+                    ),
+                    TextField(
+                      controller: nameEnController,
+                      decoration: const InputDecoration(labelText: '英文名'),
+                    ),
+                    TextField(
+                      controller: emojiController,
+                      decoration: const InputDecoration(labelText: 'Emoji'),
+                    ),
+                    DropdownButtonFormField<String>(
+                      value: status,
+                      items: const [
+                        DropdownMenuItem(value: 'unlocked', child: Text('已解锁/Unlocked')),
+                        DropdownMenuItem(value: 'testing', child: Text('测试中/Testing')),
+                        DropdownMenuItem(value: 'locked', child: Text('待解锁/Locked')),
+                      ],
+                      onChanged: (v) => status = v!,
+                      decoration: const InputDecoration(labelText: '状态/Status'),
+                    ),
+                    TextField(
+                      controller: notesZhController,
+                      decoration: const InputDecoration(labelText: '备注（中文）'),
+                      maxLines: 4,
+                    ),
+                    TextField(
+                      controller: notesEnController,
+                      decoration: const InputDecoration(labelText: 'Notes (EN)'),
+                      maxLines: 4,
+                    ),
+                    TextField(
+                      controller: ratingController,
+                      decoration: const InputDecoration(labelText: '评分（0-100，可选）'),
+                      keyboardType: TextInputType.number,
+                    ),
+                    const SizedBox(height: 24),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        TextButton(
+                          onPressed: () => Navigator.of(context).pop(),
+                          child: Text(currentLang == 'zh' ? '取消' : 'Cancel'),
+                        ),
+                        const SizedBox(width: 12),
+                        ElevatedButton(
+                          onPressed: () async {
+                            final name = {
+                              'zh': nameZhController.text.trim(),
+                              'en': nameEnController.text.trim(),
+                            };
+                            final notes = {
+                              'zh': notesZhController.text.trim(),
+                              'en': notesEnController.text.trim(),
+                            };
+                            final rating = int.tryParse(ratingController.text.trim());
+                            final dishId = isEdit ? dish!.id : name['zh']!;
+                            final newDish = Dish(
+                              id: dishId,
+                              name: name,
+                              status: status,
+                              emoji: emojiController.text.trim(),
+                              notes: notes,
+                              rating: rating,
+                            );
+                            final menuProvider = Provider.of<MenuProvider>(context, listen: false);
+                            final db = FirebaseFirestore.instance.collection('dishes');
+                            final data = {
+                              'name': name,
+                              'status': status,
+                              'emoji': emojiController.text.trim(),
+                              'notes': notes,
+                              'rating': rating,
+                              'categoryId': categoryId,
+                              'categoryName': categoryName,
+                              'subcategoryName': subcategoryName,
+                            };
+                            if (isEdit) {
+                              await db.doc(dishId).update(data);
+                            } else {
+                              await db.doc(dishId).set(data);
+                            }
+                            Navigator.of(context).pop();
+                          },
+                          child: Text(currentLang == 'zh' ? '保存' : 'Save'),
+                        ),
+                      ],
+                    ),
                   ],
-                  onChanged: (v) => status = v!,
-                  decoration: const InputDecoration(labelText: '状态/Status'),
                 ),
-                TextField(
-                  controller: notesZhController,
-                  decoration: const InputDecoration(labelText: '备注（中文）'),
-                  maxLines: 4,
-                ),
-                TextField(
-                  controller: notesEnController,
-                  decoration: const InputDecoration(labelText: 'Notes (EN)'),
-                  maxLines: 4,
-                ),
-                TextField(
-                  controller: ratingController,
-                  decoration: const InputDecoration(labelText: '评分（0-100，可选）'),
-                  keyboardType: TextInputType.number,
-                ),
-              ],
+              ),
             ),
           ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.of(context).pop(),
-              child: Text(currentLang == 'zh' ? '取消' : 'Cancel'),
-            ),
-            ElevatedButton(
-              onPressed: () async {
-                final name = {
-                  'zh': nameZhController.text.trim(),
-                  'en': nameEnController.text.trim(),
-                };
-                final notes = {
-                  'zh': notesZhController.text.trim(),
-                  'en': notesEnController.text.trim(),
-                };
-                final rating = int.tryParse(ratingController.text.trim());
-                final dishId = isEdit ? dish!.id : name['zh']!;
-                final newDish = Dish(
-                  id: dishId,
-                  name: name,
-                  status: status,
-                  emoji: emojiController.text.trim(),
-                  notes: notes,
-                  rating: rating,
-                );
-                final menuProvider = Provider.of<MenuProvider>(context, listen: false);
-                final db = FirebaseFirestore.instance.collection('dishes');
-                final data = {
-                  'name': name,
-                  'status': status,
-                  'emoji': emojiController.text.trim(),
-                  'notes': notes,
-                  'rating': rating,
-                  'categoryId': categoryId,
-                  'categoryName': categoryName,
-                  'subcategoryName': subcategoryName,
-                };
-                if (isEdit) {
-                  await db.doc(dishId).update(data);
-                } else {
-                  await db.doc(dishId).set(data);
-                }
-                Navigator.of(context).pop();
-              },
-              child: Text(currentLang == 'zh' ? '保存' : 'Save'),
-            ),
-          ],
         );
       },
     );
