@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/menu/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="乐乐&袁宝の美味Menu">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <!-- 启用缓存 -->
+  <meta http-equiv="Cache-Control" content="public, max-age=31536000">
+  
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Menu">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="icons/menu-printing.jpg">
+  <link rel="apple-touch-icon" href="icons/menu-printing.jpg">
+
+  <title>乐乐&袁宝の美味Menu</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- 预加载字体文件 -->
+  <link rel="preload" href="assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/packages/material_icons/MaterialIcons-Regular.otf" as="font" type="font/otf" crossorigin>
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "3078006489";
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <script>
+    // 检测是否为移动设备
+    function isMobileDevice() {
+      return (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+        /iPad|iPhone|iPod/.test(navigator.platform) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+      );
+    }
+    
+    // 检测是否为iOS设备
+    function isIOSDevice() {
+      return (
+        /iPad|iPhone|iPod/.test(navigator.platform) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+      );
+    }
+    
+    window.addEventListener('load', function(ev) {
+      // 预加载关键资源
+      var resources = [
+        'main.dart.js',
+        'flutter.js'
+      ];
+
+      // 创建一个加载计数器
+      var loadedCount = 0;
+      var totalResources = resources.length;
+      
+      function updateLoadingText() {
+        var percent = Math.round((loadedCount / totalResources) * 100);
+        document.querySelector('.loading-text').textContent = '加载中... ' + percent + '%';
+      }
+
+      // 预加载基本资源
+      var loadPromises = resources.map(function(resource) {
+        return new Promise(function(resolve, reject) {
+          var link = document.createElement('link');
+          link.rel = 'preload';
+          link.as = resource.endsWith('.js') ? 'script' : 'fetch';
+          link.href = resource;
+          link.onload = function() {
+            loadedCount++;
+            updateLoadingText();
+            resolve();
+          };
+          link.onerror = function() {
+            // 错误时也算作加载完成，避免卡住
+            loadedCount++;
+            updateLoadingText();
+            resolve();
+          };
+          document.head.appendChild(link);
+        });
+      });
+
+      // 禁用双指缩放
+      document.addEventListener('gesturestart', function(e) {
+        e.preventDefault();
+      });
+      
+      // 添加字体预加载 - 简化版本
+      function preloadFonts() {
+        // 预加载字体的隐藏元素
+        var fontPreload = document.getElementById('fontPreload');
+        if (!fontPreload) {
+          fontPreload = document.createElement('div');
+          fontPreload.id = 'fontPreload';
+          fontPreload.style.opacity = '0';
+          fontPreload.style.position = 'absolute';
+          fontPreload.style.top = '-9999px';
+          
+          // 中文字符集预加载
+          fontPreload.innerHTML = '<span style="font-family: \'PingFang SC\', \'Microsoft YaHei\', sans-serif; font-weight: bold;">菜单 乐乐&袁宝の美味Menu</span>';
+          
+          document.body.appendChild(fontPreload);
+        }
+        
+        // 较短的延迟，避免卡住
+        return new Promise(function(resolve) {
+          setTimeout(resolve, 500);
+        });
+      }
+      
+      // 添加超时处理，确保不卡在加载界面
+      var timeoutPromise = new Promise(function(resolve) {
+        setTimeout(function() {
+          console.log('加载超时，强制继续');
+          resolve();
+        }, 3000); // 3秒超时
+      });
+
+      // 等待资源加载或超时，选择先发生的
+      Promise.race([
+        Promise.all([...loadPromises, preloadFonts()]), 
+        timeoutPromise
+      ]).then(function() {
+        // 更新加载文本
+        document.querySelector('.loading-text').textContent = '正在启动...';
+        
+        // 初始化 Flutter 应用
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: async function(engineInitializer) {
+            // 使用自适应渲染器
+            const appRunner = await engineInitializer.initializeEngine({
+              renderer: "auto", // 使用自动选择渲染器
+              useColorEmoji: true
+            });
+            
+            // 启动应用
+            await appRunner.runApp();
+          }
+        });
+      }).catch(function(error) {
+        console.error('资源加载失败:', error);
+        // 即使失败也继续尝试加载应用
+        document.querySelector('.loading-text').textContent = '正在尝试启动...';
+        
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: async function(engineInitializer) {
+            try {
+              const appRunner = await engineInitializer.initializeEngine();
+              await appRunner.runApp();
+            } catch (e) {
+              document.querySelector('.loading-text').textContent = '加载失败，请刷新页面';
+              console.error('启动应用失败:', e);
+            }
+          }
+        });
+      });
+    });
+  </script>
+  <style>
+    body {
+      background-color: #FFF0F0;
+      margin: 0;
+    }
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .loading-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 24px;
+      color: #FFB6C1;
+      font-weight: bold;
+    }
+  </style>
+  <meta name="google-signin-client_id" content="840849253944-kh0ef8j6iracs2jkcskqjnsenoh4t2h3.apps.googleusercontent.com" />
+</head>
+<body>
+  <div class="loading">
+    <div class="loading-text">加载中... 0%</div>
+  </div>
+  
+  <!-- 预加载字体的元素 -->
+  <div id="fontPreload" style="opacity: 0; position: absolute; top: -9999px;">
+    <span style="font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; font-weight: bold;">
+      乐乐&袁宝の美味Menu 菜单 食谱秘籍 已解锁 测试中 待解锁
+    </span>
+  </div>
+</body>
+</html>

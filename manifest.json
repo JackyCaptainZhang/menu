@@ -1,0 +1,18 @@
+{
+    "name": "乐乐&袁宝の美味Menu",
+    "short_name": "美味Menu",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFF0F0",
+    "theme_color": "#FFB6C1",
+    "description": "乐乐&袁宝の美味Menu",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/menu-printing.jpg",
+            "sizes": "512x512",
+            "type": "image/jpeg"
+        }
+    ]
+}
