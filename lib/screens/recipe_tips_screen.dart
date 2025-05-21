@@ -23,21 +23,83 @@ class RecipeTipsScreen extends StatelessWidget {
             children: [
               TextField(
                 controller: nameZhController,
-                decoration: const InputDecoration(labelText: '中文名'),
+                style: TextStyle(
+                  fontSize: 16.0,
+                  height: 1.5,
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey, width: 1.0),
+                  ),
+                ),
               ),
               TextField(
                 controller: nameEnController,
-                decoration: const InputDecoration(labelText: '英文名'),
+                style: TextStyle(
+                  fontSize: 16.0,
+                  height: 1.5,
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey, width: 1.0),
+                  ),
+                ),
               ),
               TextField(
                 controller: contentZhController,
-                decoration: InputDecoration(labelText: collection == 'ingredient_tips' ? '描述（中文）' : '配方（中文）'),
-                maxLines: 3,
+                style: TextStyle(
+                  fontSize: 16.0,
+                  height: 1.5,
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey, width: 1.0),
+                  ),
+                ),
               ),
               TextField(
                 controller: contentEnController,
-                decoration: InputDecoration(labelText: collection == 'ingredient_tips' ? 'Description (EN)' : 'Recipe (EN)'),
-                maxLines: 3,
+                style: TextStyle(
+                  fontSize: 16.0,
+                  height: 1.5,
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey, width: 1.0),
+                  ),
+                ),
               ),
             ],
           ),
@@ -107,21 +169,83 @@ class RecipeTipsScreen extends StatelessWidget {
             children: [
               TextField(
                 controller: nameZhController,
-                decoration: const InputDecoration(labelText: '中文名'),
+                style: TextStyle(
+                  fontSize: 16.0,
+                  height: 1.5,
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey, width: 1.0),
+                  ),
+                ),
               ),
               TextField(
                 controller: nameEnController,
-                decoration: const InputDecoration(labelText: '英文名'),
+                style: TextStyle(
+                  fontSize: 16.0,
+                  height: 1.5,
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey, width: 1.0),
+                  ),
+                ),
               ),
               TextField(
                 controller: contentZhController,
-                decoration: InputDecoration(labelText: collection == 'ingredient_tips' ? '描述（中文）' : '配方（中文）'),
-                maxLines: 3,
+                style: TextStyle(
+                  fontSize: 16.0,
+                  height: 1.5,
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey, width: 1.0),
+                  ),
+                ),
               ),
               TextField(
                 controller: contentEnController,
-                decoration: InputDecoration(labelText: collection == 'ingredient_tips' ? 'Description (EN)' : 'Recipe (EN)'),
-                maxLines: 3,
+                style: TextStyle(
+                  fontSize: 16.0,
+                  height: 1.5,
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey, width: 1.0),
+                  ),
+                ),
               ),
             ],
           ),
